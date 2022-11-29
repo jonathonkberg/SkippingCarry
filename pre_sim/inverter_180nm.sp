@@ -7,7 +7,7 @@
 
 *--- - Model Instructions - ---*
 
-M1 OUT IN gnd gnd nmos W=100n L=100n
+M1 OUT IN gnd gnd nmos W=100n L=100ndrtcfygvubhionjokmp
 M2 OUT IN vdd vdd pmos W=200n L=100n
 
 .ends
