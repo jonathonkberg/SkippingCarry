@@ -19,16 +19,24 @@
 x1 IN1 IN2 IN3 IN4 OUTN OUT vdd gnd sub_i
 
 *sum stages
-x2 IN1 INB1 CIN IN4 IN5 IN6 SUM1N SUM1 vdd gnd sub_ii
-x2 IN2 INB2 C2 IN4 IN5 IN6 SUM2N SUM2 vdd gnd sub_ii
-x2 IN3 INB3 C3 IN4 IN5 IN6 SUM3N SUM3 vdd gnd sub_ii
-x2 IN4 IN4 C4 IN4 IN5 IN6 SUM4N SUM4 vdd gnd sub_ii
+x2 CIN_N P1 CIN IN4 IN5 IN6 SUM1N SUM1 vdd gnd sub_ii
+x2 C2_N P2 C2 IN4 IN5 IN6 SUM2N SUM2 vdd gnd sub_ii
+x2 C3_N P3 C3 IN4 IN5 IN6 SUM3N SUM3 vdd gnd sub_ii
+x2 C4_N P4 C4 IN4 IN5 IN6 SUM4N SUM4 vdd gnd sub_ii
 
 x3 INI IN2 IN3 IN4 IN5 IN6 OUTN OUT vdd gnd sub_iii
 x4 IN1 IN2 OUTN OUT vdd gnd sub_iv
 
-x5 INA1 OUT vdd gnd INV
-x5 INB1 OUT vdd gnd INV
-x5 INC OUT vdd gnd INV
+x5 INA1 INA1_N vdd gnd INV
+x5 INB1 INB1_N vdd gnd INV
+x5 CIN CIN_N vdd gnd INV
+x5 INA2 INA2_N vdd gnd INV
+x5 INB1 INB2_N vdd gnd INV
+x5 INA1 INA3_N vdd gnd INV
+x5 INB1 INB3_N vdd gnd INV
+x5 INA1 INA4_N vdd gnd INV
+x5 INB1 INB4_N vdd gnd INV
+
+
 
 .ends
