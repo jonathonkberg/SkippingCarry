@@ -1,9 +1,9 @@
 ****** HSPICE -- L-2016.06-SP1 linux64 (Aug 24 2016) ******
- Input File: 4_bit_sim.sp
+ Input File: inv_single_3.sp
  lic:
  lic: FLEXlm: v11.2.1
  lic: USER:   jk526                HOSTNAME: osl15.njit.edu
- lic: HOSTID: 309c23734467         PID:      25379
+ lic: HOSTID: 309c23734467         PID:      21813
  lic: Using FLEXlm license file:
  lic: 27020@ucslic1.ucs.njit.edu
  lic: Checkout 1 hspice
@@ -17,5 +17,13 @@
        option post
  init: end read circuit files,  cpu clock=  3.00E-02 peak memory=       189 mb
  init: begin check errors,  cpu clock=  3.00E-02
->error          ***** hspice job aborted
+ init: end check errors,  cpu clock=  4.00E-02 peak memory=       189 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  4.00E-02
+       establish matrix -- done,  cpu clock=  4.00E-02 peak memory=       189 mb
+       re-order matrix -- done,  cpu clock=  4.00E-02 peak memory=       189 mb
+ init: end setup matrix,  cpu clock=  4.00E-02 peak memory=       189 mb
+ output: inv_single_3.sw0
+ sweep: dc dc0    begin, #sweeps= 661 cpu clock=  4.00E-02
+ sweep: dc dc0    end,  cpu clock=  5.00E-02 peak memory=       190 mb
+>info:         ***** hspice job concluded
  lic: Release hspice token(s)

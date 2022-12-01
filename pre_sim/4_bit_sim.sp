@@ -2,18 +2,17 @@
 * Nov 2022
 
 .include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/4_bit_subckt.sp
-.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/inverter_180nm.sp
 
-* .subckt four_add INA1 INA2 INA3 INA4 INB1 INB2 INB3 INB4 OUT1 OUT2 OUT3 OUT4 CIN COUT_N COUT vdd gnd
+* .subckt four_add INA1 INA2 INA3 INA4 INB1 INB2 INB3 INB4 OUT0 OUT1 OUT2 OUT3 CIN COUT_N COUT vdd gnd
 
 .option post
 
 vdd vdd gnd 3.3
 vin A gnd pulse 0 3.3 5m 500p 500p 10n 40n
 
-x1 gnd gnd gnd gnd vdd vdd vdd vdd OUT0 OUT1 OUT2 OUT3 vin COUT_N COUT vdd gnd four_add
+x1 gnd gnd gnd gnd vdd vdd vdd vdd OUT0 OUT1 OUT2 OUT3 A COUT_N COUT vdd gnd four_add
 
-.probe CIN
+.probe A
 .probe COUT
 .probe COUT_N
 .probe OUT0
@@ -21,6 +20,6 @@ x1 gnd gnd gnd gnd vdd vdd vdd vdd OUT0 OUT1 OUT2 OUT3 vin COUT_N COUT vdd gnd f
 .probe OUT2
 .probe OUT3
 
-.tran 0n 22n
+.tran 1n 22n
 
 .end

@@ -1,11 +1,11 @@
 * Four bit subckt
 * Nov 2022
 
+.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/inverter_180nm.sp
 .include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckt_i.sp
 .include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckt_ii.sp
 .include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckt_iii.sp
 .include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckt_iv.sp
-.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/inverter_180nm.sp
 
 * .subckt sub_i IN1 IN2 IN3 IN4 OUTN OUT vdd gnd
 * .subckt sub_ii INI IN2 IN3 IN4 IN5 IN6 OUTN OUT vdd gnd
@@ -56,6 +56,6 @@ x25 P0 P1 P2 P3 SIG_N SIG vdd gnd sub_iii
 x26 C4 SIG_N CIN SIG COUT_N COUT vdd gnd sub_i
 
 *first stage only
-x8 CIN CIN_N vdd gnd INV
+x27 CIN CIN_N vdd gnd INV
 
 .ends
