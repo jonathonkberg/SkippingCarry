@@ -2,8 +2,8 @@
  Input File: 4_bit_sim.sp
  lic:
  lic: FLEXlm: v11.2.1
- lic: USER:   jk526                HOSTNAME: osl15.njit.edu
- lic: HOSTID: 309c23734467         PID:      25379
+ lic: USER:   jk526                HOSTNAME: osl25.njit.edu
+ lic: HOSTID: 309c237227d6         PID:      16292
  lic: Using FLEXlm license file:
  lic: 27020@ucslic1.ucs.njit.edu
  lic: Checkout 1 hspice

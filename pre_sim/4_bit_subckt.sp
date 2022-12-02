@@ -7,12 +7,6 @@
 .include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckt_iii.sp
 .include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckt_iv.sp
 
-* .subckt sub_i IN1 IN2 IN3 IN4 OUTN OUT vdd gnd
-* .subckt sub_ii INI IN2 IN3 IN4 IN5 IN6 OUTN OUT vdd gnd
-* .subckt sub_iii IN1 IN2 IN3 IN4 OUTN OUT vdd gnd
-* .subckt sub_iv IN1 IN2 OUTN OUT vdd gnd
-* .subckt INV IN OUT vdd gnd
-
 .subckt four_add INA0 INA1 INA2 INA3 INB0 INB1 INB2 INB3 OUT0 OUT1 OUT2 OUT3 CIN COUT_N COUT vdd gnd
 
 * stand alone inverter stages
