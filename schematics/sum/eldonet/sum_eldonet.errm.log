@@ -1,0 +1,59 @@
+START report: Mon Dec  5 20:58:33 2022 
+** Warning: (eldo - 939)  In mgc_location_map, /user/student/project/my_calc: No such directory.
++   Soft name PROJECT not loaded: Eldo might not be able to load some libraries.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 17:
++   OBJECT "MN7": Model N not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 17:
++   OBJECT "MN7": Model N not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 18:
++   OBJECT "MP7": Model P not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 18:
++   OBJECT "MP7": Model P not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 19:
++   OBJECT "MN6": Model N not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 19:
++   OBJECT "MN6": Model N not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 20:
++   OBJECT "MN5": Model N not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 20:
++   OBJECT "MN5": Model N not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 21:
++   OBJECT "MN4": Model N not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 21:
++   OBJECT "MN4": Model N not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 22:
++   OBJECT "MN3": Model N not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 22:
++   OBJECT "MN3": Model N not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 23:
++   OBJECT "MN2": Model N not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 23:
++   OBJECT "MN2": Model N not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 24:
++   OBJECT "MP6": Model P not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 24:
++   OBJECT "MP6": Model P not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 25:
++   OBJECT "MP5": Model P not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 25:
++   OBJECT "MP5": Model P not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 26:
++   OBJECT "MP4": Model P not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 26:
++   OBJECT "MP4": Model P not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 27:
++   OBJECT "MP3": Model P not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 27:
++   OBJECT "MP3": Model P not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 28:
++   OBJECT "MP2": Model P not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 28:
++   OBJECT "MP2": Model P not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 29:
++   OBJECT "MN1": Model N not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 29:
++   OBJECT "MN1": Model N not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 30:
++   OBJECT "MP1": Model P not yet defined.
+** Error: (eldo - 1577)  In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 30:
++   OBJECT "MP1": Model P not yet defined.

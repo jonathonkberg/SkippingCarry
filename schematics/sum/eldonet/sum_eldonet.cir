@@ -1,0 +1,14 @@
+* Component: $HOME/github/SkippingCarry/schematics/sum  Viewpoint: eldonet
+.INCLUDE $HOME/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+* --- Singles
+
+* --- Params
+.TEMP 27
+
+* --- Libsetup
+

@@ -1,0 +1,156 @@
+
+Running eldo on osl25.njit.edu
+with Eldo libraries :
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldoudm_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldomos1_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldoekv_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldomosp9_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldocsem_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldomos2_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldomos3_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldobip_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldodio_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldojfet_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldosoi_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldomos4_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldoasitft_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldohisim_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldospmod_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldopsp_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldomosvar_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldomoto_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldost_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldobnr_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldorockw_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldopubhicum_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldotftsh_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldobta_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldofas_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldofascm_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldosdsim_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libeldowire_64.so
+/afs/cad/sw.common/mentor.2012/AMS_12.1/aol/lib/libogr_64.so loaded.
+
+
+
+Copyright 1988 Mentor Graphics Corporation
+All Rights Reserved
+
+THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY
+INFORMATION WHICH ARE THE PROPERTY OF MENTOR
+GRAPHICS CORPORATION OR ITS LICENSORS AND IS
+SUBJECT TO LICENSE TERMS.
+
+
+
+***** SYSTEM INFORMATION ...
+
+*** User  : pd433@osl25.njit.edu
+*** OS    : \S [VCO = aol]
+*** CPU   :
+    Intel(R) Xeon(R) CPU E3-1245 v6 @ 3.70GHz
+    Number of physical processors     : 1
+    Hyper-Threading Technology        : enabled
+    Number of cpu cores               : 4
+    Number of logical processors      : 8
+*** Freq  : 3921.087MHz
+*** Cache : 8192 KB
+*** MEM   : 32578280 kB
+*** Date  : Mon Dec  5 20:58:33 2022
+
+
+***** PRE-PROCESSING ...
+
+Warning 939: In mgc_location_map, /user/student/project/my_calc: No such directory.
++   Soft name PROJECT not loaded: Eldo might not be able to load some libraries.
+
+***** ANALYSIS ....
+
+
+***** 0  error(s). 
+***** 1  warning(s). 
+
+
+***** GENERATION ...
+
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 17:
++   OBJECT "MN7": Model N not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 17:
++   OBJECT "MN7": Model N not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 18:
++   OBJECT "MP7": Model P not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 18:
++   OBJECT "MP7": Model P not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 19:
++   OBJECT "MN6": Model N not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 19:
++   OBJECT "MN6": Model N not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 20:
++   OBJECT "MN5": Model N not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 20:
++   OBJECT "MN5": Model N not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 21:
++   OBJECT "MN4": Model N not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 21:
++   OBJECT "MN4": Model N not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 22:
++   OBJECT "MN3": Model N not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 22:
++   OBJECT "MN3": Model N not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 23:
++   OBJECT "MN2": Model N not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 23:
++   OBJECT "MN2": Model N not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 24:
++   OBJECT "MP6": Model P not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 24:
++   OBJECT "MP6": Model P not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 25:
++   OBJECT "MP5": Model P not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 25:
++   OBJECT "MP5": Model P not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 26:
++   OBJECT "MP4": Model P not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 26:
++   OBJECT "MP4": Model P not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 27:
++   OBJECT "MP3": Model P not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 27:
++   OBJECT "MP3": Model P not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 28:
++   OBJECT "MP2": Model P not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 28:
++   OBJECT "MP2": Model P not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 29:
++   OBJECT "MN1": Model N not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 29:
++   OBJECT "MN1": Model N not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 30:
++   OBJECT "MP1": Model P not yet defined.
+ERROR 1577: In file "/afs/cad.njit.edu/u/p/d/pd433/github/SkippingCarry/schematics/sum/eldonet/sum_eldonet.spi" line 30:
++   OBJECT "MP1": Model P not yet defined.
+
+***** 28  error(s). 
+***** 1  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION...
+
+
+Memory space allocated (MB):    239
+14 elements
+30 nodes
+0 input signals
+
+Check your input netlist...
+
+
+***>CPU TIME 0h 0mn 0s 060ms <***
+
+***>MESSAGE SUMMARY: 28 errors, 1 warning
+
+***>GLOBAL CPU TIME 0s 020ms <***
+
+
+***>GLOBAL ELAPSED TIME 1s <***
+

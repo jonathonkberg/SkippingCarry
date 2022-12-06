@@ -1,0 +1,11 @@
+A 5 u Eddm_part 6387b697d97b.03.80.eb.2c.4b.00.1c.9e 2 2 1 0
+V v 1 1 6387b697d97b.03.80.eb.2c.4b.01.1c.9e
+F f 1 "part.part_1"
+V v 2 1 638ea14c6042.03.80.eb.2c.4b.00.72.67
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/schematics/sum/schematic" 1 mgc_schematic 638689d94764.03.80.eb.2c.4b.01.71.3e 638689d94764.03.80.eb.2c.4b.00.71.3e
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/schematics/sum/schematic" 1 mgc_schematic 638689d94764.03.80.eb.2c.4b.01.71.3e 638689d94764.03.80.eb.2c.4b.00.71.3e
