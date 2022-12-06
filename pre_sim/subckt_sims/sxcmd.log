@@ -1,0 +1,31 @@
+### Custom WaveView ADV log file, revision L-2016.06-SP1 (build Aug 22, ) ###
+### created at 23:35:19 on Mon Dec  5 2022 (Linux AMD64) ###
+### Host Name: osl15.njit.edu   User ID: jk526   PID: 17239   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window CustomWaveView 0 0
+wv_resize_window CustomWaveView 800 400
+wv_move_window CustomWaveView 138 161
+wv_move_window CustomWaveView 85 31
+wv_resize_window CustomWaveView 1280 921
+wv_resize_window CustomWaveView 1280 845
+wv_select_toolbar_item {Import Waveform File}
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {}
+wv_select_list_item FileDialog.FileList inverter_sim.tr0
+wv_press_button FileDialog.Ok
+wv_expand_tree_item MainWindow.hierview {D0:inverter_sim.tr0}
+wv_select_tree_item MainWindow.hierview {D0:inverter_sim.tr0}
+wv_select_tree_item MainWindow.hierview {D0:inverter_sim.tr0/toplevel}
+wv_select_list_item MainWindow.sigview v(cin_n)
+wv_dclick_list_item MainWindow.sigview v(cin_n)
+wv_select_list_item MainWindow.sigview v(cin)
+wv_dclick_list_item MainWindow.sigview v(cin)
+wv_select_list_item MainWindow.sigview v(0)
+wv_dclick_list_item MainWindow.sigview v(0)
+wv_select_list_item MainWindow.sigview v(cin)
+wv_dclick_list_item MainWindow.sigview v(cin)
+wv_move_window CustomWaveView 0 0
