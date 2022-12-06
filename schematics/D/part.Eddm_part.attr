@@ -1,0 +1,16 @@
+A 5 u Eddm_part 638ec7734aef.03.80.eb.2c.4b.00.71.c2 5 2 1 0
+V v 3 1 638ec9823912.03.80.eb.2c.4b.00.71.c2
+F f 3 "part.part_3"
+V v 4 1 638ec990d013.03.80.eb.2c.4b.00.71.c2
+F f 4 "part.part_4"
+V v 5 1 638ec99c5ff3.03.80.eb.2c.4b.00.71.c2
+F f 5 "part.part_5"
+O 5
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/schematics/D/schematic" 1 mgc_schematic 638ec32b662f.03.80.eb.2c.4b.01.71.c2 638ec32b662f.03.80.eb.2c.4b.00.71.c2
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/schematics/D/schematic" 1 mgc_schematic 638ec32b662f.03.80.eb.2c.4b.01.71.c2 638ec32b662f.03.80.eb.2c.4b.00.71.c2
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/schematics/D/schematic" 1 mgc_schematic 638ec32b662f.03.80.eb.2c.4b.01.71.c2 638ec32b662f.03.80.eb.2c.4b.00.71.c2
