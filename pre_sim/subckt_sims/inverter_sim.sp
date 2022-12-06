@@ -1,7 +1,7 @@
 * Inverter Sim
 * Dec 2022
 
-.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/inverter_180nm.sp
+.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckts/inverter_180nm.sp
 
 *subckt INV IN OUT VDD GND
 

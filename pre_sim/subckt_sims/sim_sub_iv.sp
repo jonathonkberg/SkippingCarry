@@ -1,7 +1,7 @@
 * Simulation of Subcircuit IV
 * Dec 2022
 
-.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckt_iv.sp
+.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckts/subckt_iv.sp
 
 .subckt sub_iv IN1 IN2 OUTN OUT vdd gnd
 

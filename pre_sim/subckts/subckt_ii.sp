@@ -13,11 +13,11 @@ M5 E IN5 F gnd nmos W=600n L=150n
 M6 OUTN IN6 F gnd nmos W=300n L=150n
 
 M7 A IN1 vdd vdd pmos W=600n L=150n
-M8 A IN2 vdd vdd pmos W=900n L=150n
+M8 A IN2 vdd vdd pmos W=600n L=150n
 M9 OUTN IN3 A vdd pmos W=600n L=150n
-M10 C IN4 A vdd pmos W=900n L=150n
-M11 C IN5 A vdd pmos W=900n L=150n
-M12 OUTN IN6 C vdd pmos W=900n L=150n
+M10 C IN4 A vdd pmos W=1200n L=150n
+M11 C IN5 A vdd pmos W=1200n L=150n
+M12 OUTN IN6 C vdd pmos W=1200n L=150n
 
 x1 OUTN OUT vdd gnd INV
 

@@ -1,8 +1,7 @@
 * Inverter Pre Layout Sub-circuit
 * Nov 2022
 
-.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/mosistsmc180.sp
-*.include /afs/cad/u/j/k/jk526/ece658/model_libs/65nm_bulk.sp
+.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/technologies/mosistsmc180.sp
 
 .subckt INV IN OUT vdd gnd
 

@@ -1,7 +1,7 @@
 * Simulation of Subcircuit III
 * Dec 2022
 
-.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckt_iii.sp
+.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckts/subckt_iii.sp
 
 .subckt sub_iii IN1 IN2 IN3 IN4 OUTN OUT vdd gnd
 
