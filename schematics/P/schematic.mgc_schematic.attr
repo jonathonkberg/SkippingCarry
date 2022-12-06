@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 638ecc343dfe.03.80.eb.2c.4b.00.15.1d 7 2 1 0
+V v 5 1 638ed0172e20.03.80.eb.2c.4b.00.21.c5
+F o 0 ""
+V v 6 1 638ed0f19400.03.80.eb.2c.4b.00.21.c5
+F o 0 ""
+V v 7 1 638ed15770d7.03.80.eb.2c.4b.00.21.c5
+F o 0 ""
+O 7
+R cspuv 0 "$HOME/github/SkippingCarry/schematics/P/schematic/sheet1" 6 mgc_sheet 638ed1576fb5.03.80.eb.2c.4b.00.21.c5 638ecc3465a9.03.80.eb.2c.4b.00.15.1d
+O 6
+R cspuv 0 "$HOME/github/SkippingCarry/schematics/P/schematic/sheet1" 5 mgc_sheet 638ed0f19317.03.80.eb.2c.4b.00.21.c5 638ecc3465a9.03.80.eb.2c.4b.00.15.1d
+O 5
+R cspuv 0 "$HOME/github/SkippingCarry/schematics/P/schematic/sheet1" 4 mgc_sheet 638ed0172b8e.03.80.eb.2c.4b.00.21.c5 638ecc3465a9.03.80.eb.2c.4b.00.15.1d
