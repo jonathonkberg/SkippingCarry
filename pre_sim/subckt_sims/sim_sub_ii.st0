@@ -3,7 +3,7 @@
  lic:
  lic: FLEXlm: v11.2.1
  lic: USER:   jk526                HOSTNAME: osl29.njit.edu
- lic: HOSTID: 309c23722876         PID:      32764
+ lic: HOSTID: 309c23722876         PID:      4365
  lic: Using FLEXlm license file:
  lic: 27020@ucslic1.ucs.njit.edu
  lic: Checkout 1 hspice
@@ -23,14 +23,14 @@
        establish matrix -- done,  cpu clock=  4.00E-02 peak memory=       190 mb
        re-order matrix -- done,  cpu clock=  4.00E-02 peak memory=       190 mb
  init: end setup matrix,  cpu clock=  4.00E-02 peak memory=       190 mb
- dcop: begin dcop,  cpu clock=  4.00E-02
- dcop: end dcop,  cpu clock=  4.00E-02 peak memory=       190 mb  tot_iter=      23
+ dcop: begin dcop,  cpu clock=  5.00E-02
+ dcop: end dcop,  cpu clock=  5.00E-02 peak memory=       190 mb  tot_iter=      14
  output: sim_sub_ii.tr0
- sweep: tran tran0    begin, stop_t=  3.00E-09 #sweeps=   4 cpu clock=  4.00E-02
- tran: time= 5.0000E-10 tot_iter=       2 conv_iter=       1 cpu clock= 4.00E-02
- tran: time= 1.3000E-09 tot_iter=       4 conv_iter=       2 cpu clock= 4.00E-02
- tran: time= 2.8000E-09 tot_iter=       6 conv_iter=       3 cpu clock= 4.00E-02
- tran: time= 3.0000E-09 tot_iter=       8 conv_iter=       4 cpu clock= 4.00E-02
- sweep: tran tran0    end,  cpu clock=  4.00E-02 peak memory=       190 mb
+ sweep: tran tran0    begin, stop_t=  3.00E-09 #sweeps=   4 cpu clock=  5.00E-02
+ tran: time= 5.0000E-10 tot_iter=       2 conv_iter=       1 cpu clock= 5.00E-02
+ tran: time= 1.3000E-09 tot_iter=       4 conv_iter=       2 cpu clock= 5.00E-02
+ tran: time= 2.8000E-09 tot_iter=       6 conv_iter=       3 cpu clock= 5.00E-02
+ tran: time= 3.0000E-09 tot_iter=       8 conv_iter=       4 cpu clock= 5.00E-02
+ sweep: tran tran0    end,  cpu clock=  5.00E-02 peak memory=       190 mb
 >info:         ***** hspice job concluded
  lic: Release hspice token(s)
