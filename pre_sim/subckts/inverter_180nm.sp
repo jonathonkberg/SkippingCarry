@@ -7,8 +7,8 @@
 
 *--- - Model Instructions - ---*
 
-M1 OUT IN gnd gnd nmos W=450n L=150n
-M2 OUT IN vdd vdd pmos W=1200n L=150n
+M1 OUT IN gnd gnd nmos W=150n L=150n
+M2 OUT IN vdd vdd pmos W=300n L=150n
 
 *M1 OUT IN gnd gnd nmos W=100n L=100n
 *M2 OUT IN vdd vdd pmos W=200n L=100n

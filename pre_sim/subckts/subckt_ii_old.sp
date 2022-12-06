@@ -1,7 +1,7 @@
 * Inverter Pre Layout Sub-circuit
 * Nov 2022
 
-.subckt sub_ii INI IN2 IN3 IN4 IN5 IN6 OUTN OUT vdd gnd
+*.subckt sub_ii INI IN2 IN3 IN4 IN5 IN6 OUTN OUT vdd gnd
 
 *--- - Model Instructions - ---*
 

@@ -8,7 +8,7 @@
 .include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckts/subckt_iv.sp
 .include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckts/subckt_vi.sp
 
-.subckt four_add_first INA0 INA1 INA2 INA3 INB0 INB1 INB2 INB3 OUT0 OUT1 OUT2 OUT3 CIN COUT_N COUT vdd gnd
+.subckt four_add_first INA0 INA1 INA2 INA3 INB0 INB1 INB2 INB3 OUT0 OUT1 OUT2 OUT3 CIN COUT_N COUT vdd gnd E0 D0
 
 * stand alone inverter stages
 * INV IN OUT vdd gnd
@@ -30,10 +30,10 @@ x11 INA2 INB2 D2_N D2 vdd gnd sub_iv
 x12 INA3 INB3 D3_N D3 vdd gnd sub_iv
 
 * E generation stages
-x13 D0_N A0 B0 E0_N E0 vdd gnd sun_vi
-x14 D0_N A0 B0 E0_N E0 vdd gnd sun_vi
-x15 D0_N A0 B0 E0_N E0 vdd gnd sun_vi
-x16 D0_N A0 B0 E0_N E0 vdd gnd sun_vi
+x13 D0_N A0 B0 E0_N E0 vdd gnd sub_vi
+x14 D1_N A1 B1 E1_N E1 vdd gnd sub_vi
+x15 D2_N A2 B2 E2_N E2 vdd gnd sub_vi
+x16 D3_N A3 B3 E3_N E3 vdd gnd sub_vi
 
 * P generation stages
 * sub_i IN1 IN2 IN3 IN4 OUTN OUT vdd gnd
@@ -64,6 +64,6 @@ x29 P0 P1 P2 P3 SIG_N SIG vdd gnd sub_iii
 * sub_i IN1 IN2 IN3 IN4 OUTN OUT vdd gnd
 x30 C4 SIG_N CIN SIG COUT_N COUT vdd gnd sub_i
 
-y1 CIN CIN_N vdd gnd INV
+x31 CIN CIN_N vdd gnd INV
 
-.e
+.ends
