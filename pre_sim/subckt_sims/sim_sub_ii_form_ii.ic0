@@ -1,0 +1,32 @@
+* "simulator" "HSPICE" 
+* "version" "L-2016.06-SP1 linux64"
+* "format" "HSP"
+* "rundate" "12:58:52 12/06/2022 "
+* "netlist" "sim_sub_ii_form_ii.sp "
+* "runtitle" "* simulation of subcircuit ii"
+* time =    0.            
+* temperature =   65.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ out =   0.            
++ outn =   0.            
++ vd =   3.3000        
++ vdd =   0.            
++ x1.a_n =   0.            
++ x1.b_n =   0.            
++ x1.c_n =   0.            
++ x1.eight =   0.            
++ x1.eleven =   0.            
++ x1.five =   0.            
++ x1.four =   0.            
++ x1.nine =   0.            
++ x1.one =   0.            
++ x1.out_n =   0.            
++ x1.seven =   0.            
++ x1.six =   0.            
++ x1.ten =   0.            
++ x1.three =   0.            
++ x1.two =   0.            
+***   END: Saved Operating Point ***                     
