@@ -1,6 +1,7 @@
 * Inverter Pre Layout Sub-circuit
 * Dec 2022
 
+* Only uncomment the include below if doing sim only of subcircuit
 .include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckts/inverter_180nm.sp
 
 .subckt sub_vi INI IN2 IN3 OUT_N OUT vdd gnd A B

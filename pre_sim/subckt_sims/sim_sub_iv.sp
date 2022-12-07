@@ -3,7 +3,7 @@
 
 .include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckts/subckt_iv.sp
 
-.subckt sub_iv IN1 IN2 OUTN OUT vdd gnd
+*.subckt sub_iv IN1 IN2 OUTN OUT vdd gnd
 
 .option post
 .temp 65

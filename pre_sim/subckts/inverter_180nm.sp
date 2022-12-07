@@ -1,6 +1,7 @@
 * Inverter Pre Layout Sub-circuit
 * Nov 2022
 
+* Only uncomment the include below if doing sim only of subcircuit
 .include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/technologies/mosistsmc180.sp
 
 .subckt INV IN OUT vdd gnd
