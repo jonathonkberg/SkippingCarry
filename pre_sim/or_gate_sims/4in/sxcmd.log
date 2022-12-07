@@ -1,0 +1,283 @@
+### Custom WaveView ADV log file, revision L-2016.06-SP1 (build Aug 22, ) ###
+### created at 11:51:21 on Wed Dec  7 2022 (Linux AMD64) ###
+### Host Name: osl15.njit.edu   User ID: jk526   PID: 8922   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window CustomWaveView 0 0
+wv_resize_window CustomWaveView 800 400
+wv_move_window CustomWaveView 294 317
+wv_move_window CustomWaveView 0 30
+wv_resize_window CustomWaveView 2560 1377
+wv_move_window CustomWaveView 8 31
+wv_select_menu_item {File} {Import Waveform File ...}
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {}
+wv_select_list_item FileDialog.FileList sim4or.tr0
+wv_press_button FileDialog.Ok
+wv_select_menu_item {File} {Import Waveform File ...}
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {sim4or.tr0}
+# selected FileDialog.Path or_gate_sims/
+wv_select_combox_item FileDialog.Path or_gate_sims/
+wv_select_list_item FileDialog.FileList 3in
+wv_dclick_list_item FileDialog.FileList 3in
+wv_select_list_item FileDialog.FileList sim3or.tr0
+wv_press_button FileDialog.Ok
+wv_select_menu_item {File} {Import Waveform File ...}
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {sim3or.tr0}
+wv_press_button FileDialog.Up
+wv_select_list_item FileDialog.FileList 2in
+wv_dclick_list_item FileDialog.FileList 2in
+wv_select_list_item FileDialog.FileList sim2or.tr0
+wv_press_button FileDialog.Ok
+wv_expand_tree_item MainWindow.hierview {D2:sim2or.tr0}
+wv_select_tree_item MainWindow.hierview {D2:sim2or.tr0}
+wv_expand_tree_item MainWindow.hierview {D2:sim2or.tr0/toplevel}
+wv_select_tree_item MainWindow.hierview {D2:sim2or.tr0/toplevel}
+wv_select_list_item MainWindow.sigview v(vin)
+wv_dclick_list_item MainWindow.sigview v(vin)
+wv_select_list_item MainWindow.sigview v(outn)
+wv_dclick_list_item MainWindow.sigview v(outn)
+wv_select_list_item MainWindow.sigview v(out)
+wv_dclick_list_item MainWindow.sigview v(out)
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_wv_item WV1.PANEL2:1.LEGEND
+wv_select_panel WV1.PANEL2:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_wv_item WV1.PANEL2:1.LEGEND
+wv_select_panel WV1.PANEL2:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_expand_tree_item MainWindow.hierview {D2:sim2or.tr0/toplevel}
+wv_select_tree_item MainWindow.hierview {D2:sim2or.tr0/toplevel}
+wv_select_list_item MainWindow.sigview v(out)
+wv_drag_list_item MainWindow.sigview v(out)
+wv_drag_enter WV1
+wv_drag_to WV1 36 636
+wv_drop_on WV1
+wv_expand_tree_item MainWindow.hierview {D1:sim3or.tr0}
+wv_select_tree_item MainWindow.hierview {D1:sim3or.tr0}
+wv_expand_tree_item MainWindow.hierview {D1:sim3or.tr0/toplevel}
+wv_select_tree_item MainWindow.hierview {D1:sim3or.tr0/toplevel}
+wv_select_list_item MainWindow.sigview v(vin)
+wv_dclick_list_item MainWindow.sigview v(vin)
+wv_select_list_item MainWindow.sigview v(out)
+wv_drag_list_item MainWindow.sigview v(out)
+wv_drag_enter WV1
+wv_drag_to WV1 43 751
+wv_drag_to WV1 147 772
+wv_drop_on WV1
+wv_expand_tree_item MainWindow.hierview {D0:sim4or.tr0}
+wv_select_tree_item MainWindow.hierview {D0:sim4or.tr0}
+wv_expand_tree_item MainWindow.hierview {D0:sim4or.tr0/toplevel}
+wv_select_tree_item MainWindow.hierview {D0:sim4or.tr0/toplevel}
+wv_select_list_item MainWindow.sigview v(vin)
+wv_dclick_list_item MainWindow.sigview v(vin)
+wv_select_list_item MainWindow.sigview v(out)
+wv_drag_list_item MainWindow.sigview v(outn)
+wv_drag_enter WV1
+wv_drag_to WV1 22 967
+wv_drop_on WV1
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_toolbar_item {Update Waveforms}
+wv_select_toolbar_item {Update Waveforms}
+wv_select_panel WV1.PANEL2:1 1.62031e-09 1.68779
+wv_drag_item_to WV1 1292 638
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_panel WV1.PANEL2:1 1.74687e-09 2.01857
+wv_drag_item_to WV1 1383 599
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_panel WV1.PANEL2:1 1.49791e-09 1.64539
+wv_drag_item_to WV1 1204 643
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_panel WV1.PANEL2:1 1.67177e-09 2.0949
+wv_drag_item_to WV1 1329 590
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_waveview_context_menu WV1.PANEL1:1 7.17663e-10 2.06881
+wv_select_wv_item {WV1.ICON.measurement tool}
+wv_release_wv_item WV1 142 16
+wv_select_dialog MeasurementTool
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_tree_item MainWindow.hierview {D0:sim4or.tr0/toplevel}
+wv_select_list_item MainWindow.sigview v(out)
+wv_dclick_list_item MainWindow.sigview v(out)
+wv_select_list_item MainWindow.sigview v(outn)
+wv_dclick_list_item MainWindow.sigview v(outn)
+wv_select_wv_item WV1.PANEL4:1.LEGEND
+wv_select_panel WV1.PANEL4:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_wv_item WV1.PANEL4:1.LEGEND
+wv_select_panel WV1.PANEL4:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_wv_item WV1.PANEL3:1.LEGEND
+wv_select_panel WV1.PANEL3:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_wv_item WV1.PANEL2:1.LEGEND
+wv_select_panel WV1.PANEL2:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_tree_item MainWindow.hierview {D2:sim2or.tr0/toplevel}
+wv_select_list_item MainWindow.sigview v(vin)
+wv_dclick_list_item MainWindow.sigview v(vin)
+wv_select_list_item MainWindow.sigview v(out)
+wv_drag_list_item MainWindow.sigview v(out)
+wv_drag_enter WV1
+wv_drag_to WV1 2 704
+wv_drop_on WV1
+wv_select_list_item MainWindow.sigview v(outn)
+wv_drag_list_item MainWindow.sigview v(outn)
+wv_drag_enter WV1
+wv_drag_to WV1 15 709
+wv_drop_on WV1
+wv_select_tree_item MainWindow.hierview {D1:sim3or.tr0/toplevel}
+wv_select_list_item MainWindow.sigview v(vin)
+wv_dclick_list_item MainWindow.sigview v(vin)
+wv_select_list_item MainWindow.sigview v(out)
+wv_drag_list_item MainWindow.sigview v(out)
+wv_drag_enter WV1
+wv_drag_to WV1 43 759
+wv_drag_to WV1 75 771
+wv_drop_on WV1
+wv_select_list_item MainWindow.sigview v(outn)
+wv_drag_list_item MainWindow.sigview v(outn)
+wv_drag_enter WV1
+wv_drag_to WV1 5 812
+wv_drop_on WV1
+wv_select_tree_item MainWindow.hierview {D0:sim4or.tr0/toplevel}
+wv_select_list_item MainWindow.sigview v(vin)
+wv_dclick_list_item MainWindow.sigview v(vin)
+wv_select_list_item MainWindow.sigview v(out)
+wv_drag_list_item MainWindow.sigview v(out)
+wv_drag_enter WV1
+wv_drag_to WV1 48 791
+wv_drag_to WV1 314 921
+wv_drop_on WV1
+wv_select_list_item MainWindow.sigview v(outn)
+wv_drag_list_item MainWindow.sigview v(outn)
+wv_drag_enter WV1
+wv_drag_to WV1 14 799
+wv_drag_to WV1 256 923
+wv_drop_on WV1
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_panel WV1.PANEL3:1 1.54103e-09 2.98909
+wv_drag_item_to WV1 1235 882
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_toolbar_item {Update Waveforms}
+wv_select_panel WV1.PANEL3:1 1.57024e-09 3.18481
+wv_drag_item_to WV1 1256 859
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_panel WV1.PANEL2:1 1.45758e-09 1.60644
+wv_drag_item_to WV1 1175 654
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_close_window CustomWaveView
+wv_select_dialog Confirmation
+# wv_press_button Confirmation.Ok
