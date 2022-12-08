@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Mon Oct 17 19:33:47 2022 " "v2012.2_36.25" "-xrc -pdb -rcc -turbo 1 /afs/cad.njit.edu/u/j/k/jk526/ece658/hw5/pex/_tsmc018.calibre.rules_"
+"Mon Oct 17 19:33:48 2022 " "v2012.2_36.25" "-xrc -fmt -all /afs/cad.njit.edu/u/j/k/jk526/ece658/hw5/pex/_tsmc018.calibre.rules_"

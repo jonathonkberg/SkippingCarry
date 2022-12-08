@@ -1,0 +1,6 @@
+A 5 u Eddm_part 634dc00e3b60.03.80.eb.2c.41.00.16.1e 1 2 1 0
+V v 1 1 634dc00e3b60.03.80.eb.2c.41.01.16.1e
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/ece658/hw5/schema/base_inverter/schematic" 1 mgc_schematic 634dbd167eab.03.80.eb.2c.41.01.16.1e 634dbd167eab.03.80.eb.2c.41.00.16.1e

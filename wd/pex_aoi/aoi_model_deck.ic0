@@ -1,0 +1,84 @@
+* "simulator" "HSPICE" 
+* "version" "L-2016.06-SP1 linux64"
+* "format" "HSP"
+* "rundate" "23:53:43 10/17/2022 "
+* "netlist" "aoi_model_deck.sp "
+* "runtitle" "* file: three_in_aoi.pex.netlist"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ out1 =   3.3000        
++ va =   0.            
++ vdd =   3.3000        
++ x1.n_2_c_1_p =   3.3000        
++ x1.n_2_m3_d =   3.3000        
++ x1.n_2_m4_s =   3.3000        
++ x1.n_2_m5_d =   3.3000        
++ x1.n_8_m1_d =   2.7418        
++ x1.n_8_m2_s =   2.7418        
++ x1.n_a_c_9_n =   3.3000        
++ x1.n_a_m2_g =   3.3000        
++ x1.n_a_m5_g =   3.3000        
++ x1.n_b_c_7_n =   0.            
++ x1.n_b_m1_g =   0.            
++ x1.n_b_m4_g =   0.            
++ x1.n_c_c_6_n =   0.            
++ x1.n_c_m0_g =   0.            
++ x1.n_c_m3_g =   0.            
++ x1.n_gnd_m0_b =  63.3284p       
++ x1.n_gnd_m0_d = 878.1837p       
++ x1.n_gnd_m1_s = 829.8753p       
++ x1.n_vdd_m3_b =   3.3000        
++ x1.n_vdd_m4_d =   3.3000        
++ x1.n_vdd_m5_s =   3.3000        
++ x1.n_y_c_3_p =   3.3000        
++ x1.n_y_m0_s =   3.3000        
++ x1.n_y_m2_d =   3.3000        
++ x1.n_y_m3_s =   3.3000        
++ x1.x_pm_three_in_aoi%vdd.5 =   3.3000        
++ x1.x_pm_three_in_aoi%vdd.9 =   3.3000        
++ x1.x_pm_three_in_aoi%vdd.11 =   3.3000        
++ x1.x_pm_three_in_aoi%vdd.14 =   3.3000        
++ x1.x_pm_three_in_aoi%vdd.16 =   3.3000        
++ x1.x_pm_three_in_aoi%vdd.17 =   3.3000        
++ x1.x_pm_three_in_aoi%vdd.19 =   3.3000        
++ x1.x_pm_three_in_aoi%vdd.22 =   3.3000        
++ x1.x_pm_three_in_aoi%2.1 =   3.3000        
++ x1.x_pm_three_in_aoi%2.3 =   3.3000        
++ x1.x_pm_three_in_aoi%2.4 =   3.3000        
++ x1.x_pm_three_in_aoi%2.7 =   3.3000        
++ x1.x_pm_three_in_aoi%2.9 =   3.3000        
++ x1.x_pm_three_in_aoi%2.11 =   3.3000        
++ x1.x_pm_three_in_aoi%2.12 =   3.3000        
++ x1.x_pm_three_in_aoi%2.15 =   3.3000        
++ x1.x_pm_three_in_aoi%2.16 =   3.3000        
++ x1.x_pm_three_in_aoi%2.17 =   3.3000        
++ x1.x_pm_three_in_aoi%y.3 =   3.3000        
++ x1.x_pm_three_in_aoi%y.5 =   3.3000        
++ x1.x_pm_three_in_aoi%y.6 =   3.3000        
++ x1.x_pm_three_in_aoi%y.9 =   3.3000        
++ x1.x_pm_three_in_aoi%y.10 =   3.3000        
++ x1.x_pm_three_in_aoi%y.11 =   3.3000        
++ x1.x_pm_three_in_aoi%y.15 =   3.3000        
++ x1.x_pm_three_in_aoi%y.17 =   3.3000        
++ x1.x_pm_three_in_aoi%y.19 =   3.3000        
++ x1.x_pm_three_in_aoi%y.20 =   3.3000        
++ x1.x_pm_three_in_aoi%y.22 =   3.3000        
++ x1.x_pm_three_in_aoi%y.24 =   3.3000        
++ x1.x_pm_three_in_aoi%y.25 =   3.3000        
++ x1.x_pm_three_in_aoi%y.27 =   3.3000        
++ x1.x_pm_three_in_aoi%c.13 =   0.            
++ x1.x_pm_three_in_aoi%c.14 =   0.            
++ x1.x_pm_three_in_aoi%b.10 =   0.            
++ x1.x_pm_three_in_aoi%b.11 =   0.            
++ x1.x_pm_three_in_aoi%a.10 =   3.3000        
++ x1.x_pm_three_in_aoi%a.11 =   3.3000        
++ x1.x_pm_three_in_aoi%gnd.5 =  27.1502p       
++ x1.x_pm_three_in_aoi%gnd.7 =  49.4666p       
++ x1.x_pm_three_in_aoi%gnd.8 = 660.2297p       
++ x1.x_pm_three_in_aoi%gnd.10 =  24.5252p       
++ x1.x_pm_three_in_aoi%gnd.15 =  19.8271p       
+***   END: Saved Operating Point ***                     

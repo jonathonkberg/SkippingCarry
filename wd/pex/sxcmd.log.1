@@ -1,0 +1,90 @@
+### Custom WaveView ADV log file, revision L-2016.06-SP1 (build Aug 22, ) ###
+### created at 23:18:00 on Mon Oct 17 2022 (Linux AMD64) ###
+### Host Name: osl15.njit.edu   User ID: jk526   PID: 21496   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window CustomWaveView 0 0
+wv_resize_window CustomWaveView 800 400
+wv_move_window CustomWaveView 34 57
+wv_move_window CustomWaveView 0 168
+wv_resize_window CustomWaveView 1536 801
+wv_move_window CustomWaveView 0 23
+wv_select_menu_item {File} {Import Waveform File ...}
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {}
+# selected FileDialog.FileFilter Waveform Files:*
+wv_select_combox_item FileDialog.FileFilter {Waveform Files:*}
+wv_select_dialog FileDialog
+wv_select_dialog FileDialog
+wv_select_list_item FileDialog.FileList ideal_sim.tr0
+wv_ctrl_select_list_item FileDialog.FileList spice_deck_model.tr0
+wv_press_button FileDialog.Ok
+wv_expand_tree_item MainWindow.hierview {D0:spice_deck_model.tr0}
+wv_select_tree_item MainWindow.hierview {D0:spice_deck_model.tr0}
+wv_select_tree_item MainWindow.hierview {D0:spice_deck_model.tr0/toplevel}
+wv_select_list_item MainWindow.sigview v(0)
+wv_dclick_list_item MainWindow.sigview v(0)
+wv_select_list_item MainWindow.sigview v(a)
+wv_dclick_list_item MainWindow.sigview v(a)
+wv_select_list_item MainWindow.sigview v(y)
+wv_dclick_list_item MainWindow.sigview v(y)
+wv_select_list_item MainWindow.sigview v(vdd)
+wv_dclick_list_item MainWindow.sigview v(vdd)
+wv_select_list_item MainWindow.sigview v(out1)
+wv_dclick_list_item MainWindow.sigview v(out1)
+wv_select_wv_item {WV1.ICON.measurement tool}
+wv_release_wv_item WV1 143 14
+wv_select_dialog MeasurementTool
+# selected MeasurementTool.Signal v(out1) spice_deck_model.tr0
+wv_select_combox_item MeasurementTool.Signal {v(out1) spice_deck_model.tr0}
+wv_press_button MeasurementTool.Ok
+wv_select_wv_item WV1.PANEL4:1.LEGEND
+wv_select_panel WV1.PANEL4:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_drag_item_to WV1 32 127
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 534 587
+wv_move_wv_item WV1.MEAS1 437 506
+wv_select_wv_item {WV1.ICON.text remark}
+wv_release_wv_item WV1 158 12
+wv_select_dialog DrawToolParameters
+wv_select_wv_item {WV1.ICON.measurement tool}
+wv_release_wv_item WV1 148 13
+wv_select_dialog MeasurementTool
+wv_move_dialog MeasurementTool 520 169
+wv_press_button MeasurementTool.Ok
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 531 125
+wv_move_wv_item WV1.MEAS2 425 324
+wv_select_wv_item WV1.MEAS2
+wv_move_wv_item WV1.MEAS2 448 339
+wv_release_wv_item WV1 449 339
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 478 352
+wv_move_wv_item WV1.MEAS2 440 337
+wv_select_wv_item WV1.MEAS2
+wv_move_wv_item WV1.MEAS2 477 355
+wv_release_wv_item WV1 477 355
+wv_select_wv_item WV1.MEAS2
+wv_move_wv_item WV1.MEAS2 505 377
+wv_release_wv_item WV1 505 377
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 498 377
+wv_move_wv_item WV1.MEAS2 438 341
+wv_waveview_context_menu WV1.MEAS2
+wv_select_context_menu_item {Configure...}
+wv_select_tree_item MeasurementTool.TypeList {Time Domain/Delay}
+wv_expand_tree_item MeasurementTool.TypeList {General}
+wv_select_tree_item MeasurementTool.TypeList {General/Width}
+wv_select_tree_item MeasurementTool.TypeList {Time Domain/Delay}
+wv_select_dialog MeasurementTool

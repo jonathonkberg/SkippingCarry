@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 634db87ac4bb.03.80.eb.2c.41.00.16.1e 7 2 1 0
+V v 5 1 634dc0088e9e.03.80.eb.2c.41.00.16.1e
+F o 0 ""
+V v 6 1 634dc008beb6.03.80.eb.2c.41.00.16.1e
+F o 0 ""
+V v 7 1 634dfaec198b.03.80.eb.2c.41.00.16.1e
+F o 0 ""
+O 7
+R cspuv 0 "$HOME/ece658/hw5/schema/three_in_aoi/schematic/sheet1" 6 mgc_sheet 634dfaec17f0.03.80.eb.2c.41.00.16.1e 634db87acb05.03.80.eb.2c.41.00.16.1e
+O 6
+R cspuv 0 "$HOME/ece658/hw5/schema/three_in_aoi/schematic/sheet1" 5 mgc_sheet 634dc008bd21.03.80.eb.2c.41.00.16.1e 634db87acb05.03.80.eb.2c.41.00.16.1e
+O 5
+R cspuv 0 "$HOME/ece658/hw5/schema/three_in_aoi/schematic/sheet1" 4 mgc_sheet 634dc0088d04.03.80.eb.2c.41.00.16.1e 634db87acb05.03.80.eb.2c.41.00.16.1e

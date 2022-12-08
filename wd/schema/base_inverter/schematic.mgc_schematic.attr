@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 634dbd167eab.03.80.eb.2c.41.00.16.1e 4 2 1 0
+V v 2 1 634dc00e45ea.03.80.eb.2c.41.00.16.1e
+F o 0 ""
+V v 3 1 634dc00e6bf3.03.80.eb.2c.41.00.16.1e
+F o 0 ""
+V v 4 1 634dc00e993a.03.80.eb.2c.41.00.16.1e
+F o 0 ""
+O 4
+R cspuv 0 "$HOME/ece658/hw5/schema/base_inverter/schematic/sheet1" 3 mgc_sheet 634dc00e97b1.03.80.eb.2c.41.00.16.1e 634dbd1681a6.03.80.eb.2c.41.00.16.1e
+O 3
+R cspuv 0 "$HOME/ece658/hw5/schema/base_inverter/schematic/sheet1" 2 mgc_sheet 634dc00e6a70.03.80.eb.2c.41.00.16.1e 634dbd1681a6.03.80.eb.2c.41.00.16.1e
+O 2
+R cspuv 0 "$HOME/ece658/hw5/schema/base_inverter/schematic/sheet1" 1 mgc_sheet 634dbd1681a6.03.80.eb.2c.41.01.16.1e 634dbd1681a6.03.80.eb.2c.41.00.16.1e

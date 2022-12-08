@@ -1,0 +1,16 @@
+* File: three_in_aoi.pex.netlist.THREE_IN_AOI.pxi
+* Created: Mon Oct 17 23:25:10 2022
+* 
+x_PM_THREE_IN_AOI%VDD N_VDD_M3_b VDD N_VDD_M4_d N_VDD_M5_s PM_THREE_IN_AOI%VDD
+x_PM_THREE_IN_AOI%2 N_2_c_1_p N_2_M3_d N_2_M4_s N_2_M5_d PM_THREE_IN_AOI%2
+x_PM_THREE_IN_AOI%Y Y N_Y_c_3_p N_Y_M3_s N_Y_M0_s N_Y_M2_d PM_THREE_IN_AOI%Y
+x_PM_THREE_IN_AOI%C N_C_c_6_n N_C_M3_g N_C_M0_g C PM_THREE_IN_AOI%C
+x_PM_THREE_IN_AOI%B N_B_c_7_n N_B_M4_g N_B_M1_g B PM_THREE_IN_AOI%B
+x_PM_THREE_IN_AOI%A N_A_c_9_n N_A_M5_g N_A_M2_g A PM_THREE_IN_AOI%A
+x_PM_THREE_IN_AOI%GND N_GND_M0_b GND N_GND_M0_d N_GND_M1_s PM_THREE_IN_AOI%GND
+x_PM_THREE_IN_AOI%8 N_8_M1_d N_8_M2_s PM_THREE_IN_AOI%8
+cc_1 N_2_c_1_p N_B_c_7_n 0.07428f
+cc_2 N_2_c_1_p N_A_c_9_n 0.07428f
+cc_3 N_Y_c_3_p N_C_c_6_n 0.07428f
+cc_4 N_Y_c_3_p N_B_c_7_n 0.07428f
+cc_5 N_Y_c_3_p N_A_c_9_n 0.07428f

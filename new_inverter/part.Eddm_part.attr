@@ -1,0 +1,6 @@
+A 5 u Eddm_part 639173c44c40.03.80.eb.2c.41.00.14.43 1 2 1 0
+V v 1 1 639173c44c40.03.80.eb.2c.41.01.14.43
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/ece658/final_project/new_inverter/schematic" 1 mgc_schematic 639172eb65b6.03.80.eb.2c.41.01.14.43 639172eb65b6.03.80.eb.2c.41.00.14.43

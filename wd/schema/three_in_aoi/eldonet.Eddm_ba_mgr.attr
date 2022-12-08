@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 634e00e867de.03.80.eb.2c.41.00.16.1e 1 2 1 0
+V v 1 1 634e00e867de.03.80.eb.2c.41.01.16.1e
+F f 1 "eldonet.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$HOME/ece658/hw5/schema/three_in_aoi/eldonet" 1 Eddm_design_viewpoint 634e00e85a81.03.80.eb.2c.41.01.16.1e 634e00e85a81.03.80.eb.2c.41.00.16.1e

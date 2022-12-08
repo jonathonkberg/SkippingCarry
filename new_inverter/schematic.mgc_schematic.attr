@@ -1,0 +1,14 @@
+A 5 u mgc_schematic 639172eb65b6.03.80.eb.2c.41.00.14.43 3 2 1 0
+V v 1 1 639172eb65b6.03.80.eb.2c.41.01.14.43
+F o 0 ""
+V v 2 1 639173c45065.03.80.eb.2c.41.00.14.43
+F o 0 ""
+V v 3 1 639173c785be.03.80.eb.2c.41.00.14.43
+F o 0 ""
+O 3
+R cspuv 0 "$HOME/ece658/final_project/new_inverter/schematic/sheet1" 2 mgc_sheet 639173c784bf.03.80.eb.2c.41.00.14.43 639172eb6afd.03.80.eb.2c.41.00.14.43
+O 2
+R cspuv 0 "$HOME/ece658/final_project/new_inverter/schematic/sheet1" 1 mgc_sheet 639172eb6afd.03.80.eb.2c.41.01.14.43 639172eb6afd.03.80.eb.2c.41.00.14.43
+O 1
+R cspuv 0 "$HOME/ece658/final_project/new_inverter/schematic/sheet1" 1 mgc_sheet 639172eb6afd.03.80.eb.2c.41.01.14.43 639172eb6afd.03.80.eb.2c.41.00.14.43
+P "eddm__refer_state" "eddm__refer_floating"

@@ -1,0 +1,13 @@
+A 5 u Eddm_part 634dbc39b576.03.80.eb.2c.41.00.16.1e 2 2 1 0
+V v 1 1 634dbc39b576.03.80.eb.2c.41.01.16.1e
+F f 1 "part.part_1"
+V v 2 1 634dfaebf0bd.03.80.eb.2c.41.00.16.1e
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/ece658/hw5/schema/three_in_aoi/schematic" 1 mgc_schematic 634db87ac4bc.03.80.eb.2c.41.00.16.1e 634db87ac4bb.03.80.eb.2c.41.00.16.1e
+P "eddm__refer_state" "eddm__refer_floating"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/ece658/hw5/schema/three_in_aoi/schematic" 1 mgc_schematic 634db87ac4bc.03.80.eb.2c.41.00.16.1e 634db87ac4bb.03.80.eb.2c.41.00.16.1e
+P "eddm__refer_state" "eddm__refer_floating"

@@ -1,0 +1,31 @@
+A 5 u Ic_cell_template 634de6f67b0d.03.80.eb.2c.41.00.16.55 5 4 6 0
+V v 1 2 634def0acbc5.03.80.eb.2c.41.00.16.55
+F f 1 "three_in_aoi.iccel_1"
+F o 0 
+V v 2 2 634df518934b.03.80.eb.2c.41.00.16.55
+F f 2 "three_in_aoi.iccel_2"
+F o 0 
+V v 3 2 634dfb7dc845.03.80.eb.2c.41.00.16.55
+F f 3 "three_in_aoi.iccel_3"
+F o 0 
+V v 4 2 634e02bb7fff.03.80.eb.2c.41.00.16.55
+F f 4 "three_in_aoi.iccel_4"
+F o 0 
+V v 5 2 634e13b8a18a.03.80.eb.2c.41.00.16.55
+F f 5 "three_in_aoi.iccel_5"
+F o 0 
+O 5
+R csduv 3 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csdni 5 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules" 1 Mgc_file
+O 4
+R csduv 3 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csdni 5 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules" 1 Mgc_file
+O 3
+R csduv 3 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csdni 5 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules" 1 Mgc_file
+O 2
+R csduv 3 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csdni 4 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules" 1 Mgc_file
+O 1
+R csduv 3 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csdni 4 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules" 1 Mgc_file

@@ -1,0 +1,12 @@
+A 5 u Eddm_design_viewpoint 634e00e85a81.03.80.eb.2c.41.00.16.1e 1 2 3 0
+V v 1 4 634e00e85a81.03.80.eb.2c.41.01.16.1e
+F f 1 "eldonet.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$HOME/ece658/hw5/schema/three_in_aoi/part" 2 Eddm_part 634dfaebf0bd.03.80.eb.2c.41.00.16.1e 634dbc39b576.03.80.eb.2c.41.00.16.1e
+R cspuv 1 "$HOME/ece658/hw5/schema/three_in_aoi/schematic" 1 mgc_schematic 634db87ac4bc.03.80.eb.2c.41.00.16.1e 634db87ac4bb.03.80.eb.2c.41.00.16.1e
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$HOME/ece658/hw5/schema/three_in_aoi/eldonet" 1 Eddm_ba_mgr 634e00e867de.03.80.eb.2c.41.01.16.1e 634e00e867de.03.80.eb.2c.41.00.16.1e

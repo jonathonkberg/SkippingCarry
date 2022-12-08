@@ -1,0 +1,81 @@
+* "simulator" "HSPICE" 
+* "version" "L-2016.06-SP1 linux64"
+* "format" "HSP"
+* "rundate" "19:33:56 10/17/2022 "
+* "netlist" "spice_deck_model.sp "
+* "runtitle" "* model sim"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   0.            
++ out1 =  34.8619n       
++ vdd =   3.3000        
++ y =   3.3000        
++ x1.n_gnd_m0_b =  46.5370p       
++ x1.n_gnd_m0_d = 604.1352p       
++ x1.n_in_m0_g =   0.            
++ x1.n_in_m1_g =   0.            
++ x1.n_out_m0_s =   3.3000        
++ x1.n_out_m1_s =   3.3000        
++ x1.n_vdd_m1_b =   3.3000        
++ x1.n_vdd_m1_d =   3.3000        
++ x2.n_gnd_m0_b =  10.1703p       
++ x2.n_gnd_m0_d = 619.1733p       
++ x2.n_in_m0_g =   3.3000        
++ x2.n_in_m1_g =   3.3000        
++ x2.n_out_m0_s =  34.2538n       
++ x2.n_out_m1_s =  35.1720n       
++ x2.n_vdd_m1_b =   3.3000        
++ x2.n_vdd_m1_d =   3.3000        
++ x1.x_pm_base_inverter%vdd.10 =   3.3000        
++ x1.x_pm_base_inverter%vdd.11 =   3.3000        
++ x1.x_pm_base_inverter%vdd.14 =   3.3000        
++ x1.x_pm_base_inverter%vdd.16 =   3.3000        
++ x1.x_pm_base_inverter%vdd.17 =   3.3000        
++ x1.x_pm_base_inverter%vdd.19 =   3.3000        
++ x1.x_pm_base_inverter%vdd.20 =   3.3000        
++ x1.x_pm_base_inverter%in.1 =   0.            
++ x1.x_pm_base_inverter%in.5 =   0.            
++ x1.x_pm_base_inverter%in.12 =   0.            
++ x1.x_pm_base_inverter%in.13 =   0.            
++ x1.x_pm_base_inverter%out.3 =   3.3000        
++ x1.x_pm_base_inverter%out.5 =   3.3000        
++ x1.x_pm_base_inverter%out.6 =   3.3000        
++ x1.x_pm_base_inverter%out.9 =   3.3000        
++ x1.x_pm_base_inverter%out.10 =   3.3000        
++ x1.x_pm_base_inverter%out.11 =   3.3000        
++ x1.x_pm_base_inverter%out.15 =   3.3000        
++ x1.x_pm_base_inverter%out.17 =   3.3000        
++ x1.x_pm_base_inverter%out.18 =   3.3000        
++ x1.x_pm_base_inverter%out.20 =   3.3000        
++ x1.x_pm_base_inverter%gnd.6 =  17.5017p       
++ x1.x_pm_base_inverter%gnd.7 = 360.9444p       
++ x1.x_pm_base_inverter%gnd.10 =  10.8970p       
++ x2.x_pm_base_inverter%vdd.10 =   3.3000        
++ x2.x_pm_base_inverter%vdd.11 =   3.3000        
++ x2.x_pm_base_inverter%vdd.14 =   3.3000        
++ x2.x_pm_base_inverter%vdd.16 =   3.3000        
++ x2.x_pm_base_inverter%vdd.17 =   3.3000        
++ x2.x_pm_base_inverter%vdd.19 =   3.3000        
++ x2.x_pm_base_inverter%vdd.20 =   3.3000        
++ x2.x_pm_base_inverter%in.1 =   3.3000        
++ x2.x_pm_base_inverter%in.5 =   3.3000        
++ x2.x_pm_base_inverter%in.12 =   3.3000        
++ x2.x_pm_base_inverter%in.13 =   3.3000        
++ x2.x_pm_base_inverter%out.3 =  34.8630n       
++ x2.x_pm_base_inverter%out.5 =  34.8752n       
++ x2.x_pm_base_inverter%out.6 =  35.0573n       
++ x2.x_pm_base_inverter%out.9 =  34.8719n       
++ x2.x_pm_base_inverter%out.10 =  35.0560n       
++ x2.x_pm_base_inverter%out.11 =  34.8619n       
++ x2.x_pm_base_inverter%out.15 =  34.8607n       
++ x2.x_pm_base_inverter%out.17 =  34.8560n       
++ x2.x_pm_base_inverter%out.18 =  34.5034n       
++ x2.x_pm_base_inverter%out.20 =  34.8619n       
++ x2.x_pm_base_inverter%gnd.6 =  16.9505p       
++ x2.x_pm_base_inverter%gnd.7 = 369.5199p       
++ x2.x_pm_base_inverter%gnd.10 =  10.1703p       
+***   END: Saved Operating Point ***                     
