@@ -1,0 +1,14 @@
+* Component: $HOME/github/SkippingCarry/working_directory/schematics/i  Viewpoint: eldonet
+.INCLUDE $HOME/github/SkippingCarry/working_directory/schematics/i/eldonet/i_eldonet.spi
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+* --- Singles
+
+* --- Params
+.TEMP 27
+
+* --- Libsetup
+

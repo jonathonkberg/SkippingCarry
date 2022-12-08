@@ -1,0 +1,17 @@
+* ELDO netlist generated with ICnet by 'jk526' on Thu Dec  8 2022 at 12:40:55
+
+*
+* MAIN CELL: Component pathname : $HOME/github/SkippingCarry/working_directory/schematics/i
+*
+        mn1 outn in1 n$8 n$7 n L=2u W=12u
+        mp4 vdd in2 n$2 n$1 p L=2u W=32u
+        mn4 gnd in3 n$17 n$18 n L=2u W=12u
+        mp3 outn in3 n$2 n$30 p L=2u W=32u
+        mp1 n$2 in1 vdd vdd p L=2u W=32u
+        mp2 n$2 in4 outn n$26 p L=2u W=32u
+        mn5 gnd outn out gnd n L=2u W=6u
+        mp5 vdd outn out vdd p L=2u W=16u
+        mn3 n$17 in4 outn n$12 n L=2u W=12u
+        mn2 n$8 in2 gnd gnd n L=2u W=12u
+*
+.end
