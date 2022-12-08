@@ -1,0 +1,22 @@
+A 5 u mgc_sheet 639211e868d1.03.80.eb.2c.41.00.18.3a 5 2 1 0
+V v 3 3 63921291d76c.03.80.eb.2c.41.00.18.3a
+F f 3 "sheet1.ssht_3"
+F f 3 "sheet1.sgfx_3"
+F o 0 
+V v 4 3 639212921897.03.80.eb.2c.41.00.18.3a
+F f 4 "sheet1.ssht_4"
+F f 4 "sheet1.sgfx_4"
+F o 0 
+V v 5 3 63921292576a.03.80.eb.2c.41.00.18.3a
+F f 5 "sheet1.ssht_5"
+F f 5 "sheet1.sgfx_5"
+F o 0 
+O 5
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/vi/schematic" 1 mgc_schematic 639211e865f4.03.80.eb.2c.41.01.18.3a 639211e865f4.03.80.eb.2c.41.00.18.3a
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/vi/schematic" 1 mgc_schematic 639211e865f4.03.80.eb.2c.41.01.18.3a 639211e865f4.03.80.eb.2c.41.00.18.3a
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/vi/schematic" 1 mgc_schematic 639211e865f4.03.80.eb.2c.41.01.18.3a 639211e865f4.03.80.eb.2c.41.00.18.3a

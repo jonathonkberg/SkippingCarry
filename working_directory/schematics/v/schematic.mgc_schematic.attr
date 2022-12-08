@@ -1,0 +1,10 @@
+A 5 u mgc_schematic 639211e1aa7e.03.80.eb.2c.41.00.18.3a 2 2 1 0
+V v 1 1 639211e1aa7e.03.80.eb.2c.41.01.18.3a
+F o 0 ""
+V v 2 1 6392129096a3.03.80.eb.2c.41.00.18.3a
+F o 0 ""
+O 2
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/v/schematic/sheet1" 1 mgc_sheet 639211e1ad5d.03.80.eb.2c.41.01.18.3a 639211e1ad5d.03.80.eb.2c.41.00.18.3a
+O 1
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/v/schematic/sheet1" 1 mgc_sheet 639211e1ad5d.03.80.eb.2c.41.01.18.3a 639211e1ad5d.03.80.eb.2c.41.00.18.3a
+P "eddm__refer_state" "eddm__refer_floating"

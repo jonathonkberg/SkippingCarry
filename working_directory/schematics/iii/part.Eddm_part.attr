@@ -1,0 +1,6 @@
+A 5 u Eddm_part 6392128ed199.03.80.eb.2c.41.00.18.3a 1 2 1 0
+V v 1 1 6392128ed19a.03.80.eb.2c.41.00.18.3a
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/iii/schematic" 1 mgc_schematic 639211c898e3.03.80.eb.2c.41.01.18.3a 639211c898e3.03.80.eb.2c.41.00.18.3a

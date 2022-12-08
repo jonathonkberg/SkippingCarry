@@ -1,0 +1,10 @@
+A 5 u Eddm_design_viewpoint 639212d756be.03.80.eb.2c.41.00.18.74 1 2 2 0
+V v 1 4 639212d756be.03.80.eb.2c.41.01.18.74
+F f 1 "vi_IC_Station_SDL_Flat.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/schematics/vi/part" 1 Eddm_part 63921284e90c.03.80.eb.2c.41.01.18.3a 63921284e90c.03.80.eb.2c.41.00.18.3a
+R cspuv 1 "$HOME/github/SkippingCarry/working_directory/schematics/vi/schematic" 6 mgc_schematic 6392129258eb.03.80.eb.2c.41.00.18.3a 639211e865f4.03.80.eb.2c.41.00.18.3a

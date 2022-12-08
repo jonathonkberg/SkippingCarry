@@ -1,0 +1,22 @@
+A 5 u Ic_cell_template 639212a719a4.03.80.eb.2c.41.00.18.74 3 4 4 0
+V v 1 2 63921403ce1d.03.80.eb.2c.41.00.18.74
+F f 1 "iii.iccel_1"
+F o 0 
+V v 2 2 639219ffe3d7.03.80.eb.2c.41.00.18.74
+F f 2 "iii.iccel_2"
+F o 0 
+V v 3 2 63921a2f4843.03.80.eb.2c.41.00.18.74
+F f 3 "iii.iccel_3"
+F o 0 
+O 3
+R csduv 1 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csduv 2 "/afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/iii_IC_Station_SDL_Flat" 1 Eddm_design_viewpoint 639212a715ed.03.80.eb.2c.41.01.18.74 639212a715ed.03.80.eb.2c.41.00.18.74
+R csdni 3 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules" 1 Mgc_file
+O 2
+R csduv 1 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csduv 2 "/afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/iii_IC_Station_SDL_Flat" 1 Eddm_design_viewpoint 639212a715ed.03.80.eb.2c.41.01.18.74 639212a715ed.03.80.eb.2c.41.00.18.74
+R csdni 3 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules" 1 Mgc_file
+O 1
+R csduv 1 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csduv 2 "/afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/iii_IC_Station_SDL_Flat" 1 Eddm_design_viewpoint 639212a715ed.03.80.eb.2c.41.01.18.74 639212a715ed.03.80.eb.2c.41.00.18.74
+R csdni 3 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules" 1 Mgc_file
