@@ -1,0 +1,15 @@
+A 5 u Ic_cell_template 639175beb3e4.03.80.eb.2c.41.00.19.bc 2 4 4 0
+V v 1 2 6391772e85e6.03.80.eb.2c.41.00.19.bc
+F f 1 "new_inverter.iccel_1"
+F o 0 
+V v 2 2 63917d2948b6.03.80.eb.2c.41.00.19.bc
+F f 2 "new_inverter.iccel_2"
+F o 0 
+O 2
+R csduv 1 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csduv 2 "/afs/cad/u/j/k/jk526/ece658/final_project/new_inverter/new_inverter_IC_Station_SDL_Flat" 1 Eddm_design_viewpoint 639175beab87.03.80.eb.2c.41.01.19.bc 639175beab87.03.80.eb.2c.41.00.19.bc
+R csdni 3 "/afs/cad/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules" 1 Mgc_file
+O 1
+R csduv 1 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csduv 2 "/afs/cad/u/j/k/jk526/ece658/final_project/new_inverter/new_inverter_IC_Station_SDL_Flat" 1 Eddm_design_viewpoint 639175beab87.03.80.eb.2c.41.01.19.bc 639175beab87.03.80.eb.2c.41.00.19.bc
+R csdni 3 "/afs/cad/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules" 1 Mgc_file

@@ -26,3 +26,104 @@ Check Schematic Net -------------   0 errors   0 warnings
 Check Schematic Function Blocks -   0 errors   0 warnings
 
  "new_inverter/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "vi/schematic/sheet1"
+Check Sheet "vi/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors  24 warnings  (MGC-required)
+  Warning:  Unable to evaluate property "awidth" on I$1
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$1
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$1
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$1
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "vi/schematic/sheet1" passed check :  0 Errors, 24 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Schematic is not registered with an interface
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "vi/schematic/sheet1" passed check :  0 Errors, 25 Warnings

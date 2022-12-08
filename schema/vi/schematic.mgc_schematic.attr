@@ -1,0 +1,10 @@
+A 5 u mgc_schematic 639177b15eb1.03.80.eb.2c.41.00.14.43 2 2 1 0
+V v 1 1 639177b15eb1.03.80.eb.2c.41.01.14.43
+F o 0 ""
+V v 2 1 639177f01613.03.80.eb.2c.41.00.14.43
+F o 0 ""
+O 2
+R cspuv 0 "$HOME/ece658/final_project/schema/vi/schematic/sheet1" 1 mgc_sheet 639177b1620b.03.80.eb.2c.41.01.14.43 639177b1620b.03.80.eb.2c.41.00.14.43
+O 1
+R cspuv 0 "$HOME/ece658/final_project/schema/vi/schematic/sheet1" 1 mgc_sheet 639177b1620b.03.80.eb.2c.41.01.14.43 639177b1620b.03.80.eb.2c.41.00.14.43
+P "eddm__refer_state" "eddm__refer_floating"

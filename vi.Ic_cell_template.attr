@@ -1,0 +1,22 @@
+A 5 u Ic_cell_template 639178293952.03.80.eb.2c.41.00.19.bc 3 4 4 0
+V v 1 2 6391788eb34e.03.80.eb.2c.41.00.19.bc
+F f 1 "vi.iccel_1"
+F o 0 
+V v 2 2 639178ce2c44.03.80.eb.2c.41.00.19.bc
+F f 2 "vi.iccel_2"
+F o 0 
+V v 3 2 63917d296e52.03.80.eb.2c.41.00.19.bc
+F f 3 "vi.iccel_3"
+F o 0 
+O 3
+R csduv 1 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csduv 2 "/afs/cad/u/j/k/jk526/ece658/final_project/vi_IC_Station_SDL_Flat" 1 Eddm_design_viewpoint 639178292bc2.03.80.eb.2c.41.01.19.bc 639178292bc2.03.80.eb.2c.41.00.19.bc
+R csdni 3 "/afs/cad/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules" 1 Mgc_file
+O 2
+R csduv 1 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csduv 2 "/afs/cad/u/j/k/jk526/ece658/final_project/vi_IC_Station_SDL_Flat" 1 Eddm_design_viewpoint 639178292bc2.03.80.eb.2c.41.01.19.bc 639178292bc2.03.80.eb.2c.41.00.19.bc
+R csdni 3 "/afs/cad/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules" 1 Mgc_file
+O 1
+R csduv 1 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csduv 2 "/afs/cad/u/j/k/jk526/ece658/final_project/vi_IC_Station_SDL_Flat" 1 Eddm_design_viewpoint 639178292bc2.03.80.eb.2c.41.01.19.bc 639178292bc2.03.80.eb.2c.41.00.19.bc
+R csdni 3 "/afs/cad/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules" 1 Mgc_file

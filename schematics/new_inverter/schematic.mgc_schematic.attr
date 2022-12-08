@@ -1,0 +1,5 @@
+A 5 u mgc_schematic 639174dd1495.03.80.eb.2c.41.00.14.43 1 2 1 0
+V v 1 1 639174dd1495.03.80.eb.2c.41.01.14.43
+F o 0 
+O 1
+R cspuv 0 "$HOME/ece658/final_project/schematics/new_inverter/schematic/sheet1" 1 mgc_sheet 639174dd1b42.03.80.eb.2c.41.01.14.43 639174dd1b42.03.80.eb.2c.41.00.14.43
