@@ -1,14 +1,13 @@
 * Four bit subckt
-* Nov 2022
+* Dec 2022
 
-.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckts/inverter_180nm.sp
+.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/inverter_sims/inverter_subckt.sp
 .include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckts/subckt_i.sp
-*.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckts/subckt_ii.sp
-.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckts/subckt_iii.sp
-.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckts/subckt_iv.sp
+.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/and_gate_sims/subckts/4n.sp
+.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/or_gate_sims/2in/2or.sp
 .include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckts/subckt_vi.sp
 
-.subckt four_add_first INA0 INA1 INA2 INA3 INB0 INB1 INB2 INB3 OUT0 OUT1 OUT2 OUT3 CIN COUT_N COUT vdd gnd E0 D0
+.subckt four_add_first INA0 INA1 INA2 INA3 INB0 INB1 INB2 INB3 OUT0 OUT1 OUT2 OUT3 CIN COUT_N COUT vdd gnd
 
 * stand alone inverter stages
 * INV IN OUT vdd gnd
@@ -51,7 +50,7 @@ x24 INA3 INB3 C3 D3 C4_N C4 vdd gnd sub_i
 
 * sum stages
 * sub_i IN1 IN2 IN3 IN4 OUTN OUT vdd gnd
-x25 E0 C0 C0_N P0 OUT0_N OUT0 vdd gnd sub_i
+x25 E0 CIN CIN_N P0 OUT0_N OUT0 vdd gnd sub_i
 x26 E1 C1 C1_N P1 OUT1_N OUT1 vdd gnd sub_i
 x27 E2 C2 C2_N P2 OUT2_N OUT2 vdd gnd sub_i
 x28 E3 C3 C3_N P3 OUT3_N OUT3 vdd gnd sub_i

@@ -1,10 +1,5 @@
-* Simulation of Subcircuit II
-* Dec 2022
 
-*.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckts/inverter_180nm.sp
 .include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckts/subckt_vi.sp
-
-*.subckt sub_vi INI IN2 IN3 OUTN OUT vdd gnd
 
 .option post
 .temp 65
@@ -12,17 +7,17 @@
 vdd vdd gnd 3.3
 vin vin gnd pulse 0 3.3 500p 55p 55p 500p 1.11n
 
-* IN1 = D_N
-* IN2 = A
-* IN3 = B
+* case 1
+* x1 vin gnd gnd OUTN OUT vdd gnd sub_vi
 
-x1 gnd gnd gnd OUT_N OUT vdd gnd A B sub_vi
+* case 2
+* x1 vin vin vin OUTN OUT vdd gnd sub_vi
 
-.probe OUT
-.probe OUT_N
-.probe vin
-.probe A
-.probe B
+* case 3
+x1 gnd vin vin OUTN OUT vdd gnd sub_vi
+
+.probe CIN
+.probe CIN_N
 
 .tran 1n 3n
 

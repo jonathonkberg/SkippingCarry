@@ -1,7 +1,7 @@
 * "simulator" "HSPICE" 
 * "version" "L-2016.06-SP1 linux64"
 * "format" "HSP"
-* "rundate" "20:37:02 12/06/2022 "
+* "rundate" "17:06:03 12/07/2022 "
 * "netlist" "sim_sub_i.sp "
 * "runtitle" "* simulation of subcircuit i"
 * time =    0.            
@@ -10,11 +10,11 @@
 .option 
 + gmindc=   1.0000p       
 .nodeset
-+ out =  62.6872n       
++ out = 142.4925n       
 + outn =   3.3000        
 + vdd =   3.3000        
 + vin =   0.            
 + x1.a =   3.3000        
-+ x1.b =  82.4842m       
-+ x1.c =   2.7499        
++ x1.b =   2.7568        
++ x1.c =   2.7568        
 ***   END: Saved Operating Point ***                     

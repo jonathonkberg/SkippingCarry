@@ -1,19 +1,16 @@
-* Inverter Pre Layout Sub-circuit
-* Dec 2022
 
-* Only uncomment the include below if doing sim only of subcircuit
-.include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/subckts/inverter_180nm.sp
+* .include /afs/cad/u/j/k/jk526/ece658/final_project/pre_sim/inverter_sims/inverter_subckt.sp
 
-.subckt sub_vi INI IN2 IN3 OUT_N OUT vdd gnd A B
+.subckt sub_vi IN1 IN2 IN3 OUTN OUT vdd gnd
 
-M1 OUT_N IN1 A vdd pmos W=540 L=135
-M2 A IN2 vdd vdd pmos W=540 L=135
-M3 A IN3 vdd vdd pmos W=540 L=135
+M1 OUTN IN1 A vdd pmos W=720n L=180n
+M2 A IN2 vdd vdd pmos W=720n L=180n
+M3 A IN3 vdd vdd pmos W=720n L=180n
 
-M4 OUT_N IN1 gnd gnd nmos W=135 L=135
-M5 OUT_N IN2 B gnd nmos W=270 L=135
-M6 B IN3 gnd gnd nmos W=270 L=135
+M4 OUTN IN1 gnd gnd nmos W=180n L=180n
+M5 OUTN IN2 B gnd nmos W=360n L=180n
+M6 B IN3 gnd gnd nmos W=360n L=180n 
 
-x1 OUT_N OUT vdd gnd INV
+x1 OUTN OUT vdd gnd INV
 
-.ends
+.ends

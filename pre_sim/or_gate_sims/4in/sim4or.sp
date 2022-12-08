@@ -13,10 +13,10 @@ vin vin gnd pulse 0 3.3 500p 55p 55p 500p 1.11n
 * vin vin gnd pulse 0 3.3 5n 500p 500p 10n 40n
 
 * Worst Case: 
-x1 gnd gnd gnd vin OUTN OUT vdd gnd or_gate
+x1 vin gnd gnd gnd OUTN OUT vdd gnd or_gate
 
 * Best Case
-* x1 vin gnd gnd gnd OUTN OUT vdd gnd or_gate
+* x1 gnd gnd gnd vin OUTN OUT vdd gnd or_gate
 
 .probe OUTN
 .probe OUT
