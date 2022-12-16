@@ -1730,3 +1730,635 @@ Check Schematic Net -------------   0 errors   0 warnings
 Check Schematic Function Blocks -   0 errors   0 warnings
 
  "vi/schematic/sheet1" passed check :  0 Errors, 35 Warnings
+
+
+Check Schematic  "vi/schematic/sheet1"
+Check Sheet "vi/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors  32 warnings  (MGC-required)
+  Warning:  Unable to evaluate property "awidth" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$20
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$20
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$20
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$20
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$21
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$21
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$21
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$21
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "vi/schematic/sheet1" passed check :  0 Errors, 32 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "vi" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "vi/schematic/sheet1" passed check :  0 Errors, 33 Warnings
+
+
+Check Schematic  "i/schematic/sheet1"
+Check Sheet "i/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "i/schematic/sheet1" passed check :  0 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "i" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "i/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "iii/schematic/sheet1"
+Check Sheet "iii/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors  40 warnings  (MGC-required)
+  Warning:  Unable to evaluate property "awidth" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "VDD" connects the following nets:
+             N$9         N$11
+  Warning:  Net name "GND" connects the following nets:
+             N$21        N$22
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "iii/schematic/sheet1" passed check :  0 Errors, 42 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "iii" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "iii/schematic/sheet1" passed check :  0 Errors, 43 Warnings
+
+
+Check Schematic  "iii/schematic/sheet1"
+Check Sheet "iii/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors  40 warnings  (MGC-required)
+  Warning:  Unable to evaluate property "awidth" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "awidth" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "alength" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "llength" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+  Warning:  Unable to evaluate property "lwidth" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol lambda
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   1 warnings  (MGC-required)
+  Warning:  Net name "GND" connects the following nets:
+             N$21        N$22
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "iii/schematic/sheet1" passed check :  0 Errors, 41 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "iii" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "iii/schematic/sheet1" passed check :  0 Errors, 42 Warnings
+
+
+Check Symbol "i/i"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   8 warnings
+  Warning:  The following pins on the symbol are not on the interface: IN1
+  Warning:  The following pins on the symbol are not on the interface: IN2
+  Warning:  The following pins on the symbol are not on the interface: IN3
+  Warning:  The following pins on the symbol are not on the interface: VDD
+  Warning:  The following pins on the symbol are not on the interface: OUTN
+  Warning:  The following pins on the symbol are not on the interface: GND
+  Warning:  The following pins on the symbol are not on the interface: IN4
+  Warning:  The following pins on the symbol are not on the interface: OUT
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "i/i" passed check :  0 Errors, 8 Warnings
+
+
+Check Symbol "iii/iii"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   8 warnings
+  Warning:  The following pins on the symbol are not on the interface: OUTN
+  Warning:  The following pins on the symbol are not on the interface: OUT
+  Warning:  The following pins on the symbol are not on the interface: GND
+  Warning:  The following pins on the symbol are not on the interface: VDD
+  Warning:  The following pins on the symbol are not on the interface: IN1
+  Warning:  The following pins on the symbol are not on the interface: IN2
+  Warning:  The following pins on the symbol are not on the interface: IN3
+  Warning:  The following pins on the symbol are not on the interface: IN4
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "iii/iii" passed check :  0 Errors, 8 Warnings
+
+
+Check Symbol "iv/iv"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   6 warnings
+  Warning:  The following pins on the symbol are not on the interface: VDD
+  Warning:  The following pins on the symbol are not on the interface: OUTN
+  Warning:  The following pins on the symbol are not on the interface: OUT
+  Warning:  The following pins on the symbol are not on the interface: GND
+  Warning:  The following pins on the symbol are not on the interface: IN2
+  Warning:  The following pins on the symbol are not on the interface: IN1
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "iv/iv" passed check :  0 Errors, 6 Warnings
+
+
+Check Symbol "v/v"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   4 warnings
+  Warning:  The following pins on the symbol are not on the interface: OUT
+  Warning:  The following pins on the symbol are not on the interface: IN
+  Warning:  The following pins on the symbol are not on the interface: VDD
+  Warning:  The following pins on the symbol are not on the interface: GND
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "v/v" passed check :  0 Errors, 4 Warnings
+
+
+Check Symbol "vi/vi"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   7 warnings
+  Warning:  The following pins on the symbol are not on the interface: IN2
+  Warning:  The following pins on the symbol are not on the interface: IN3
+  Warning:  The following pins on the symbol are not on the interface: IN1
+  Warning:  The following pins on the symbol are not on the interface: VDD
+  Warning:  The following pins on the symbol are not on the interface: GND
+  Warning:  The following pins on the symbol are not on the interface: OUT
+  Warning:  The following pins on the symbol are not on the interface: OUTN
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "vi/vi" passed check :  0 Errors, 7 Warnings
+
+
+Check Symbol "full_adder/full_adder"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors  12 warnings
+  Warning:  The following pins on the symbol are not on the interface: A
+  Warning:  The following pins on the symbol are not on the interface: B
+  Warning:  The following pins on the symbol are not on the interface: AN
+  Warning:  The following pins on the symbol are not on the interface: BN
+  Warning:  The following pins on the symbol are not on the interface: CN
+  Warning:  The following pins on the symbol are not on the interface: C
+  Warning:  The following pins on the symbol are not on the interface: VDD
+  Warning:  The following pins on the symbol are not on the interface: GND
+  Warning:  The following pins on the symbol are not on the interface: SUM
+  Warning:  The following pins on the symbol are not on the interface: COUT
+  Warning:  The following pins on the symbol are not on the interface: COUTN
+  Warning:  The following pins on the symbol are not on the interface: P
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "full_adder/full_adder" passed check :  0 Errors, 12 Warnings
+
+
+Check Schematic  "four_bit_stage/schematic/sheet1"
+Check Sheet "four_bit_stage/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$61        P$2457
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "four_bit_stage/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "four_bit_stage" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "four_bit_stage/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Symbol "four_bit_stage/four_bit_stage"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors  26 warnings
+  Warning:  The following pins on the symbol are not on the interface: A0
+  Warning:  The following pins on the symbol are not on the interface: B0
+  Warning:  The following pins on the symbol are not on the interface: A0N
+  Warning:  The following pins on the symbol are not on the interface: B0N
+  Warning:  The following pins on the symbol are not on the interface: C0N
+  Warning:  The following pins on the symbol are not on the interface: C0
+  Warning:  The following pins on the symbol are not on the interface: VDD
+  Warning:  The following pins on the symbol are not on the interface: GND
+  Warning:  The following pins on the symbol are not on the interface: A1
+  Warning:  The following pins on the symbol are not on the interface: B1
+  Warning:  The following pins on the symbol are not on the interface: A1N
+  Warning:  The following pins on the symbol are not on the interface: B1N
+  Warning:  The following pins on the symbol are not on the interface: A2
+  Warning:  The following pins on the symbol are not on the interface: B2
+  Warning:  The following pins on the symbol are not on the interface: A2N
+  Warning:  The following pins on the symbol are not on the interface: B2N
+  Warning:  The following pins on the symbol are not on the interface: A3
+  Warning:  The following pins on the symbol are not on the interface: B3
+  Warning:  The following pins on the symbol are not on the interface: A3N
+  Warning:  The following pins on the symbol are not on the interface: B3N
+  Warning:  The following pins on the symbol are not on the interface: SUM0
+  Warning:  The following pins on the symbol are not on the interface: SUM1
+  Warning:  The following pins on the symbol are not on the interface: SUM2
+  Warning:  The following pins on the symbol are not on the interface: SUM3
+  Warning:  The following pins on the symbol are not on the interface: COUT
+  Warning:  The following pins on the symbol are not on the interface: COUTN
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "four_bit_stage/four_bit_stage" passed check :  0 Errors, 26 Warnings

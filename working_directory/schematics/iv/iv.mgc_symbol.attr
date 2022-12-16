@@ -1,0 +1,16 @@
+A 5 u mgc_symbol 639b8c1f0866.03.80.eb.2c.41.00.54.9f 3 2 1 0
+V v 1 2 639b8c1f0866.03.80.eb.2c.41.01.54.9f
+F f 1 "iv.smbl_1"
+F o 0 
+V v 2 2 639b8c42b61e.03.80.eb.2c.41.00.54.9f
+F f 2 "iv.smbl_2"
+F o 0 
+V v 3 2 639bd08427ff.03.80.eb.2c.41.00.54.9f
+F f 3 "iv.smbl_3"
+F o 0 
+O 3
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/iv/part" 13 Eddm_part 639bd071256b.03.80.eb.2c.41.00.54.9f 6392128faa2e.03.80.eb.2c.41.00.18.3a
+O 2
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/iv/part" 11 Eddm_part 639b8c23a828.03.80.eb.2c.41.00.54.9f 6392128faa2e.03.80.eb.2c.41.00.18.3a
+O 1
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/iv/part" 11 Eddm_part 639b8c23a828.03.80.eb.2c.41.00.54.9f 6392128faa2e.03.80.eb.2c.41.00.18.3a

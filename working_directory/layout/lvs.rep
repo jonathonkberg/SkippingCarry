@@ -14,12 +14,12 @@
 
 
 REPORT FILE NAME:         /afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/lvs.rep
-LAYOUT NAME:              /afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/i
-SOURCE NAME:              /afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/schematics/i/eldonet
+LAYOUT NAME:              /afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/vi
+SOURCE NAME:              /afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/schematics/vi/lvs
 RULE FILE:                /afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules
 LVS MODE:                 Mask
 RULE FILE NAME:           /afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules
-CREATION TIME:            Thu Dec  8 17:17:51 2022
+CREATION TIME:            Thu Dec 15 20:54:19 2022
 CURRENT DIRECTORY:        /afs/cad.njit.edu/u/j/k/jk526/github/SkippingCarry/working_directory/layout
 USER NAME:                jk526
 
@@ -29,13 +29,14 @@ USER NAME:                jk526
 **************************************************************************************************************
 
 
-                         #       ###################       _   _   
-                        #        #                 #       *   *   
-                   #   #         #     CORRECT     #         |     
-                    # #          #                 #       \___/  
-                     #           ###################               
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
 
 
+  Error:    Connectivity errors.
 
 --------------------------------------------------------------------------------------------------------------
 
@@ -44,14 +45,14 @@ INITIAL NUMBERS OF OBJECTS
 
                 Layout    Source         Component Type
                 ------    ------         --------------
- Ports:              8         8
+ Ports:              7         7
 
- Nets:              11        11
+ Nets:               9         9
 
- Instances:          5         5         mn (4 pins)
-                     5         5         mp (4 pins)
+ Instances:          4         4         mn (4 pins)
+                     4         4         mp (4 pins)
                 ------    ------
- Total Inst:        10        10
+ Total Inst:         8         8
 
 
 NUMBERS OF OBJECTS AFTER TRANSFORMATION
@@ -59,16 +60,75 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
                 Layout    Source         Component Type
                 ------    ------         --------------
- Ports:              8         8
+ Ports:              7         7
 
- Nets:               8         8
+ Nets:               7         7
 
- Instances:          1         1         mn (4 pins)
+ Instances:          2         2         mn (4 pins)
                      1         1         mp (4 pins)
-                     1         1         SPUP_2_2 (5 pins)
-                     2         2         SMN2 (4 pins)
+                     1         1         SPUP_2_1 (4 pins)
+                     1         1         SMN2 (4 pins)
                 ------    ------
  Total Inst:         5         5
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net IN1(-30.000,17.000)                                   /IN1
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         7(65.000,18.000):G
+       
+       
+       (SPUP_2_1):input                                          ** missing connection **
+         3(6.000,18.000):G
+       
+       
+       ** missing connection **                                  (SPUP_2_1):input
+                                                                   /MP3:G
+       
+       
+       ** missing connection **                                  /MN3:G
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net IN3(-30.000,-11.000)                                  /IN3
+       --------------------------                                --------------------------
+       
+       (SPUP_2_1):input                                          ** missing connection **
+         1(6.000,-10.000):G
+       
+       
+       5(65.000,-10.000):G                                       ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (SMN2):input
+                                                                   /MN2:G
+       
+       
+       ** missing connection **                                  (SPUP_2_1):input
+                                                                   /MP4:G
+       
 
 
 
@@ -184,21 +244,68 @@ o LVS Setup:
                   Matched    Matched    Unmatched    Unmatched    Component
                    Layout     Source       Layout       Source    Type
                   -------    -------    ---------    ---------    ---------
-   Ports:               8          8            0            0
+   Ports:               7          7            0            0
 
-   Nets:                8          8            0            0
+   Nets:                7          7            0            0
 
-   Instances:           1          1            0            0    mn(nmos4)
+   Instances:           2          2            0            0    mn(nmos4)
                         1          1            0            0    mp(pmos4)
-                        1          1            0            0    SPUP_2_2
-                        2          2            0            0    SMN2
+                        1          1            0            0    SPUP_2_1
+                        1          1            0            0    SMN2
                   -------    -------    ---------    ---------
    Total Inst:          5          5            0            0
 
 
 o Initial Correspondence Points:
 
-   Ports:        VDD GND OUT IN1 IN2 IN3 IN4 OUTN
+   Ports:        VDD IN1 IN2 IN3 GND OUT OUTN
+
+
+**************************************************************************************************************
+                             DETAILED INSTANCE CONNECTIONS
+
+       LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+          (This section contains detailed information about connections of
+           matched instances that are involved in net discrepancies).
+
+--------------------------------------------------------------------------------------------------------------
+
+       5(65.000,-10.000)  mn                                     /MN3  mn(nmos4)
+         S: OUTN(7.000,-77.000)                                    S: /OUTN
+         D: GND(63.000,-49.000)                                    D: /GND
+         B: GND(63.000,-49.000)                                    B: /GND
+         G: IN3(-30.000,-11.000)                                   ** /IN3 **
+         ** IN1(-30.000,17.000) **                                 G: /IN1
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPUP_2_1)                                                (SPUP_2_1)
+         output: OUTN(7.000,-77.000)                               output: /OUTN
+         input: IN2(-30.000,3.000)                                 input: /IN2
+         input: IN1(-30.000,17.000)                                ** /IN1 **
+         input: IN3(-30.000,-11.000)                               ** /IN3 **
+         ** IN3(-30.000,-11.000) **                                input: /IN3
+         ** IN1(-30.000,17.000) **                                 input: /IN1
+
+       Transistors:
+         2(6.000,4.000)  mp                                        /MP2  mp(pmos4)
+         3(6.000,18.000)  mp                                       /MP4  mp(pmos4)
+         1(6.000,-10.000)  mp                                      /MP3  mp(pmos4)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SMN2)                                                    (SMN2)
+         output: GND(63.000,-49.000)                               output: /GND
+         output: OUTN(7.000,-77.000)                               output: /OUTN
+         input: IN2(-30.000,3.000)                                 input: /IN2
+         input: IN1(-30.000,17.000)                                ** /IN1 **
+         ** IN3(-30.000,-11.000) **                                input: /IN3
+
+       Transistors:
+         6(65.000,4.000)  mn                                       /MN1  mn(nmos4)
+         7(65.000,18.000)  mn                                      /MN2  mn(nmos4)
 
 
 **************************************************************************************************************

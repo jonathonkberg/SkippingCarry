@@ -1,0 +1,23 @@
+A 5 u Eddm_design_viewpoint 639ba76bc719.03.80.eb.2c.41.00.73.55 1 2 12 0
+V v 1 4 639ba76bc719.03.80.eb.2c.41.01.73.55
+F f 1 "full_adder_IC_Station_SDL_Flat.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/schematics/full_adder/part" 4 Eddm_part 639ba6e85a05.03.80.eb.2c.41.00.54.9f 639b9e2333e9.03.80.eb.2c.41.00.54.9f
+R cspuv 1 "$HOME/github/SkippingCarry/working_directory/schematics/full_adder/schematic" 4 mgc_schematic 639ba6e85c7a.03.80.eb.2c.41.00.54.9f 639b99908a33.03.80.eb.2c.41.00.54.9f
+R cspuv 2 "$HOME/github/SkippingCarry/working_directory/schematics/full_adder/full_adder" 1 mgc_symbol 639b9e77bb06.03.80.eb.2c.41.01.54.9f 639b9e77bb06.03.80.eb.2c.41.00.54.9f
+R cspuv 3 "$HOME/github/SkippingCarry/working_directory/schematics/vi/part" 16 Eddm_part 639ba6c996ed.03.80.eb.2c.41.00.54.9f 63921284e90c.03.80.eb.2c.41.00.18.3a
+R cspuv 4 "$HOME/github/SkippingCarry/working_directory/schematics/i/part" 18 Eddm_part 639ba6be279d.03.80.eb.2c.41.00.54.9f 6392128e0ffe.03.80.eb.2c.41.00.18.3a
+R cspuv 5 "$HOME/github/SkippingCarry/working_directory/schematics/iv/part" 12 Eddm_part 639ba6c408ee.03.80.eb.2c.41.00.54.9f 6392128faa2e.03.80.eb.2c.41.00.18.3a
+R cspuv 6 "$HOME/github/SkippingCarry/working_directory/schematics/vi/schematic" 1 mgc_schematic 639211e865f4.03.80.eb.2c.41.01.18.3a 639211e865f4.03.80.eb.2c.41.00.18.3a
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 7 "$HOME/github/SkippingCarry/working_directory/schematics/vi/vi" 1 mgc_symbol 639b8c6a8ade.03.80.eb.2c.41.01.54.9f 639b8c6a8ade.03.80.eb.2c.41.00.54.9f
+R cspuv 8 "$HOME/github/SkippingCarry/working_directory/schematics/i/schematic" 1 mgc_schematic 639211bd8e7d.03.80.eb.2c.41.01.18.3a 639211bd8e7d.03.80.eb.2c.41.00.18.3a
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 9 "$HOME/github/SkippingCarry/working_directory/schematics/i/i" 1 mgc_symbol 639b8b269ca1.03.80.eb.2c.41.01.54.9f 639b8b269ca1.03.80.eb.2c.41.00.54.9f
+R cspuv 10 "$HOME/github/SkippingCarry/working_directory/schematics/iv/schematic" 1 mgc_schematic 639211d20605.03.80.eb.2c.41.01.18.3a 639211d20605.03.80.eb.2c.41.00.18.3a
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 11 "$HOME/github/SkippingCarry/working_directory/schematics/iv/iv" 1 mgc_symbol 639b8c1f0866.03.80.eb.2c.41.01.54.9f 639b8c1f0866.03.80.eb.2c.41.00.54.9f

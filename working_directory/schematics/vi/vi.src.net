@@ -1,0 +1,17 @@
+* LVS netlist generated with ICnet by 'jk526' on Wed Dec 14 2022 at 17:32:56
+
+*
+* Component pathname : $HOME/github/SkippingCarry/working_directory/schematics/vi
+*
+.subckt vi  OUT VDD GND IN3 IN1 OUTN IN2
+
+        MN5 GND OUTN OUT GND n L=2u W=6u
+        MP1 VDD OUTN OUT VDD p L=2u W=16u
+        MN3 GND IN1 OUTN GND n L=2u W=12u
+        MN2 N$8 IN3 GND GND n L=2u W=12u
+        MN1 OUTN IN2 N$8 GND n L=2u W=12u
+        MP4 VDD IN3 N$2 VDD p L=2u W=32u
+        MP3 OUTN IN1 N$2 VDD p L=2u W=32u
+        MP2 N$2 IN2 VDD VDD p L=2u W=32u
+.ends vi
+

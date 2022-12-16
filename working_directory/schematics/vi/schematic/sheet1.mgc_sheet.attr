@@ -1,17 +1,17 @@
-A 5 u mgc_sheet 639211e868d1.03.80.eb.2c.41.00.18.3a 21 2 9 0
-V v 19 3 63922e9eda5f.03.80.eb.2c.41.00.56.c4
-F f 19 "sheet1.ssht_19"
-F f 19 "sheet1.sgfx_19"
+A 5 u mgc_sheet 639211e868d1.03.80.eb.2c.41.00.18.3a 25 2 9 0
+V v 23 3 639a4f07005f.03.80.eb.2c.41.00.1e.a5
+F f 23 "sheet1.ssht_23"
+F f 23 "sheet1.sgfx_23"
 F o 0 ""
-V v 20 3 63923090e2a0.03.80.eb.2c.41.00.56.c4
-F f 20 "sheet1.ssht_20"
-F f 20 "sheet1.sgfx_20"
+V v 24 3 639ba6c998ca.03.80.eb.2c.41.00.54.9f
+F f 24 "sheet1.ssht_24"
+F f 24 "sheet1.sgfx_24"
 F o 0 ""
-V v 21 3 63926bb493b8.03.80.eb.2c.41.00.56.c4
-F f 21 "sheet1.ssht_21"
-F f 21 "sheet1.sgfx_21"
+V v 25 3 639bd0784797.03.80.eb.2c.41.00.54.9f
+F f 25 "sheet1.ssht_25"
+F f 25 "sheet1.sgfx_25"
 F o 0 ""
-O 21
+O 25
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/vi/schematic" 1 mgc_schematic 639211e865f4.03.80.eb.2c.41.01.18.3a 639211e865f4.03.80.eb.2c.41.00.18.3a
 R csduv 1 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa
@@ -22,7 +22,7 @@ R csduv 5 "$ADK/technology/ic/symbols/portin/part" 1 Eddm_part 35773eaadc18.03.8
 R csduv 6 "$ADK/technology/ic/symbols/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 43349f1b0e01.03.93.22.46.d8.06.02.fa
 R csduv 7 "$ADK/technology/ic/symbols/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 43349f1b0e02.03.93.22.46.d8.00.02.fa
 R csduv 8 "$ADK/technology/ic/symbols/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 43349f1b0e02.03.93.22.46.d8.01.02.fa
-O 20
+O 24
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/vi/schematic" 1 mgc_schematic 639211e865f4.03.80.eb.2c.41.01.18.3a 639211e865f4.03.80.eb.2c.41.00.18.3a
 R csduv 1 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa
@@ -33,7 +33,7 @@ R csduv 5 "$ADK/technology/ic/symbols/portin/part" 1 Eddm_part 35773eaadc18.03.8
 R csduv 6 "$ADK/technology/ic/symbols/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 43349f1b0e01.03.93.22.46.d8.06.02.fa
 R csduv 7 "$ADK/technology/ic/symbols/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 43349f1b0e02.03.93.22.46.d8.00.02.fa
 R csduv 8 "$ADK/technology/ic/symbols/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 43349f1b0e02.03.93.22.46.d8.01.02.fa
-O 19
+O 23
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/vi/schematic" 1 mgc_schematic 639211e865f4.03.80.eb.2c.41.01.18.3a 639211e865f4.03.80.eb.2c.41.00.18.3a
 R csduv 1 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa

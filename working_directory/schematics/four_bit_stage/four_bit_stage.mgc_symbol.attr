@@ -1,0 +1,16 @@
+A 5 u mgc_symbol 639ba3b10ef7.03.80.eb.2c.41.00.54.9f 4 2 1 0
+V v 2 2 639ba420d025.03.80.eb.2c.41.00.54.9f
+F f 2 "four_bit_stage.smbl_2"
+F o 0 
+V v 3 2 639ba6f556cf.03.80.eb.2c.41.00.54.9f
+F f 3 "four_bit_stage.smbl_3"
+F o 0 
+V v 4 2 639bd096aeae.03.80.eb.2c.41.00.54.9f
+F f 4 "four_bit_stage.smbl_4"
+F o 0 
+O 4
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_stage/part" 6 Eddm_part 639bd08f7851.03.80.eb.2c.41.00.54.9f 639b938d29fb.03.80.eb.2c.41.00.54.9f
+O 3
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_stage/part" 5 Eddm_part 639ba6e02f3e.03.80.eb.2c.41.00.54.9f 639b938d29fb.03.80.eb.2c.41.00.54.9f
+O 2
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_stage/part" 4 Eddm_part 639ba4139b3a.03.80.eb.2c.41.00.54.9f 639b938d29fb.03.80.eb.2c.41.00.54.9f

@@ -1,16 +1,19 @@
-A 5 u Eddm_part 639212908d58.03.80.eb.2c.41.00.18.3a 8 2 1 0
-V v 6 1 63922bf7a86e.03.80.eb.2c.41.00.4e.37
-F f 6 "part.part_6"
-V v 7 1 63922ea1de00.03.80.eb.2c.41.00.56.c4
-F f 7 "part.part_7"
-V v 8 1 63926bb19abf.03.80.eb.2c.41.00.56.c4
-F f 8 "part.part_8"
-O 8
+A 5 u Eddm_part 639212908d58.03.80.eb.2c.41.00.18.3a 12 2 2 0
+V v 10 1 639b8c5787b6.03.80.eb.2c.41.00.54.9f
+F f 10 "part.part_10"
+V v 11 1 639ba6c6aa62.03.80.eb.2c.41.00.54.9f
+F f 11 "part.part_11"
+V v 12 1 639bd07494a9.03.80.eb.2c.41.00.54.9f
+F f 12 "part.part_12"
+O 12
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/v/schematic" 1 mgc_schematic 639211e1aa7e.03.80.eb.2c.41.01.18.3a 639211e1aa7e.03.80.eb.2c.41.00.18.3a
-O 7
+R csduv 1 "$HOME/github/SkippingCarry/working_directory/schematics/v/v" 1 mgc_symbol 639b8c4b983c.03.80.eb.2c.41.01.54.9f 639b8c4b983c.03.80.eb.2c.41.00.54.9f
+O 11
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/v/schematic" 1 mgc_schematic 639211e1aa7e.03.80.eb.2c.41.01.18.3a 639211e1aa7e.03.80.eb.2c.41.00.18.3a
-O 6
+R csduv 1 "$HOME/github/SkippingCarry/working_directory/schematics/v/v" 1 mgc_symbol 639b8c4b983c.03.80.eb.2c.41.01.54.9f 639b8c4b983c.03.80.eb.2c.41.00.54.9f
+O 10
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/v/schematic" 1 mgc_schematic 639211e1aa7e.03.80.eb.2c.41.01.18.3a 639211e1aa7e.03.80.eb.2c.41.00.18.3a
+R csduv 1 "$HOME/github/SkippingCarry/working_directory/schematics/v/v" 1 mgc_symbol 639b8c4b983c.03.80.eb.2c.41.01.54.9f 639b8c4b983c.03.80.eb.2c.41.00.54.9f

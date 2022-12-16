@@ -1,0 +1,16 @@
+A 5 u mgc_symbol 639b9e77bb06.03.80.eb.2c.41.00.54.9f 3 2 1 0
+V v 1 2 639b9e77bb06.03.80.eb.2c.41.01.54.9f
+F f 1 "full_adder.smbl_1"
+F o 0 
+V v 2 2 639b9e8ad27a.03.80.eb.2c.41.00.54.9f
+F f 2 "full_adder.smbl_2"
+F o 0 
+V v 3 2 639ba6ef4e83.03.80.eb.2c.41.00.54.9f
+F f 3 "full_adder.smbl_3"
+F o 0 
+O 3
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/full_adder/part" 4 Eddm_part 639ba6e85a05.03.80.eb.2c.41.00.54.9f 639b9e2333e9.03.80.eb.2c.41.00.54.9f
+O 2
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/full_adder/part" 3 Eddm_part 639b9e7fc8b9.03.80.eb.2c.41.00.54.9f 639b9e2333e9.03.80.eb.2c.41.00.54.9f
+O 1
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/full_adder/part" 3 Eddm_part 639b9e7fc8b9.03.80.eb.2c.41.00.54.9f 639b9e2333e9.03.80.eb.2c.41.00.54.9f

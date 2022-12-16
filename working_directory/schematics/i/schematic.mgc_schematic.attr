@@ -1,13 +1,13 @@
-A 5 u mgc_schematic 639211bd8e7d.03.80.eb.2c.41.00.18.3a 27 2 1 0
-V v 25 1 63922eacf184.03.80.eb.2c.41.00.56.c4
+A 5 u mgc_schematic 639211bd8e7d.03.80.eb.2c.41.00.18.3a 30 2 1 0
+V v 28 1 639a530350b5.03.80.eb.2c.41.00.1e.a5
 F o 0 ""
-V v 26 1 639230853d63.03.80.eb.2c.41.00.56.c4
+V v 29 1 639ba6be2a25.03.80.eb.2c.41.00.54.9f
 F o 0 ""
-V v 27 1 63926ba92887.03.80.eb.2c.41.00.56.c4
+V v 30 1 639bd06a0550.03.80.eb.2c.41.00.54.9f
 F o 0 ""
-O 27
-R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/i/schematic/sheet1" 26 mgc_sheet 63926ba9273e.03.80.eb.2c.41.00.56.c4 639211bd9147.03.80.eb.2c.41.00.18.3a
-O 26
-R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/i/schematic/sheet1" 25 mgc_sheet 63923085336c.03.80.eb.2c.41.00.56.c4 639211bd9147.03.80.eb.2c.41.00.18.3a
-O 25
-R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/i/schematic/sheet1" 24 mgc_sheet 63922eacf022.03.80.eb.2c.41.00.56.c4 639211bd9147.03.80.eb.2c.41.00.18.3a
+O 30
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/i/schematic/sheet1" 29 mgc_sheet 639bd06a0498.03.80.eb.2c.41.00.54.9f 639211bd9147.03.80.eb.2c.41.00.18.3a
+O 29
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/i/schematic/sheet1" 28 mgc_sheet 639ba6be2994.03.80.eb.2c.41.00.54.9f 639211bd9147.03.80.eb.2c.41.00.18.3a
+O 28
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/i/schematic/sheet1" 27 mgc_sheet 639a53034f2b.03.80.eb.2c.41.00.1e.a5 639211bd9147.03.80.eb.2c.41.00.18.3a

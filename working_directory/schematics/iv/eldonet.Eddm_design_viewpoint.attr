@@ -1,0 +1,12 @@
+A 5 u Eddm_design_viewpoint 639b72d9ed37.03.80.eb.2c.41.00.54.9f 1 2 3 0
+V v 1 4 639b72d9ed37.03.80.eb.2c.41.01.54.9f
+F f 1 "eldonet.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/iv/part" 10 Eddm_part 63926bad9e48.03.80.eb.2c.41.00.56.c4 6392128faa2e.03.80.eb.2c.41.00.18.3a
+R cspuv 1 "$HOME/github/SkippingCarry/working_directory/schematics/iv/schematic" 1 mgc_schematic 639211d20605.03.80.eb.2c.41.01.18.3a 639211d20605.03.80.eb.2c.41.00.18.3a
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$HOME/github/SkippingCarry/working_directory/schematics/iv/eldonet" 1 Eddm_ba_mgr 639b72d9ee85.03.80.eb.2c.41.01.54.9f 639b72d9ee85.03.80.eb.2c.41.00.54.9f
