@@ -2362,3 +2362,115 @@ Check Pin --------   0 errors   0 warnings  (MGC-required)
 Check Special ----   0 errors   0 warnings  (MGC-required)
 
  "four_bit_stage/four_bit_stage" passed check :  0 Errors, 26 Warnings
+
+
+Check Schematic  "full_adder/schematic/sheet1"
+Check Sheet "full_adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$3         P$88
+           I$4         P$130
+           I$17        P$467
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   5 errors   0 warnings  (MGC-required)
+  Error:  Out of date reference;  Version 2 of symbol "vi"
+         is not the most current (3) for instance:  I$3
+  Error:  Out of date reference;  Version 5 of symbol "i"
+         is not the most current (6) for instance:  I$5
+  Error:  Out of date reference;  Version 5 of symbol "i"
+         is not the most current (6) for instance:  I$4
+  Error:  Out of date reference;  Version 5 of symbol "i"
+         is not the most current (6) for instance:  I$17
+  Error:  Out of date reference;  Version 2 of symbol "iv"
+         is not the most current (3) for instance:  I$1
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "full_adder/schematic/sheet1" failed check :  5 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "full_adder/schematic/sheet1" failed check :  5 Errors, 1 Warnings
+
+
+Check Schematic  "full_adder/schematic/sheet1"
+Check Sheet "full_adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$3         P$88
+           I$4         P$130
+           I$17        P$467
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   2 errors   0 warnings  (MGC-required)
+  Error:  Out of date reference;  Version 5 of symbol "i"
+         is not the most current (6) for instance:  I$4
+  Error:  Out of date reference;  Version 5 of symbol "i"
+         is not the most current (6) for instance:  I$17
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "full_adder/schematic/sheet1" failed check :  2 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "full_adder/schematic/sheet1" failed check :  2 Errors, 1 Warnings
+
+
+Check Schematic  "full_adder/schematic/sheet1"
+Check Sheet "full_adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$3         P$88
+           I$4         P$130
+           I$17        P$467
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "full_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "full_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings

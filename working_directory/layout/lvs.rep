@@ -14,12 +14,12 @@
 
 
 REPORT FILE NAME:         /afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/lvs.rep
-LAYOUT NAME:              /afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/vi
-SOURCE NAME:              /afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/schematics/vi/lvs
+LAYOUT NAME:              /afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/full_adder
+SOURCE NAME:              /afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/schematics/full_adder/lvs
 RULE FILE:                /afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules
 LVS MODE:                 Mask
 RULE FILE NAME:           /afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules
-CREATION TIME:            Thu Dec 15 20:54:19 2022
+CREATION TIME:            Sun Dec 18 01:37:48 2022
 CURRENT DIRECTORY:        /afs/cad.njit.edu/u/j/k/jk526/github/SkippingCarry/working_directory/layout
 USER NAME:                jk526
 
@@ -36,6 +36,7 @@ USER NAME:                jk526
                   #   #         #####################  
 
 
+  Error:    Different numbers of nets (see below).
   Error:    Connectivity errors.
 
 --------------------------------------------------------------------------------------------------------------
@@ -45,14 +46,14 @@ INITIAL NUMBERS OF OBJECTS
 
                 Layout    Source         Component Type
                 ------    ------         --------------
- Ports:              7         7
+ Ports:             12        12
 
- Nets:               9         9
+ Nets:              30        31    *
 
- Instances:          4         4         mn (4 pins)
-                     4         4         mp (4 pins)
+ Instances:         22        22         mn (4 pins)
+                    22        22         mp (4 pins)
                 ------    ------
- Total Inst:         8         8
+ Total Inst:        44        44
 
 
 NUMBERS OF OBJECTS AFTER TRANSFORMATION
@@ -60,16 +61,21 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
                 Layout    Source         Component Type
                 ------    ------         --------------
- Ports:              7         7
+ Ports:             12        12
 
- Nets:               7         7
+ Nets:              18        19    *
 
- Instances:          2         2         mn (4 pins)
-                     1         1         mp (4 pins)
+ Instances:          8         8         mn (4 pins)
+                     5         5         mp (4 pins)
+                     1         1         SUP2 (3 pins)
                      1         1         SPUP_2_1 (4 pins)
-                     1         1         SMN2 (4 pins)
+                     3         3         SPUP_2_2 (5 pins)
+                     7         7         SMN2 (4 pins)
                 ------    ------
- Total Inst:         5         5
+ Total Inst:        25        25
+
+
+       * = Number of objects in layout different from number in source.
 
 
 
@@ -91,44 +97,193 @@ LEGEND:
 DISC#  LAYOUT NAME                                               SOURCE NAME
 **************************************************************************************************************
 
-  1    Net IN1(-30.000,17.000)                                   /IN1
+  1    Net A(248.565,189.014)                                    /A
        --------------------------                                --------------------------
        
        (SMN2):input                                              ** missing connection **
-         7(65.000,18.000):G
+         43(677.684,251.964):G
        
        
-       (SPUP_2_1):input                                          ** missing connection **
-         3(6.000,18.000):G
+       (SMN2):input                                              ** missing connection **
+         37(488.049,252.000):G
        
        
-       ** missing connection **                                  (SPUP_2_1):input
-                                                                   /MP3:G
+       (SPUP_2_2):input                                          ** missing connection **
+         13(408.049,224.000):G
        
        
-       ** missing connection **                                  /MN3:G
-       
-
---------------------------------------------------------------------------------------------------------------
-
-  2    Net IN3(-30.000,-11.000)                                  /IN3
-       --------------------------                                --------------------------
-       
-       (SPUP_2_1):input                                          ** missing connection **
-         1(6.000,-10.000):G
-       
-       
-       5(65.000,-10.000):G                                       ** missing connection **
+       31(281.565,197.014):S                                     ** missing connection **
+       9(247.565,197.014):S                                      ** missing connection **
        
        
        
        ** missing connection **                                  (SMN2):input
-                                                                   /MN2:G
+                                                                   /I$3/MN2:G
+       
+       
+       ** missing connection **                                  (SMN2):input
+                                                                   /I$5/MN4:G
+       
+       
+       ** missing connection **                                  (SMN2):input
+                                                                   /I$4/MN1:G
        
        
        ** missing connection **                                  (SPUP_2_1):input
-                                                                   /MP4:G
+                                                                   /I$3/MP4:G
        
+       
+       ** missing connection **                                  (SUP2):input
+                                                                   /I$1/MP3:G
+       
+       
+       ** missing connection **                                  (SPUP_2_2):input
+                                                                   /I$5/MP3:G
+       
+       
+       ** missing connection **                                  /I$1/MN1:G
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net AN(541.684,208.964)                                   /AN
+       --------------------------                                --------------------------
+       
+       (SPUP_2_2):input                                          ** missing connection **
+         18(597.684,209.964):G
+       
+       
+       ** missing connection **                                  (SPUP_2_2):input
+                                                                   /I$4/MP3:G
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net B(541.684,236.964)                                    /B
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         41(677.684,223.964):G
+       
+       
+       ** missing connection **                                  (SMN2):input
+                                                                   /I$3/MN1:G
+       
+       
+       ** missing connection **                                  (SMN2):input
+                                                                   /I$5/MN3:G
+       
+       
+       ** missing connection **                                  (SMN2):input
+                                                                   /I$4/MN3:G
+       
+       
+       ** missing connection **                                  (SPUP_2_1):input
+                                                                   /I$3/MP2:G
+       
+       
+       ** missing connection **                                  (SUP2):input
+                                                                   /I$1/MP2:G
+       
+       
+       ** missing connection **                                  (SPUP_2_2):input
+                                                                   /I$5/MP2:G
+       
+       
+       ** missing connection **                                  /I$1/MN2:G
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    Net BN(42.209,251.008)                                    /BN
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         36(488.049,238.000):G
+       
+       
+       (SMN2):input                                              ** missing connection **
+         30(137.209,252.008):G
+       
+       
+       (SPUP_2_2):input                                          ** missing connection **
+         19(597.684,223.964):G
+       
+       
+       (SUP2):input                                              ** missing connection **
+         11(231.565,252.014):G
+       
+       
+       (SPUP_2_1):input                                          ** missing connection **
+         8(78.209,252.008):G
+       
+       
+       (SPUP_2_2):input                                          ** missing connection **
+         15(408.049,252.000):G
+       
+       
+       33(292.565,252.014):G                                     ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (SPUP_2_2):input
+                                                                   /I$4/MP4:G
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    Net GND(-23.845,186.339)                                  /GND
+                                                                 /N$33
+
+--------------------------------------------------------------------------------------------------------------
+
+  6    Net CN(-176.099,250.994)                                  /CN
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         26(-40.099,251.994):G
+       
+       
+       (SPUP_2_2):input                                          ** missing connection **
+         4(-120.099,251.994):G
+       
+       
+       ** missing connection **                                  (SMN2):input
+                                                                   /I$17/MN1:G
+       
+       
+       ** missing connection **                                  (SPUP_2_2):input
+                                                                   /I$17/MP1:G
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  7    Net 8(-176.099,236.994)                                   /N$97
+       --------------------------                                --------------------------
+       
+       (SMN2):input                                              ** missing connection **
+         24(-40.099,223.994):G
+       
+       
+       (SPUP_2_2):input                                          ** missing connection **
+         3(-120.099,237.994):G
+       
+       
+       ** missing connection **                                  (SMN2):input
+                                                                   /I$17/MN3:G
+       
+       
+       ** missing connection **                                  (SPUP_2_2):input
+                                                                   /I$17/MP2:G
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  8    Net 13(42.209,237.008)                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  9    ** no similar net **                                      /N$90
 
 
 
@@ -244,21 +399,28 @@ o LVS Setup:
                   Matched    Matched    Unmatched    Unmatched    Component
                    Layout     Source       Layout       Source    Type
                   -------    -------    ---------    ---------    ---------
-   Ports:               7          7            0            0
+   Ports:              12         12            0            0
 
-   Nets:                7          7            0            0
+   Nets:               17         18            1            1
 
-   Instances:           2          2            0            0    mn(nmos4)
-                        1          1            0            0    mp(pmos4)
+   Instances:           8          8            0            0    mn(nmos4)
+                        5          5            0            0    mp(pmos4)
+                        1          1            0            0    SUP2
                         1          1            0            0    SPUP_2_1
-                        1          1            0            0    SMN2
+                        3          3            0            0    SPUP_2_2
+                        7          7            0            0    SMN2
                   -------    -------    ---------    ---------
-   Total Inst:          5          5            0            0
+   Total Inst:         25         25            0            0
+
+
+o Statistics:
+
+   1 passthrough source net was found.
 
 
 o Initial Correspondence Points:
 
-   Ports:        VDD IN1 IN2 IN3 GND OUT OUTN
+   Ports:        VDD A AN B BN GND SUM COUT COUTN C CN P
 
 
 **************************************************************************************************************
@@ -272,40 +434,212 @@ o Initial Correspondence Points:
 
 --------------------------------------------------------------------------------------------------------------
 
-       5(65.000,-10.000)  mn                                     /MN3  mn(nmos4)
-         S: OUTN(7.000,-77.000)                                    S: /OUTN
-         D: GND(63.000,-49.000)                                    D: /GND
-         B: GND(63.000,-49.000)                                    B: /GND
-         G: IN3(-30.000,-11.000)                                   ** /IN3 **
-         ** IN1(-30.000,17.000) **                                 G: /IN1
+       32(292.565,238.014)  mn                                   /I$1/MN2  mn(nmos4)
+         S: GND(-23.845,186.339)                                   S: /N$33
+         D: 12(42.209,223.008)                                     D: /N$111
+         B: GND(-23.845,186.339)                                   B: /N$33
+         G: 13(42.209,237.008)                                     ** no similar net **
+         ** B(541.684,236.964) **                                  G: /B
+
+--------------------------------------------------------------------------------------------------------------
+
+       33(292.565,252.014)  mn                                   /I$1/MN1  mn(nmos4)
+         S: 12(42.209,223.008)                                     D: /N$111
+         D: GND(-23.845,186.339)                                   S: /N$33
+         B: GND(-23.845,186.339)                                   B: /N$33
+         G: BN(42.209,251.008)                                     ** /BN **
+         ** A(248.565,189.014) **                                  G: /A
+
+--------------------------------------------------------------------------------------------------------------
+
+       9(247.565,197.014)  mp                                    /I$1/MP4  mp(pmos4)
+         G: 12(42.209,223.008)                                     G: /N$111
+         D: VDD(-179.099,179.994)                                  S: /VDD
+         B: VDD(-179.099,179.994)                                  B: /VDD
+         S: A(248.565,189.014)                                     ** /A **
+         ** no similar net **                                      D: /N$90
+
+--------------------------------------------------------------------------------------------------------------
+
+       31(281.565,197.014)  mn                                   /I$1/MN3  mn(nmos4)
+         G: 12(42.209,223.008)                                     G: /N$111
+         D: GND(-23.845,186.339)                                   S: /N$33
+         B: GND(-23.845,186.339)                                   B: /N$33
+         S: A(248.565,189.014)                                     ** /A **
+         ** no similar net **                                      D: /N$90
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPUP_2_2)                                                (SPUP_2_2)
+         output: COUTN(407.085,148.432)                            output: /COUTN
+         input: C(-176.099,208.994)                                input: /C
+         input: A(248.565,189.014)                                 ** /A **
+         input: 13(42.209,237.008)                                 ** no similar net **
+         input: BN(42.209,251.008)                                 ** /BN **
+         ** no similar net **                                      input: /N$90
+         ** B(541.684,236.964) **                                  input: /B
+         ** A(248.565,189.014) **                                  input: /A
+
+       Transistors:
+         13(408.049,224.000)  mp                                   /I$5/MP4  mp(pmos4)
+         16(408.049,266.000)  mp                                   /I$5/MP1  mp(pmos4)
+         14(408.049,238.000)  mp                                   /I$5/MP2  mp(pmos4)
+         15(408.049,252.000)  mp                                   /I$5/MP3  mp(pmos4)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPUP_2_2)                                                (SPUP_2_2)
+         output: 11(-119.099,229.994)                              output: /N$60
+         input: C(-176.099,208.994)                                input: /C
+         input: P(-176.099,222.994)                                input: /P
+         input: CN(-176.099,250.994)                               ** /CN **
+         input: 8(-176.099,236.994)                                ** /N$97 **
+         ** CN(-176.099,250.994) **                                input: /CN
+         ** 8(-176.099,236.994) **                                 input: /N$97
+
+       Transistors:
+         1(-120.099,209.994)  mp                                   /I$17/MP3  mp(pmos4)
+         4(-120.099,251.994)  mp                                   /I$17/MP2  mp(pmos4)
+         2(-120.099,223.994)  mp                                   /I$17/MP4  mp(pmos4)
+         3(-120.099,237.994)  mp                                   /I$17/MP1  mp(pmos4)
 
 --------------------------------------------------------------------------------------------------------------
 
        (SPUP_2_1)                                                (SPUP_2_1)
-         output: OUTN(7.000,-77.000)                               output: /OUTN
-         input: IN2(-30.000,3.000)                                 input: /IN2
-         input: IN1(-30.000,17.000)                                ** /IN1 **
-         input: IN3(-30.000,-11.000)                               ** /IN3 **
-         ** IN3(-30.000,-11.000) **                                input: /IN3
-         ** IN1(-30.000,17.000) **                                 input: /IN1
+         output: 15(79.209,157.008)                                output: /N$58
+         input: 12(42.209,223.008)                                 input: /N$111
+         input: 13(42.209,237.008)                                 ** no similar net **
+         input: BN(42.209,251.008)                                 ** /BN **
+         ** A(248.565,189.014) **                                  input: /A
+         ** B(541.684,236.964) **                                  input: /B
 
        Transistors:
-         2(6.000,4.000)  mp                                        /MP2  mp(pmos4)
-         3(6.000,18.000)  mp                                       /MP4  mp(pmos4)
-         1(6.000,-10.000)  mp                                      /MP3  mp(pmos4)
+         7(78.209,238.008)  mp                                     /I$3/MP2  mp(pmos4)
+         8(78.209,252.008)  mp                                     /I$3/MP4  mp(pmos4)
+         6(78.209,224.008)  mp                                     /I$3/MP3  mp(pmos4)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SUP2)                                                    (SUP2)
+         output: 12(42.209,223.008)                                output: /N$111
+         input: 13(42.209,237.008)                                 ** no similar net **
+         input: BN(42.209,251.008)                                 ** /BN **
+         ** B(541.684,236.964) **                                  input: /B
+         ** A(248.565,189.014) **                                  input: /A
+
+       Transistors:
+         10(231.565,238.014)  mp                                   /I$1/MP2  mp(pmos4)
+         11(231.565,252.014)  mp                                   /I$1/MP3  mp(pmos4)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPUP_2_2)                                                (SPUP_2_2)
+         output: 22(598.684,229.964)                               output: /N$59
+         input: A(248.565,189.014)                                 input: /A
+         input: B(541.684,236.964)                                 input: /B
+         input: AN(541.684,208.964)                                ** /AN **
+         input: BN(42.209,251.008)                                 ** /BN **
+         ** BN(42.209,251.008) **                                  input: /BN
+         ** AN(541.684,208.964) **                                 input: /AN
+
+       Transistors:
+         18(597.684,209.964)  mp                                   /I$4/MP4  mp(pmos4)
+         21(597.684,251.964)  mp                                   /I$4/MP1  mp(pmos4)
+         19(597.684,223.964)  mp                                   /I$4/MP3  mp(pmos4)
+         20(597.684,237.964)  mp                                   /I$4/MP2  mp(pmos4)
 
 --------------------------------------------------------------------------------------------------------------
 
        (SMN2)                                                    (SMN2)
-         output: GND(63.000,-49.000)                               output: /GND
-         output: OUTN(7.000,-77.000)                               output: /OUTN
-         input: IN2(-30.000,3.000)                                 input: /IN2
-         input: IN1(-30.000,17.000)                                ** /IN1 **
-         ** IN3(-30.000,-11.000) **                                input: /IN3
+         output: GND(-23.845,186.339)                              output: /N$33
+         output: 11(-119.099,229.994)                              output: /N$60
+         input: C(-176.099,208.994)                                input: /C
+         input: CN(-176.099,250.994)                               ** /CN **
+         ** 8(-176.099,236.994) **                                 input: /N$97
 
        Transistors:
-         6(65.000,4.000)  mn                                       /MN1  mn(nmos4)
-         7(65.000,18.000)  mn                                      /MN2  mn(nmos4)
+         25(-40.099,237.994)  mn                                   /I$17/MN4  mn(nmos4)
+         26(-40.099,251.994)  mn                                   /I$17/MN3  mn(nmos4)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SMN2)                                                    (SMN2)
+         output: 11(-119.099,229.994)                              output: /N$60
+         output: GND(-23.845,186.339)                              output: /N$33
+         input: P(-176.099,222.994)                                input: /P
+         input: 8(-176.099,236.994)                                ** /N$97 **
+         ** CN(-176.099,250.994) **                                input: /CN
+
+       Transistors:
+         23(-40.099,209.994)  mn                                   /I$17/MN2  mn(nmos4)
+         24(-40.099,223.994)  mn                                   /I$17/MN1  mn(nmos4)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SMN2)                                                    (SMN2)
+         output: GND(-23.845,186.339)                              output: /N$33
+         output: 15(79.209,157.008)                                output: /N$58
+         input: 13(42.209,237.008)                                 ** no similar net **
+         input: BN(42.209,251.008)                                 ** /BN **
+         ** A(248.565,189.014) **                                  input: /A
+         ** B(541.684,236.964) **                                  input: /B
+
+       Transistors:
+         29(137.209,238.008)  mn                                   /I$3/MN1  mn(nmos4)
+         30(137.209,252.008)  mn                                   /I$3/MN2  mn(nmos4)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SMN2)                                                    (SMN2)
+         output: GND(-23.845,186.339)                              output: /N$33
+         output: COUTN(407.085,148.432)                            output: /COUTN
+         input: C(-176.099,208.994)                                input: /C
+         input: A(248.565,189.014)                                 ** /A **
+         ** no similar net **                                      input: /N$90
+
+       Transistors:
+         37(488.049,252.000)  mn                                   /I$5/MN2  mn(nmos4)
+         38(488.049,266.000)  mn                                   /I$5/MN1  mn(nmos4)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SMN2)                                                    (SMN2)
+         output: COUTN(407.085,148.432)                            output: /COUTN
+         output: GND(-23.845,186.339)                              output: /N$33
+         input: 13(42.209,237.008)                                 ** no similar net **
+         input: BN(42.209,251.008)                                 ** /BN **
+         ** B(541.684,236.964) **                                  input: /B
+         ** A(248.565,189.014) **                                  input: /A
+
+       Transistors:
+         35(488.049,224.000)  mn                                   /I$5/MN3  mn(nmos4)
+         36(488.049,238.000)  mn                                   /I$5/MN4  mn(nmos4)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SMN2)                                                    (SMN2)
+         output: GND(-23.845,186.339)                              output: /N$33
+         output: 22(598.684,229.964)                               output: /N$59
+         input: AN(541.684,208.964)                                input: /AN
+         input: A(248.565,189.014)                                 ** /A **
+         ** B(541.684,236.964) **                                  input: /B
+
+       Transistors:
+         42(677.684,237.964)  mn                                   /I$4/MN4  mn(nmos4)
+         43(677.684,251.964)  mn                                   /I$4/MN3  mn(nmos4)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SMN2)                                                    (SMN2)
+         output: 22(598.684,229.964)                               output: /N$59
+         output: GND(-23.845,186.339)                              output: /N$33
+         input: BN(42.209,251.008)                                 input: /BN
+         input: B(541.684,236.964)                                 ** /B **
+         ** A(248.565,189.014) **                                  input: /A
+
+       Transistors:
+         40(677.684,209.964)  mn                                   /I$4/MN2  mn(nmos4)
+         41(677.684,223.964)  mn                                   /I$4/MN1  mn(nmos4)
 
 
 **************************************************************************************************************

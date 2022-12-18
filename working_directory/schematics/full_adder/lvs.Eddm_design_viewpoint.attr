@@ -1,0 +1,25 @@
+A 5 u Eddm_design_viewpoint 639e971b0b74.03.80.eb.2c.41.00.2a.d9 2 2 4 0
+V v 1 4 639e971b0b74.03.80.eb.2c.41.01.2a.d9
+F f 1 "lvs.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+V v 2 4 639e971b2518.03.80.eb.2c.41.00.2a.d9
+F f 2 "lvs.dvpt_2"
+F o 0 
+F o 0 
+F o 0 
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/full_adder/part" 7 Eddm_part 639e96d8aefa.03.80.eb.2c.41.00.2a.d9 639b9e2333e9.03.80.eb.2c.41.00.54.9f
+R cspuv 1 "$HOME/github/SkippingCarry/working_directory/schematics/full_adder/schematic" 1 mgc_schematic 639b99908a33.03.80.eb.2c.41.01.54.9f 639b99908a33.03.80.eb.2c.41.00.54.9f
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$HOME/github/SkippingCarry/working_directory/schematics/full_adder/full_adder" 1 mgc_symbol 639b9e77bb06.03.80.eb.2c.41.01.54.9f 639b9e77bb06.03.80.eb.2c.41.00.54.9f
+R cspuv 3 "$HOME/github/SkippingCarry/working_directory/schematics/full_adder/lvs" 1 Eddm_ba_mgr 639e971b0ff2.03.80.eb.2c.41.01.2a.d9 639e971b0ff2.03.80.eb.2c.41.00.2a.d9
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/full_adder/part" 7 Eddm_part 639e96d8aefa.03.80.eb.2c.41.00.2a.d9 639b9e2333e9.03.80.eb.2c.41.00.54.9f
+R cspuv 1 "$HOME/github/SkippingCarry/working_directory/schematics/full_adder/schematic" 1 mgc_schematic 639b99908a33.03.80.eb.2c.41.01.54.9f 639b99908a33.03.80.eb.2c.41.00.54.9f
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$HOME/github/SkippingCarry/working_directory/schematics/full_adder/full_adder" 1 mgc_symbol 639b9e77bb06.03.80.eb.2c.41.01.54.9f 639b9e77bb06.03.80.eb.2c.41.00.54.9f
+R cspuv 3 "$HOME/github/SkippingCarry/working_directory/schematics/full_adder/lvs" 1 Eddm_ba_mgr 639e971b0ff2.03.80.eb.2c.41.01.2a.d9 639e971b0ff2.03.80.eb.2c.41.00.2a.d9
