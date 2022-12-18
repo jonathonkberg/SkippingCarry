@@ -8,9 +8,9 @@
 .option post
 .temp 65
 
-vdd vdd gnd 3.3
-vin vin gnd pulse 0 3.3 500p 55p 55p 500p 1.11n
-* vin vin gnd pulse 0 3.3 5n 500p 500p 10n 40n
+vdd vdd gnd 1.2
+vin vin gnd pulse 0 1.2 500p 55p 55p 500p 1.11n
+* vin vin gnd pulse 0 1.2 5n 500p 500p 10n 40n
 
 * Worst Case: 
 x1 vdd vin OUTN OUT vdd gnd and_gate
@@ -35,9 +35,9 @@ x1 vdd vin OUTN OUT vdd gnd and_gate
 
 *.option post
 
-*vdd vdd gnd 3.3
-* vin vin gnd pulse 0 3.3 5n 500p 500p 10n 40n
-*vin vin gnd pulse 0 3.3 500p 55p 55p 500p 1.11n
+*vdd vdd gnd 1.2
+* vin vin gnd pulse 0 1.2 5n 500p 500p 10n 40n
+*vin vin gnd pulse 0 1.2 500p 55p 55p 500p 1.11n
 
 *M1 A gnd gnd gnd nmos W=300n L=180n
 *M2 OUTN vin A gnd nmos W=300n L=180n

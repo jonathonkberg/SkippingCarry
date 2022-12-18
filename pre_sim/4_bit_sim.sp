@@ -6,8 +6,8 @@
 .option post
 .temp 65
 
-vdd vdd gnd 3.3
-vin CIN gnd pulse 0 3.3 5n 500p 500p 10n 40n
+vdd vdd gnd 1.2 
+vin CIN gnd pulse 0 1.2 5n 500p 500p 10n 40n
 
 x1 gnd gnd gnd gnd vdd vdd vdd vdd OUT0 OUT1 OUT2 OUT3 CIN COUT_N COUT vdd gnd four_add
 

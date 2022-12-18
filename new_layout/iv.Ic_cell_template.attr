@@ -1,0 +1,8 @@
+A 5 u Ic_cell_template 6392578a1284.03.80.eb.2c.4b.00.5f.f4 1 4 4 0
+V v 1 2 63926b872fe9.03.80.eb.2c.4b.00.5f.f4
+F f 1 "iv.iccel_1"
+F o 0 
+O 1
+R csduv 1 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csduv 2 "/afs/cad/u/p/d/pd433/github/SkippingCarry/new_layout/iv_IC_Station_SDL_Flat" 1 Eddm_design_viewpoint 6392578a0e3c.03.80.eb.2c.4b.01.5f.f4 6392578a0e3c.03.80.eb.2c.4b.00.5f.f4
+R csdni 3 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules" 1 Mgc_file

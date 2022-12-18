@@ -9,10 +9,10 @@
 
 *--- - Model Instructions - ---*
 
-M1 OUTN IN1 gnd gnd nmos W=180n L=180n
-M2 OUTN IN2 gnd gnd nmos W=180n L=180n
-M3 OUTN IN2 A vdd pmos W=720n L=180n
-M4 A IN1 vdd vdd pmos W=720n L=180n
+M1 OUTN IN1 gnd gnd nmos W=540n L=180n
+M2 OUTN IN2 gnd gnd nmos W=540n L=180n
+M3 OUTN IN2 A vdd pmos W=2880n L=180n
+M4 A IN1 vdd vdd pmos W=2880n L=180n
 
 
 x1 OUTN OUT vdd gnd INV

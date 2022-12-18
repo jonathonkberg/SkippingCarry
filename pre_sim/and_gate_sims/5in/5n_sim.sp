@@ -8,8 +8,8 @@
 .option post
 .temp 65
 
-vdd vdd gnd 3.3
-vin vin gnd pulse 0 3.3 500p 55p 55p 500p 1.11n
+vdd vdd gnd 1.2
+vin vin gnd pulse 0 1.2 500p 55p 55p 500p 1.11n
 
 * Worst Case: 
 x1 vdd vdd vdd vdd vin OUTN OUT vdd gnd sub_iii

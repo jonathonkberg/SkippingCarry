@@ -10,14 +10,14 @@
 *--- - Model Instructions - ---*
 
 Vgs in gnd 0
-Vds Vdd gnd 3.3
+Vds Vdd gnd 1.2
 M1 out in gnd gnd nmos W=.4u L=.18u
 M2 out in vdd vdd pmos  W=4u L=.18u
 
 
 *--- - Sim Instructions - ---*
 
-.dc Vgs 0 3.3 .005
+.dc Vgs 0 1.2 .005
 
 
 *--- - end simulation - ---*

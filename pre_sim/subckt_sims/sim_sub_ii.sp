@@ -9,8 +9,8 @@
 .option post
 .temp 65
 
-vdd vd gnd 3.3
-*vin CIN gnd pulse 0 3.3 500p 55p 55p 500p 1.11n
+vdd vd gnd 1.2
+*vin CIN gnd pulse 0 1.2 500p 55p 55p 500p 1.11n
 
 * IN1 = C_N
 * IN2 = P

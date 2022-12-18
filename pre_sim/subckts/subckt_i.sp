@@ -8,15 +8,15 @@
 
 *--- - Model Instructions - ---*
 
-M1 OUTN IN1 B gnd nmos W=360n L=180n
-M2 B IN2 gnd gnd nmos W=360n L=180n
-M3 C IN3 gnd gnd nmos W=360n L=180n
-M4 OUTN IN4 C gnd nmos W=360n L=180n
+M1 OUTN IN1 B gnd nmos W=1080n L=180n
+M2 B IN2 gnd gnd nmos W=1080n L=180n
+M3 C IN3 gnd gnd nmos W=1080n L=180n
+M4 OUTN IN4 C gnd nmos W=1080n L=180n
 
-M5 A IN1 vdd vdd pmos W=720n L=180n
-M6 A IN2 vdd vdd pmos W=720n L=180n
-M7 OUTN IN3 A vdd pmos W=720n L=180n
-M8 OUTN IN4 A vdd pmos W=720n L=180n
+M5 A IN1 vdd vdd pmos W=2880n L=180n
+M6 A IN2 vdd vdd pmos W=2880n L=180n
+M7 OUTN IN3 A vdd pmos W=2880n L=180n
+M8 OUTN IN4 A vdd pmos W=2880n L=180n
 
 x1 OUTN OUT vdd gnd INV
 

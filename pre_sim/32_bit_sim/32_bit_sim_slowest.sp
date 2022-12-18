@@ -9,15 +9,15 @@
 .option post
 .temp 65
 
-vdd vdd gnd 3.3
+vdd vdd gnd 1.2
 
 * pulse corresponds to 900MHz with built in 55ps rise time and 55ps fall time
-vin CIN0 gnd pulse 0 3.3 500p 55p 55p 500p 1.11n
+vin CIN0 gnd pulse 0 1.2 500p 55p 55p 500p 1.11n
 
 * 850MHz
-* vin CIN0 gnd pulse 0 3.3 533p 55p 55p 533p 1.76n
+* vin CIN0 gnd pulse 0 1.2 533p 55p 55p 533p 1.76n
 
-* vin CIN0 gnd pulse 0 3.3 5n 500p 500p 10n 40n
+* vin CIN0 gnd pulse 0 1.2 5n 500p 500p 10n 40n
 
 * bit 0 to 3
 x1 vdd gnd gnd gnd vin vdd vdd vdd OUT0 OUT1 OUT2 OUT3 CIN0 CIN4_N CIN4 vdd gnd four_add_first
