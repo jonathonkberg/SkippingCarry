@@ -1,0 +1,25 @@
+A 5 u Eddm_design_viewpoint 63a126f4c88a.03.80.eb.2c.41.00.02.88 2 2 4 0
+V v 1 4 63a126f4c88a.03.80.eb.2c.41.01.02.88
+F f 1 "lvs.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+V v 2 4 63a126f4d182.03.80.eb.2c.41.00.02.88
+F f 2 "lvs.dvpt_2"
+F o 0 
+F o 0 
+F o 0 
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/part" 2 Eddm_part 63a1069b4d5b.03.80.eb.2c.41.00.6b.77 63a10670c9e9.03.80.eb.2c.41.00.6b.77
+R cspuv 1 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/schematic" 1 mgc_schematic 63a101f60d4e.03.80.eb.2c.41.01.6b.77 63a101f60d4e.03.80.eb.2c.41.00.6b.77
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/sipo" 1 mgc_symbol 63a10695c69d.03.80.eb.2c.41.01.6b.77 63a10695c69d.03.80.eb.2c.41.00.6b.77
+R cspuv 3 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/lvs" 1 Eddm_ba_mgr 63a126f4ca98.03.80.eb.2c.41.01.02.88 63a126f4ca98.03.80.eb.2c.41.00.02.88
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/part" 2 Eddm_part 63a1069b4d5b.03.80.eb.2c.41.00.6b.77 63a10670c9e9.03.80.eb.2c.41.00.6b.77
+R cspuv 1 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/schematic" 1 mgc_schematic 63a101f60d4e.03.80.eb.2c.41.01.6b.77 63a101f60d4e.03.80.eb.2c.41.00.6b.77
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/sipo" 1 mgc_symbol 63a10695c69d.03.80.eb.2c.41.01.6b.77 63a10695c69d.03.80.eb.2c.41.00.6b.77
+R cspuv 3 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/lvs" 1 Eddm_ba_mgr 63a126f4ca98.03.80.eb.2c.41.01.02.88 63a126f4ca98.03.80.eb.2c.41.00.02.88

@@ -1,0 +1,14 @@
+A 5 u Eddm_design_viewpoint 63a3bcf7ec5f.03.80.eb.2c.41.00.5d.65 1 2 5 0
+V v 1 4 63a3bcf7ec5f.03.80.eb.2c.41.01.5d.65
+F f 1 "sipo_32_IC_Station_SDL_Flat.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/schematics/sipo_32/part" 2 Eddm_part 63a1100e4ba3.03.80.eb.2c.41.00.02.88 63a10e0635b9.03.80.eb.2c.41.00.02.88
+R cspuv 1 "$HOME/github/SkippingCarry/working_directory/schematics/sipo_32/schematic" 5 mgc_schematic 63a12e1c35dc.03.80.eb.2c.41.00.02.88 63a106b928ca.03.80.eb.2c.41.00.6b.77
+R cspuv 2 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/part" 3 Eddm_part 63a3a1b25fc5.03.80.eb.2c.41.00.5c.48 63a10670c9e9.03.80.eb.2c.41.00.6b.77
+R cspuv 3 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/schematic" 1 mgc_schematic 63a101f60d4e.03.80.eb.2c.41.01.6b.77 63a101f60d4e.03.80.eb.2c.41.00.6b.77
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 4 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/sipo" 1 mgc_symbol 63a10695c69d.03.80.eb.2c.41.01.6b.77 63a10695c69d.03.80.eb.2c.41.00.6b.77

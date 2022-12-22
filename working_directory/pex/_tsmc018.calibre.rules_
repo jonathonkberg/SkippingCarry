@@ -1,24 +1,24 @@
 //
-//  Rule file generated on Sun Dec 18 00:11:21 EST 2022
+//  Rule file generated on Thu Dec 22 00:22:48 EST 2022
 //     by Calibre Interactive - PEX (v2012.2_36.25)
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-LAYOUT PATH  "full_adder.calibre.db"
-LAYOUT PRIMARY "full_adder"
+LAYOUT PATH  "sipo_32.calibre.db"
+LAYOUT PRIMARY "sipo_32"
 LAYOUT SYSTEM GDSII
 
-SOURCE PATH "/afs/cad.njit.edu/u/j/k/jk526/github/SkippingCarry/working_directory/pex/full_adder.src.net"
-SOURCE PRIMARY "full_adder"
+SOURCE PATH "/afs/cad.njit.edu/u/j/k/jk526/github/SkippingCarry/working_directory/pex/sipo_32.src.net"
+SOURCE PRIMARY "sipo_32"
 SOURCE SYSTEM SPICE
 
 MASK SVDB DIRECTORY "svdb" QUERY XRC
 
-LVS REPORT "full_adder.lvs.report"
+LVS REPORT "sipo_32.lvs.report"
 
-PEX NETLIST "full_adder.pex.netlist" HSPICE 1 LAYOUTNAMES 
+PEX NETLIST "sipo_32.pex.netlist" HSPICE 1 LAYOUTNAMES 
 PEX REDUCE ANALOG NO
 PEX NETLIST UPPERCASE KEYWORDS NO
 PEX NETLIST VIRTUAL CONNECT NO

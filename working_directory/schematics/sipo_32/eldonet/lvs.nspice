@@ -1,0 +1,67 @@
+* LVS netlist generated with ICnet by 'jk526' on Wed Dec 21 2022 at 22:21:58
+
+*
+* Component pathname : $HOME/github/SkippingCarry/working_directory/schematics/v
+*
+.subckt v  OUT IN VDD GND
+
+        MN1 OUT IN GND GND n L=2u W=6u
+        MP1 OUT IN VDD VDD p L=2u W=16u
+.ends v
+
+*
+* Component pathname : $HOME/github/SkippingCarry/working_directory/schematics/sipo
+*
+.subckt sipo  IN OUT CLK VAL VALN VDD GND
+
+        X_V4 VALN VAL VDD GND v
+        X_V1 N$53 N$51 VDD GND v
+        X_V5 OUT VALN VDD GND v
+        X_V2 VAL N$53 VDD GND v
+        MP1 IN CLK N$51 VDD p L=2u W=16u
+        MN2 IN CLK N$51 GND n L=2u W=6u
+.ends sipo
+
+*
+* Component pathname : $HOME/github/SkippingCarry/working_directory/schematics/sipo_32
+*
+.subckt sipo_32  CLK CLKN A8 A0N A0 A1N A1 A2N A2 A3N A3 A4N A4 A5N A5 A6N
++ A6 A7N A7 A8N A9N A9 A10N A10 A11N A11 A12N A12 A13N A13 A14N A14 A15N
++ A15 A16N A16 A17N A17 A18N A18 VDD A19N A19 GND A20N A20 A21N A21 A22N
++ A22 A23N A23 A24N A24 A25N A25 A26N A26 A27N A27 A28N A28 A29 A29N A30N
++ A30 A31N A31 DIN
+
+        X_SIPO32 N$547 N$577 CLKN A0 A0N VDD GND sipo
+        X_SIPO31 N$544 N$547 CLK A1 A1N VDD GND sipo
+        X_SIPO30 N$540 N$544 CLKN A2 A2N VDD GND sipo
+        X_SIPO29 N$536 N$540 CLK A3 A3N VDD GND sipo
+        X_SIPO28 N$533 N$536 CLKN A4 A4N VDD GND sipo
+        X_SIPO27 N$530 N$533 CLK A5 A5N VDD GND sipo
+        X_SIPO26 N$527 N$530 CLKN A6 A6N VDD GND sipo
+        X_SIPO25 N$524 N$527 CLK A7 A7N VDD GND sipo
+        X_SIPO24 N$521 N$524 CLKN A8 A8N VDD GND sipo
+        X_SIPO23 N$518 N$521 CLK A9 A9N VDD GND sipo
+        X_SIPO22 N$514 N$518 CLKN A10 A10N VDD GND sipo
+        X_SIPO12 N$361 N$364 CLKN A20 A20N VDD GND sipo
+        X_SIPO11 N$357 N$361 CLK A21 A21N VDD GND sipo
+        X_SIPO10 N$351 N$357 CLKN A22 A22N VDD GND sipo
+        X_SIPO9 N$296 N$351 CLK A23 A23N VDD GND sipo
+        X_SIPO8 N$293 N$296 CLKN A24 A24N VDD GND sipo
+        X_SIPO7 N$289 N$293 CLK A25 A25N VDD GND sipo
+        X_SIPO6 N$284 N$289 CLKN A26 A26N VDD GND sipo
+        X_SIPO5 N$25 N$284 CLK A27 A27N VDD GND sipo
+        X_SIPO4 N$18 N$25 CLKN A28 A28N VDD GND sipo
+        X_SIPO3 N$11 N$18 CLK A29 A29N VDD GND sipo
+        X_SIPO2 N$4 N$11 CLKN A30 A30N VDD GND sipo
+        X_SIPO1 DIN N$4 CLK A31 A31N VDD GND sipo
+        X_SIPO20 N$507 N$510 CLKN A12 A12N VDD GND sipo
+        X_SIPO16 N$378 N$381 CLKN A16 A16N VDD GND sipo
+        X_SIPO15 N$375 N$378 CLK A17 A17N VDD GND sipo
+        X_SIPO14 N$371 N$375 CLKN A18 A18N VDD GND sipo
+        X_SIPO13 N$364 N$371 CLK A19 A19N VDD GND sipo
+        X_SIPO19 N$503 N$507 CLK A13 A13N VDD GND sipo
+        X_SIPO18 N$497 N$503 CLKN A14 A14N VDD GND sipo
+        X_SIPO17 N$381 N$497 CLK A15 A15N VDD GND sipo
+        X_SIPO21 N$510 N$514 CLK A11 A11N VDD GND sipo
+.ends sipo_32
+

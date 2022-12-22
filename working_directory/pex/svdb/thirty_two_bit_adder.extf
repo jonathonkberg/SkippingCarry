@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1671489365 1671489365
+lvs_ExtOutFile RUNDIR /afs/cad.njit.edu/u/j/k/jk526/github/SkippingCarry/working_directory/pex
+lvs_ExtOutFile RULES_FILE /afs/cad.njit.edu/u/j/k/jk526/github/SkippingCarry/working_directory/pex/_tsmc018.calibre.rules_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST svdb/thirty_two_bit_adder.sp
+lvs_ExtOutFile EXTRACTION_REPORT thirty_two_bit_adder.lvs.report.ext

@@ -1,0 +1,14 @@
+A 5 u Eddm_part 639ff95fae26.03.80.eb.2c.41.00.50.0c 2 2 2 0
+V v 1 1 639ff95fae26.03.80.eb.2c.41.01.50.0c
+F f 1 "part.part_1"
+V v 2 1 63a022b2ab83.03.80.eb.2c.41.00.50.0c
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/schematic" 1 mgc_schematic 639ff4fe26c1.03.80.eb.2c.41.01.50.0c 639ff4fe26c1.03.80.eb.2c.41.00.50.0c
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/four_bit_adder" 1 mgc_symbol 63a022543e17.03.80.eb.2c.41.01.50.0c 63a022543e17.03.80.eb.2c.41.00.50.0c
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/schematic" 1 mgc_schematic 639ff4fe26c1.03.80.eb.2c.41.01.50.0c 639ff4fe26c1.03.80.eb.2c.41.00.50.0c
+P "eddm__refer_state" "eddm__refer_floating"

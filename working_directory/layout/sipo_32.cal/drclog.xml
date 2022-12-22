@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<drc_log>
+<comment>
+This file was automatically created. Please do not hand edit.
+</comment>
+ username="jk526"
+ datestamp="Wed Dec 21 22:16:23 2022
+"
+<version version="2"/>
+<rve_log runset_name="runset not found" timestamp="1671678983" drc_file="/afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/sipo_32.cal/sipo_32.drc.results" ll_areax="0" ll_areay="0" ur_areax="0" ur_areay="0" check_area="off" drc_summary_file="runset not found"/>
+</drc_log>

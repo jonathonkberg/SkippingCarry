@@ -1,17 +1,4 @@
-* LVS netlist generated with ICnet by 'jk526' on Sat Dec 17 2022 at 23:32:56
-
-*
-* Component pathname : $HOME/github/SkippingCarry/working_directory/schematics/iv
-*
-.subckt iv  VDD OUTN OUT GND IN2 IN1
-
-        MN2 OUTN IN1 GND GND n L=2u W=6u
-        MP4 OUT OUTN VDD VDD p L=2u W=16u
-        MP2 N$2 IN1 VDD VDD p L=2u W=32u
-        MN3 OUT OUTN GND GND n L=2u W=6u
-        MP3 OUTN IN2 N$2 VDD p L=2u W=32u
-        MN1 OUTN IN2 GND GND n L=2u W=6u
-.ends iv
+* LVS netlist generated with ICnet by 'jk526' on Mon Dec 19 2022 at 00:11:38
 
 *
 * Component pathname : $HOME/github/SkippingCarry/working_directory/schematics/i
@@ -29,6 +16,19 @@
         MP3 OUTN IN3 N$2 VDD p L=2u W=32u
         MN2 N$8 IN2 GND GND n L=2u W=12u
 .ends i
+
+*
+* Component pathname : $HOME/github/SkippingCarry/working_directory/schematics/iv
+*
+.subckt iv  VDD OUTN OUT GND IN2 IN1
+
+        MN2 OUTN IN1 GND GND n L=2u W=6u
+        MP4 OUT OUTN VDD VDD p L=2u W=16u
+        MP2 N$2 IN1 VDD VDD p L=2u W=32u
+        MN3 OUT OUTN GND GND n L=2u W=6u
+        MP3 OUTN IN2 N$2 VDD p L=2u W=32u
+        MN1 OUTN IN2 GND GND n L=2u W=6u
+.ends iv
 
 *
 * Component pathname : $HOME/github/SkippingCarry/working_directory/schematics/vi
@@ -50,10 +50,10 @@
 *
 .subckt full_adder  A B AN BN CN C VDD GND SUM COUT COUTN P
 
-        X_I$1 VDD N$111 N$90 N$33 A B iv
-        X_I$17 CN P C VDD N$60 N$33 N$97 SUM i
-        X_I$4 A BN AN VDD N$59 N$33 B P i
-        X_I$5 C N$90 A VDD COUTN N$33 B COUT i
-        X_I$3 B A N$111 VDD N$33 N$97 N$58 vi
+        X_I$5 A B C VDD COUTN GND N$269 COUT i
+        X_I$1 VDD N$194 N$269 GND A B iv
+        X_I$4 A BN B VDD N$59 GND AN P i
+        X_I$3 B A N$194 VDD GND N$36 N$58 vi
+        X_I$17 C N$36 CN VDD N$60 GND P SUM i
 .ends full_adder
 

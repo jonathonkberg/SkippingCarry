@@ -1,0 +1,262 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Cell nmos4
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell pmos4
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell v
+   Pin OUT OUT
+   Pin IN IN
+   Pin VDD VDD
+   Pin GND GND
+   Net GND GND
+   Net VDD VDD
+   Net IN IN
+   Net OUT OUT
+   Inst MN1 MN1 nmos4
+   Inst MP1 MP1 pmos4
+End Cell
+
+Cell sipo
+   Pin IN IN
+   Pin OUT OUT
+   Pin CLK CLK
+   Pin VAL VAL
+   Pin VALN VALN
+   Pin VDD VDD
+   Pin GND GND
+   Net N$51 N$51
+   Net N$53 N$53
+   Net GND GND
+   Net VDD VDD
+   Net VALN VALN
+   Net VAL VAL
+   Net CLK CLK
+   Net OUT OUT
+   Net IN IN
+   Inst V4 X_V4 v
+   Inst V1 X_V1 v
+   Inst V5 X_V5 v
+   Inst V2 X_V2 v
+   Inst MP1 MP1 pmos4
+   Inst MN2 MN2 nmos4
+End Cell
+
+Cell #top#
+   Pin CLK CLK
+   Pin CLKN CLKN
+   Pin A8 A8
+   Pin A0N A0N
+   Pin A0 A0
+   Pin A1N A1N
+   Pin A1 A1
+   Pin A2N A2N
+   Pin A2 A2
+   Pin A3N A3N
+   Pin A3 A3
+   Pin A4N A4N
+   Pin A4 A4
+   Pin A5N A5N
+   Pin A5 A5
+   Pin A6N A6N
+   Pin A6 A6
+   Pin A7N A7N
+   Pin A7 A7
+   Pin A8N A8N
+   Pin A9N A9N
+   Pin A9 A9
+   Pin A10N A10N
+   Pin A10 A10
+   Pin A11N A11N
+   Pin A11 A11
+   Pin A12N A12N
+   Pin A12 A12
+   Pin A13N A13N
+   Pin A13 A13
+   Pin A14N A14N
+   Pin A14 A14
+   Pin A15N A15N
+   Pin A15 A15
+   Pin A16N A16N
+   Pin A16 A16
+   Pin A17N A17N
+   Pin A17 A17
+   Pin A18N A18N
+   Pin A18 A18
+   Pin VDD VDD
+   Pin A19N A19N
+   Pin A19 A19
+   Pin GND GND
+   Pin A20N A20N
+   Pin A20 A20
+   Pin A21N A21N
+   Pin A21 A21
+   Pin A22N A22N
+   Pin A22 A22
+   Pin A23N A23N
+   Pin A23 A23
+   Pin A24N A24N
+   Pin A24 A24
+   Pin A25N A25N
+   Pin A25 A25
+   Pin A26N A26N
+   Pin A26 A26
+   Pin A27N A27N
+   Pin A27 A27
+   Pin A28N A28N
+   Pin A28 A28
+   Pin A29 A29
+   Pin A29N A29N
+   Pin A30N A30N
+   Pin A30 A30
+   Pin A31N A31N
+   Pin A31 A31
+   Pin DIN DIN
+   Net N$577 N$577
+   Net N$4 N$4
+   Net N$547 N$547
+   Net N$544 N$544
+   Net N$540 N$540
+   Net N$536 N$536
+   Net N$533 N$533
+   Net N$530 N$530
+   Net N$527 N$527
+   Net N$524 N$524
+   Net N$521 N$521
+   Net N$518 N$518
+   Net N$514 N$514
+   Net N$510 N$510
+   Net N$507 N$507
+   Net N$503 N$503
+   Net N$497 N$497
+   Net N$381 N$381
+   Net N$378 N$378
+   Net N$375 N$375
+   Net N$371 N$371
+   Net N$364 N$364
+   Net N$361 N$361
+   Net N$357 N$357
+   Net N$351 N$351
+   Net N$296 N$296
+   Net N$293 N$293
+   Net N$289 N$289
+   Net N$284 N$284
+   Net N$25 N$25
+   Net N$18 N$18
+   Net N$11 N$11
+   Net DIN DIN
+   Net A31 A31
+   Net A31N A31N
+   Net A30 A30
+   Net A30N A30N
+   Net A29N A29N
+   Net A29 A29
+   Net A28 A28
+   Net A28N A28N
+   Net A27 A27
+   Net A27N A27N
+   Net A26 A26
+   Net A26N A26N
+   Net A25 A25
+   Net A25N A25N
+   Net A24 A24
+   Net A24N A24N
+   Net A23 A23
+   Net A23N A23N
+   Net A22 A22
+   Net A22N A22N
+   Net A21 A21
+   Net A21N A21N
+   Net A20 A20
+   Net A20N A20N
+   Net GND GND
+   Net A19 A19
+   Net A19N A19N
+   Net VDD VDD
+   Net A18 A18
+   Net A18N A18N
+   Net A17 A17
+   Net A17N A17N
+   Net A16 A16
+   Net A16N A16N
+   Net A15 A15
+   Net A15N A15N
+   Net A14 A14
+   Net A14N A14N
+   Net A13 A13
+   Net A13N A13N
+   Net A12 A12
+   Net A12N A12N
+   Net A11 A11
+   Net A11N A11N
+   Net A10 A10
+   Net A10N A10N
+   Net A9 A9
+   Net A9N A9N
+   Net A8N A8N
+   Net A7 A7
+   Net A7N A7N
+   Net A6 A6
+   Net A6N A6N
+   Net A5 A5
+   Net A5N A5N
+   Net A4 A4
+   Net A4N A4N
+   Net A3 A3
+   Net A3N A3N
+   Net A2 A2
+   Net A2N A2N
+   Net A1 A1
+   Net A1N A1N
+   Net A0 A0
+   Net A0N A0N
+   Net A8 A8
+   Net CLKN CLKN
+   Net CLK CLK
+   Inst SIPO32 X_SIPO32 sipo
+   Inst SIPO31 X_SIPO31 sipo
+   Inst SIPO30 X_SIPO30 sipo
+   Inst SIPO29 X_SIPO29 sipo
+   Inst SIPO28 X_SIPO28 sipo
+   Inst SIPO27 X_SIPO27 sipo
+   Inst SIPO26 X_SIPO26 sipo
+   Inst SIPO25 X_SIPO25 sipo
+   Inst SIPO24 X_SIPO24 sipo
+   Inst SIPO23 X_SIPO23 sipo
+   Inst SIPO22 X_SIPO22 sipo
+   Inst SIPO12 X_SIPO12 sipo
+   Inst SIPO11 X_SIPO11 sipo
+   Inst SIPO10 X_SIPO10 sipo
+   Inst SIPO9 X_SIPO9 sipo
+   Inst SIPO8 X_SIPO8 sipo
+   Inst SIPO7 X_SIPO7 sipo
+   Inst SIPO6 X_SIPO6 sipo
+   Inst SIPO5 X_SIPO5 sipo
+   Inst SIPO4 X_SIPO4 sipo
+   Inst SIPO3 X_SIPO3 sipo
+   Inst SIPO2 X_SIPO2 sipo
+   Inst SIPO1 X_SIPO1 sipo
+   Inst SIPO20 X_SIPO20 sipo
+   Inst SIPO16 X_SIPO16 sipo
+   Inst SIPO15 X_SIPO15 sipo
+   Inst SIPO14 X_SIPO14 sipo
+   Inst SIPO13 X_SIPO13 sipo
+   Inst SIPO19 X_SIPO19 sipo
+   Inst SIPO18 X_SIPO18 sipo
+   Inst SIPO17 X_SIPO17 sipo
+   Inst SIPO21 X_SIPO21 sipo
+End Cell
+

@@ -1,0 +1,16 @@
+A 5 u mgc_symbol 63a3ceca7277.03.80.eb.2c.41.00.5c.48 3 2 1 0
+V v 1 2 63a3ceca7277.03.80.eb.2c.41.01.5c.48
+F f 1 "sipo_32.smbl_1"
+F o 0 
+V v 2 2 63a3cede3cdd.03.80.eb.2c.41.00.5c.48
+F f 2 "sipo_32.smbl_2"
+F o 0 
+V v 3 2 63a3cee20974.03.80.eb.2c.41.00.5c.48
+F f 3 "sipo_32.smbl_3"
+F o 0 
+O 3
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/sipo_32/part" 5 Eddm_part 63a3cecd1cf9.03.80.eb.2c.41.00.5c.48 63a10e0635b9.03.80.eb.2c.41.00.02.88
+O 2
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/sipo_32/part" 5 Eddm_part 63a3cecd1cf9.03.80.eb.2c.41.00.5c.48 63a10e0635b9.03.80.eb.2c.41.00.02.88
+O 1
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/sipo_32/part" 5 Eddm_part 63a3cecd1cf9.03.80.eb.2c.41.00.5c.48 63a10e0635b9.03.80.eb.2c.41.00.02.88

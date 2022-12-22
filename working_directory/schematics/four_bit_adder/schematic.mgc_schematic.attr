@@ -1,0 +1,14 @@
+A 5 u mgc_schematic 639ff4fe26c1.03.80.eb.2c.41.00.50.0c 3 2 1 0
+V v 1 1 639ff4fe26c1.03.80.eb.2c.41.01.50.0c
+F o 0 ""
+V v 2 1 639ff95fc321.03.80.eb.2c.41.00.50.0c
+F o 0 ""
+V v 3 1 63a0104b7b9e.03.80.eb.2c.41.00.50.0c
+F o 0 ""
+O 3
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/schematic/sheet1" 2 mgc_sheet 63a0104b70e8.03.80.eb.2c.41.00.50.0c 639ff4fe2e37.03.80.eb.2c.41.00.50.0c
+O 2
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/schematic/sheet1" 1 mgc_sheet 639ff4fe2e37.03.80.eb.2c.41.01.50.0c 639ff4fe2e37.03.80.eb.2c.41.00.50.0c
+O 1
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/schematic/sheet1" 1 mgc_sheet 639ff4fe2e37.03.80.eb.2c.41.01.50.0c 639ff4fe2e37.03.80.eb.2c.41.00.50.0c
+P "eddm__refer_state" "eddm__refer_floating"

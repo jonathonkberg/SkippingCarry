@@ -1,0 +1,11 @@
+A 5 u mgc_symbol 63a10695c69d.03.80.eb.2c.41.00.6b.77 2 2 1 0
+V v 1 2 63a10695c69d.03.80.eb.2c.41.01.6b.77
+F f 1 "sipo.smbl_1"
+F o 0 
+V v 2 2 63a106a61466.03.80.eb.2c.41.00.6b.77
+F f 2 "sipo.smbl_2"
+F o 0 
+O 2
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/part" 2 Eddm_part 63a1069b4d5b.03.80.eb.2c.41.00.6b.77 63a10670c9e9.03.80.eb.2c.41.00.6b.77
+O 1
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/part" 2 Eddm_part 63a1069b4d5b.03.80.eb.2c.41.00.6b.77 63a10670c9e9.03.80.eb.2c.41.00.6b.77

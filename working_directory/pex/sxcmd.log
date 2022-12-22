@@ -1,0 +1,45 @@
+### Custom WaveView ADV log file, revision L-2016.06-SP1 (build Aug 22, ) ###
+### created at 17:54:34 on Mon Dec 19 2022 (Linux AMD64) ###
+### Host Name: osl15.njit.edu   User ID: jk526   PID: 17504   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window CustomWaveView 0 0
+wv_resize_window CustomWaveView 800 400
+wv_move_window CustomWaveView 34 57
+wv_move_window CustomWaveView 0 30
+wv_resize_window CustomWaveView 1540 845
+wv_move_window CustomWaveView 34 57
+wv_resize_window CustomWaveView 800 400
+wv_move_window CustomWaveView 0 23
+wv_resize_window CustomWaveView 1536 801
+wv_select_menu_item {File} {Import Waveform File ...}
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {}
+# selected FileDialog.FileFilter Waveform Files:*
+wv_select_combox_item FileDialog.FileFilter {Waveform Files:*}
+wv_select_list_item FileDialog.FileList thirty_two_bit_adder.ic0
+wv_ctrl_select_list_item FileDialog.FileList thirty_two_bit_adder.tr0
+wv_press_button FileDialog.Ok
+wv_expand_tree_item MainWindow.hierview {D0:thirty_two_bit_adder.ic0}
+wv_select_tree_item MainWindow.hierview {D0:thirty_two_bit_adder.ic0}
+wv_select_tree_item MainWindow.hierview {D0:thirty_two_bit_adder.ic0/toplevel}
+wv_expand_tree_item MainWindow.hierview {D0:thirty_two_bit_adder.tr0}
+wv_select_tree_item MainWindow.hierview {D0:thirty_two_bit_adder.tr0}
+wv_select_tree_item MainWindow.hierview {D0:thirty_two_bit_adder.tr0/toplevel}
+wv_select_list_item MainWindow.sigview v(cin)
+wv_dclick_list_item MainWindow.sigview v(cin)
+wv_select_list_item MainWindow.sigview v(sum0)
+wv_dclick_list_item MainWindow.sigview v(sum0)
+wv_select_list_item MainWindow.sigview v(sum1)
+wv_dclick_list_item MainWindow.sigview v(sum1)
+wv_select_list_item MainWindow.sigview v(sum10)
+wv_dclick_list_item MainWindow.sigview v(sum10)
+wv_select_list_item MainWindow.sigview v(cout31)
+wv_dclick_list_item MainWindow.sigview v(cout31)
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_move_window CustomWaveView 0 0

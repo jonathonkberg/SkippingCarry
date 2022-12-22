@@ -1,0 +1,20 @@
+A 5 u Eddm_part 63a10e0635b9.03.80.eb.2c.41.00.02.88 5 2 2 0
+V v 3 1 63a3bfae8a0d.03.80.eb.2c.41.00.5c.48
+F f 3 "part.part_3"
+V v 4 1 63a3cbf167a2.03.80.eb.2c.41.00.5c.48
+F f 4 "part.part_4"
+V v 5 1 63a3cecd1cf9.03.80.eb.2c.41.00.5c.48
+F f 5 "part.part_5"
+O 5
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/sipo_32/schematic" 1 mgc_schematic 63a106b928ca.03.80.eb.2c.41.01.6b.77 63a106b928ca.03.80.eb.2c.41.00.6b.77
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$HOME/github/SkippingCarry/working_directory/schematics/sipo_32/sipo_32" 1 mgc_symbol 63a3ceca7277.03.80.eb.2c.41.01.5c.48 63a3ceca7277.03.80.eb.2c.41.00.5c.48
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/sipo_32/schematic" 1 mgc_schematic 63a106b928ca.03.80.eb.2c.41.01.6b.77 63a106b928ca.03.80.eb.2c.41.00.6b.77
+P "eddm__refer_state" "eddm__refer_floating"
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/sipo_32/schematic" 1 mgc_schematic 63a106b928ca.03.80.eb.2c.41.01.6b.77 63a106b928ca.03.80.eb.2c.41.00.6b.77
+P "eddm__refer_state" "eddm__refer_floating"

@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 63a101f60d4e.03.80.eb.2c.41.00.6b.77 4 2 1 0
+V v 2 1 63a10670d1c7.03.80.eb.2c.41.00.6b.77
+F o 0 ""
+V v 3 1 63a3a1b26423.03.80.eb.2c.41.00.5c.48
+F o 0 ""
+V v 4 1 63a3ba8c0e2d.03.80.eb.2c.41.00.5c.48
+F o 0 ""
+O 4
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/schematic/sheet1" 3 mgc_sheet 63a3ba8c0c0a.03.80.eb.2c.41.00.5c.48 63a101f613be.03.80.eb.2c.41.00.6b.77
+O 3
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/schematic/sheet1" 2 mgc_sheet 63a3a1b26385.03.80.eb.2c.41.00.5c.48 63a101f613be.03.80.eb.2c.41.00.6b.77
+O 2
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/schematic/sheet1" 1 mgc_sheet 63a101f613bf.03.80.eb.2c.41.00.6b.77 63a101f613be.03.80.eb.2c.41.00.6b.77

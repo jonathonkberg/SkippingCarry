@@ -2,8 +2,8 @@
 * Jonathon Kreinberg
 * Oct 10, 2022
 
-.include /afs/cad/u/p/d/pd433/github/SkippingCarry/pre_sim/technologies/mosistsmc180.sp
-* .include /afs/cad/u/j/k/jk526/ece658/model_libs/mosistsmc180.sp
+* .include /afs/cad/u/p/d/pd433/github/SkippingCarry/pre_sim/technologies/mosistsmc180.sp
+.include /afs/cad/u/j/k/jk526/ece658/model_libs/mosistsmc180.sp
 .subckt INV IN OUT vdd gnd
 
 *--- - Model Instructions - ---*

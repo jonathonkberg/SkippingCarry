@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 63a02214a84a.03.80.eb.2c.41.00.50.0c 14 2 1 0
+V v 12 1 63a0d8f11d91.03.80.eb.2c.41.00.50.e4
+F o 0 ""
+V v 13 1 63a0d931c82f.03.80.eb.2c.41.00.50.e4
+F o 0 ""
+V v 14 1 63a0d93e6091.03.80.eb.2c.41.00.50.e4
+F o 0 ""
+O 14
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/thirty_two_bit_adder/schematic/sheet1" 13 mgc_sheet 63a0d93e5fdf.03.80.eb.2c.41.00.50.e4 63a02214abee.03.80.eb.2c.41.00.50.0c
+O 13
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/thirty_two_bit_adder/schematic/sheet1" 12 mgc_sheet 63a0d931c742.03.80.eb.2c.41.00.50.e4 63a02214abee.03.80.eb.2c.41.00.50.0c
+O 12
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/thirty_two_bit_adder/schematic/sheet1" 11 mgc_sheet 63a0d8f11c9b.03.80.eb.2c.41.00.50.e4 63a02214abee.03.80.eb.2c.41.00.50.0c

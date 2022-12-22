@@ -1,0 +1,6 @@
+A 5 u mgc_schematic 63a3ceb1cfc0.03.80.eb.2c.41.00.5c.48 1 2 1 0
+V v 1 1 63a3ceb1cfc1.03.80.eb.2c.41.00.5c.48
+F o 0 
+O 1
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/carry_skip_ic/schematic/sheet1" 1 mgc_sheet 63a3ceb1d32c.03.80.eb.2c.41.01.5c.48 63a3ceb1d32c.03.80.eb.2c.41.00.5c.48
+P "eddm__refer_state" "eddm__refer_floating"

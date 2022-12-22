@@ -17,28 +17,6 @@ Cell pmos4
    Pin B b
 End Cell
 
-Cell iv
-   Pin VDD VDD
-   Pin OUTN OUTN
-   Pin OUT OUT
-   Pin GND GND
-   Pin IN2 IN2
-   Pin IN1 IN1
-   Net N$2 N$2
-   Net IN1 IN1
-   Net IN2 IN2
-   Net GND GND
-   Net OUT OUT
-   Net OUTN OUTN
-   Net VDD VDD
-   Inst MN2 MN2 nmos4
-   Inst MP4 MP4 pmos4
-   Inst MP2 MP2 pmos4
-   Inst MN3 MN3 nmos4
-   Inst MP3 MP3 pmos4
-   Inst MN1 MN1 nmos4
-End Cell
-
 Cell i
    Pin IN1 IN1
    Pin IN2 IN2
@@ -69,6 +47,28 @@ Cell i
    Inst MN5 MN5 nmos4
    Inst MP3 MP3 pmos4
    Inst MN2 MN2 nmos4
+End Cell
+
+Cell iv
+   Pin VDD VDD
+   Pin OUTN OUTN
+   Pin OUT OUT
+   Pin GND GND
+   Pin IN2 IN2
+   Pin IN1 IN1
+   Net N$2 N$2
+   Net IN1 IN1
+   Net IN2 IN2
+   Net GND GND
+   Net OUT OUT
+   Net OUTN OUTN
+   Net VDD VDD
+   Inst MN2 MN2 nmos4
+   Inst MP4 MP4 pmos4
+   Inst MP2 MP2 pmos4
+   Inst MN3 MN3 nmos4
+   Inst MP3 MP3 pmos4
+   Inst MN1 MN1 nmos4
 End Cell
 
 Cell vi
@@ -111,12 +111,11 @@ Cell #top#
    Pin COUT COUT
    Pin COUTN COUTN
    Pin P P
-   Net N$33 N$33
-   Net N$90 N$90
-   Net N$97 N$97
-   Net N$59 N$59
-   Net N$111 N$111
    Net N$60 N$60
+   Net N$36 N$36
+   Net N$194 N$194
+   Net N$269 N$269
+   Net N$59 N$59
    Net N$58 N$58
    Net P P
    Net COUTN COUTN
@@ -130,10 +129,10 @@ Cell #top#
    Net AN AN
    Net B B
    Net A A
-   Inst I$1 X_I$1 iv
-   Inst I$17 X_I$17 i
-   Inst I$4 X_I$4 i
    Inst I$5 X_I$5 i
+   Inst I$1 X_I$1 iv
+   Inst I$4 X_I$4 i
    Inst I$3 X_I$3 vi
+   Inst I$17 X_I$17 i
 End Cell
 

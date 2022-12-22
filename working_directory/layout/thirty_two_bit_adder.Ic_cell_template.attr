@@ -1,0 +1,41 @@
+A 5 u Ic_cell_template 63a0b89bb131.03.80.eb.2c.41.00.50.ef 14 4 6 0
+V v 10 2 63a0d07454fd.03.80.eb.2c.41.00.50.ef
+F f 10 "thirty_two_bit_adder.iccel_10"
+F o 0 ""
+V v 11 2 63a0d0e2f29c.03.80.eb.2c.41.00.50.ef
+F f 11 "thirty_two_bit_adder.iccel_11"
+F o 0 ""
+V v 12 2 63a0d1f0350e.03.80.eb.2c.41.00.50.ef
+F f 12 "thirty_two_bit_adder.iccel_12"
+F o 0 ""
+V v 13 2 63a0d1fe598f.03.80.eb.2c.41.00.50.ef
+F f 13 "thirty_two_bit_adder.iccel_13"
+F o 0 ""
+V v 14 2 63a0e7223b5f.03.80.eb.2c.41.00.33.2f
+F f 14 "thirty_two_bit_adder.iccel_14"
+F o 0 ""
+O 14
+R csduv 1 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csduv 2 "/afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/thirty_two_bit_adder_IC_Station_SDL_Flat" 1 Eddm_design_viewpoint 63a0b89b94ff.03.80.eb.2c.41.01.50.ef 63a0b89b94ff.03.80.eb.2c.41.00.50.ef
+R csduv 4 "/afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/four_bit_adder" 7 Ic_cell_template 63a0193f2fba.03.80.eb.2c.41.00.50.b6 639ff9b6e708.03.80.eb.2c.41.00.50.b6
+R csdni 5 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules" 1 Mgc_file
+O 13
+R csduv 1 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csduv 2 "/afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/thirty_two_bit_adder_IC_Station_SDL_Flat" 1 Eddm_design_viewpoint 63a0b89b94ff.03.80.eb.2c.41.01.50.ef 63a0b89b94ff.03.80.eb.2c.41.00.50.ef
+R csduv 4 "/afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/four_bit_adder" 7 Ic_cell_template 63a0193f2fba.03.80.eb.2c.41.00.50.b6 639ff9b6e708.03.80.eb.2c.41.00.50.b6
+R csdni 5 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules" 1 Mgc_file
+O 12
+R csduv 1 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csduv 2 "/afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/thirty_two_bit_adder_IC_Station_SDL_Flat" 1 Eddm_design_viewpoint 63a0b89b94ff.03.80.eb.2c.41.01.50.ef 63a0b89b94ff.03.80.eb.2c.41.00.50.ef
+R csduv 4 "/afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/four_bit_adder" 7 Ic_cell_template 63a0193f2fba.03.80.eb.2c.41.00.50.b6 639ff9b6e708.03.80.eb.2c.41.00.50.b6
+R csdni 5 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules" 1 Mgc_file
+O 11
+R csduv 1 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csduv 2 "/afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/thirty_two_bit_adder_IC_Station_SDL_Flat" 1 Eddm_design_viewpoint 63a0b89b94ff.03.80.eb.2c.41.01.50.ef 63a0b89b94ff.03.80.eb.2c.41.00.50.ef
+R csduv 4 "/afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/four_bit_adder" 7 Ic_cell_template 63a0193f2fba.03.80.eb.2c.41.00.50.b6 639ff9b6e708.03.80.eb.2c.41.00.50.b6
+R csdni 5 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules" 1 Mgc_file
+O 10
+R csduv 1 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018" 1 Ic_persist_process 43348e50e208.03.93.22.46.d8.00.6c.be 43349f1b0fb4.03.93.22.46.d8.06.02.fa
+R csduv 2 "/afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/thirty_two_bit_adder_IC_Station_SDL_Flat" 1 Eddm_design_viewpoint 63a0b89b94ff.03.80.eb.2c.41.01.50.ef 63a0b89b94ff.03.80.eb.2c.41.00.50.ef
+R csduv 4 "/afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/four_bit_adder" 7 Ic_cell_template 63a0193f2fba.03.80.eb.2c.41.00.50.b6 639ff9b6e708.03.80.eb.2c.41.00.50.b6
+R csdni 5 "/afs/cad.njit.edu/sw.common/mentor.2012/adk3_1/technology/ic/process/tsmc018.rules" 1 Mgc_file

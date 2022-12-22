@@ -1,0 +1,40 @@
+A 5 u mgc_sheet 63a106b93556.03.80.eb.2c.41.00.6b.77 9 2 7 0
+V v 7 3 63a3cbe35c1f.03.80.eb.2c.41.00.5c.48
+F f 7 "sheet1.ssht_7"
+F f 7 "sheet1.sgfx_7"
+F o 0 ""
+V v 8 3 63a3cbf16ab9.03.80.eb.2c.41.00.5c.48
+F f 8 "sheet1.ssht_8"
+F f 8 "sheet1.sgfx_8"
+F o 0 ""
+V v 9 3 63a3cd4bd807.03.80.eb.2c.41.00.5c.48
+F f 9 "sheet1.ssht_9"
+F f 9 "sheet1.sgfx_9"
+F o 0 ""
+O 9
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/sipo_32/schematic" 1 mgc_schematic 63a106b928ca.03.80.eb.2c.41.01.6b.77 63a106b928ca.03.80.eb.2c.41.00.6b.77
+R csduv 1 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/part" 3 Eddm_part 63a3a1b25fc5.03.80.eb.2c.41.00.5c.48 63a10670c9e9.03.80.eb.2c.41.00.6b.77
+R csduv 2 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/sipo" 2 mgc_symbol 63a106a61466.03.80.eb.2c.41.00.6b.77 63a10695c69d.03.80.eb.2c.41.00.6b.77
+R csduv 3 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 4 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R csduv 5 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 6 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+O 8
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/sipo_32/schematic" 1 mgc_schematic 63a106b928ca.03.80.eb.2c.41.01.6b.77 63a106b928ca.03.80.eb.2c.41.00.6b.77
+R csduv 1 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/part" 3 Eddm_part 63a3a1b25fc5.03.80.eb.2c.41.00.5c.48 63a10670c9e9.03.80.eb.2c.41.00.6b.77
+R csduv 2 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/sipo" 2 mgc_symbol 63a106a61466.03.80.eb.2c.41.00.6b.77 63a10695c69d.03.80.eb.2c.41.00.6b.77
+R csduv 3 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 4 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R csduv 5 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 6 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+O 7
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/sipo_32/schematic" 1 mgc_schematic 63a106b928ca.03.80.eb.2c.41.01.6b.77 63a106b928ca.03.80.eb.2c.41.00.6b.77
+R csduv 1 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/part" 3 Eddm_part 63a3a1b25fc5.03.80.eb.2c.41.00.5c.48 63a10670c9e9.03.80.eb.2c.41.00.6b.77
+R csduv 2 "$HOME/github/SkippingCarry/working_directory/schematics/sipo/sipo" 2 mgc_symbol 63a106a61466.03.80.eb.2c.41.00.6b.77 63a10695c69d.03.80.eb.2c.41.00.6b.77
+R csduv 3 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 4 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R csduv 5 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 6 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb

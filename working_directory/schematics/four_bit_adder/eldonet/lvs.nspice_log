@@ -1,0 +1,41 @@
+//  IC Station Netlister  v9.0_9.0 (v9.0h)  Thu Aug 4 09:27:06 PDT 2011
+//
+//             Copyright Mentor Graphics Corporation 1982
+//
+//                      All Rights Reserved.
+//
+//    THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR
+//           ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86_64 Linux.
+//
+
+
+//  Invocation args:  -lvs -o /afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/schematics/four_bit_adder/four_bit_adder.src.net -check -preserve_case -spice_top_sub /afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/schematics/four_bit_adder/eldonet
+
+// **** Reading <$MGC_WD/github/SkippingCarry/working_directory/schematics/four_bit_adder/eldonet> for LVS netlist ****
+
+// Checking 6 sheet(s) for out of date references to symbols and interfaces...
+// Done.
+// Parsing file '/afs/cad/sw.common/mentor.2012/adk3_1/technology/ic/symbols/nmos4/@ncf.dir/nmos4.ncf' succeeded.
+// Parsing file '/afs/cad/sw.common/mentor.2012/adk3_1/technology/ic/symbols/pmos4/@ncf.dir/pmos4.ncf' succeeded.
+// NOTE: There is no part interface for the top level schematic.  The external nets in the schematic
+//       are being scanned to create the pin names for the top level subckt.
+Processing [$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder] [four_bit_adder/four_bit_adder] [schematic]
+Processing [$HOME/github/SkippingCarry/working_directory/schematics/full_adder] [full_adder/full_adder] [schematic]
+Processing [$HOME/github/SkippingCarry/working_directory/schematics/i] [i/i] [schematic]
+Processing [$HOME/github/SkippingCarry/working_directory/schematics/vi] [vi/vi] [schematic]
+Processing [$HOME/github/SkippingCarry/working_directory/schematics/iv] [iv/iv] [schematic]
+Processing [$HOME/github/SkippingCarry/working_directory/schematics/iii] [iii/iii] [schematic]
+Primitive [$ADK/technology/ic/symbols/nmos4] [MG_STD/nmos3] [SPICE=PRIM] (NCF entry line: 8 file: $ADK/technology/ic/symbols/nmos4/@ncf.dir/nmos4.ncf)
+Primitive [$ADK/technology/ic/symbols/pmos4] [MG_STD/pmos3] [SPICE=PRIM] (NCF entry line: 8 file: $ADK/technology/ic/symbols/pmos4/@ncf.dir/pmos4.ncf)
+
+**** Writing <$MGC_WD/github/SkippingCarry/working_directory/schematics/four_bit_adder/eldonet> netlist for LVS ****
+
+Number of cells: 8
+Number of primitive instances: 196
+
+Done...
+// Registration file '/afs/cad/sw.common/mentor.2012/adk3_1/technology/ic/symbols/nmos4/@ncf.dir/nmos4.ncf' closed.
+// Registration file '/afs/cad/sw.common/mentor.2012/adk3_1/technology/ic/symbols/pmos4/@ncf.dir/pmos4.ncf' closed.

@@ -1,7 +1,7 @@
 * Four bit sim
 * Nov 2022
 
-.include /afs/cad/u/p/d/pd433/github/SkippingCarry/pre_sim/subckts/4_bit_subckt_config_2_first.sp
+.include /afs/cad/u/j/k/jk526/github/SkippingCarry/pre_sim/subckts/4_bit_subckt_config_2_first.sp
 
 .option post
 .temp 65
@@ -23,7 +23,7 @@ x1 gnd gnd gnd gnd vdd vdd vdd vdd OUT0 OUT1 OUT2 OUT3 vin COUT_N COUT vdd gnd f
 .probe E0
 .probe D0
 
-.tran 1n 2.6n
+.tran 1n 5n
 * .tran 1n 100n
 
 .end

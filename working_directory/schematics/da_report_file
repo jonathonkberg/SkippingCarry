@@ -2474,3 +2474,788 @@ Check Schematic Net -------------   0 errors   0 warnings
 Check Schematic Function Blocks -   0 errors   0 warnings
 
  "full_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "full_adder/schematic/sheet1"
+Check Sheet "full_adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$3         P$88
+           I$1         P$31
+           I$4         P$130
+           I$17        P$467
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "full_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "full_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "full_adder/schematic/sheet1"
+Check Sheet "full_adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$3         P$88
+           I$4         P$130
+           I$17        P$467
+           I$1         P$31
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "full_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "full_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "full_adder/schematic/sheet1"
+Check Sheet "full_adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$3         P$88
+           I$4         P$130
+           I$17        P$467
+           I$1         P$31
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "full_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "full_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "full_adder/schematic/sheet1"
+Check Sheet "full_adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$3         P$63       P$88
+           I$4         P$100      P$130
+           I$17        P$437      P$467
+           I$5         P$142
+           I$1         P$10       P$31
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "full_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "full_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "full_adder/schematic/sheet1"
+Check Sheet "full_adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   2 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$3         P$88
+           I$4         P$130
+           I$17        P$467
+           I$1         P$31
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$194       V$1644
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "full_adder/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "full_adder/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "full_adder/schematic/sheet1"
+Check Sheet "full_adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$3         P$88
+           I$4         P$130
+           I$17        P$467
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "full_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "full_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "full_adder/schematic/sheet1"
+Check Sheet "full_adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$3         P$88
+           I$4         P$130
+           I$17        P$467
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "full_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "full_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "full_adder/schematic/sheet1"
+Check Sheet "full_adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$17        P$467
+           I$3         P$88
+           I$4         P$130
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   5 warnings  (MGC-required)
+  Warning:  Net name "VDD" connects the following nets:
+             N$142       N$252      N$254      N$256      N$282
+  Warning:  Net name "GND" connects the following nets:
+             N$206       N$245      N$246      N$244      N$280
+  Warning:  Net name "B" connects the following nets:
+             N$237       N$250      N$261      N$268
+  Warning:  Net name "A" connects the following nets:
+             N$233       N$248      N$262      N$266
+  Warning:  Net name "C" connects the following nets:
+             N$264       N$283
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "full_adder/schematic/sheet1" passed check :  0 Errors, 6 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "full_adder/schematic/sheet1" passed check :  0 Errors, 6 Warnings
+
+
+Check Schematic  "four_bit_adder/schematic/sheet1"
+Check Sheet "four_bit_adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   2 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$33        P$699
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$71        V$934
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "GND" connects the following nets:
+             N$9         N$58       N$70       N$82       N$97       N$106
+  Warning:  Net name "VDD" connects the following nets:
+             N$8         N$61       N$73       N$85       N$95       N$107
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "four_bit_adder/schematic/sheet1" passed check :  0 Errors, 4 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "four_bit_adder" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "four_bit_adder/schematic/sheet1" passed check :  0 Errors, 5 Warnings
+
+
+Check Symbol "four_bit_adder/four_bit_adder"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors  26 warnings
+  Warning:  The following pins on the symbol are not on the interface: A0
+  Warning:  The following pins on the symbol are not on the interface: B0
+  Warning:  The following pins on the symbol are not on the interface: A0N
+  Warning:  The following pins on the symbol are not on the interface: B0N
+  Warning:  The following pins on the symbol are not on the interface: C0N
+  Warning:  The following pins on the symbol are not on the interface: C0
+  Warning:  The following pins on the symbol are not on the interface: A1
+  Warning:  The following pins on the symbol are not on the interface: B1
+  Warning:  The following pins on the symbol are not on the interface: A1N
+  Warning:  The following pins on the symbol are not on the interface: B1N
+  Warning:  The following pins on the symbol are not on the interface: A2
+  Warning:  The following pins on the symbol are not on the interface: B2
+  Warning:  The following pins on the symbol are not on the interface: A2N
+  Warning:  The following pins on the symbol are not on the interface: B2N
+  Warning:  The following pins on the symbol are not on the interface: A3
+  Warning:  The following pins on the symbol are not on the interface: B3
+  Warning:  The following pins on the symbol are not on the interface: A3N
+  Warning:  The following pins on the symbol are not on the interface: B3N
+  Warning:  The following pins on the symbol are not on the interface: SUM0
+  Warning:  The following pins on the symbol are not on the interface: SUM1
+  Warning:  The following pins on the symbol are not on the interface: SUM2
+  Warning:  The following pins on the symbol are not on the interface: SUM3
+  Warning:  The following pins on the symbol are not on the interface: GND
+  Warning:  The following pins on the symbol are not on the interface: VDD
+  Warning:  The following pins on the symbol are not on the interface: COUTN
+  Warning:  The following pins on the symbol are not on the interface: COUT
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "four_bit_adder/four_bit_adder" passed check :  0 Errors, 26 Warnings
+
+
+Check Schematic  "thirty_two_bit_adder/schematic/sheet1"
+Check Sheet "thirty_two_bit_adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   1 warnings  (MGC-required)
+  Warning:  Net name "A0N" connects the following nets:
+             N$2         N$226
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "thirty_two_bit_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "thirty_two_bit_adder" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "thirty_two_bit_adder/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "thirty_two_bit_adder/schematic/sheet1"
+Check Sheet "thirty_two_bit_adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   1 warnings  (MGC-required)
+  Warning:  Net name "A0N" connects the following nets:
+             N$2         N$226
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "thirty_two_bit_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "thirty_two_bit_adder" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "thirty_two_bit_adder/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "thirty_two_bit_adder/schematic/sheet1"
+Check Sheet "thirty_two_bit_adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "thirty_two_bit_adder/schematic/sheet1" passed check :  0 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "thirty_two_bit_adder" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "thirty_two_bit_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "thirty_two_bit_adder/schematic/sheet1"
+Check Sheet "thirty_two_bit_adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "thirty_two_bit_adder/schematic/sheet1" passed check :  0 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "thirty_two_bit_adder" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "thirty_two_bit_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "thirty_two_bit_adder/schematic/sheet1"
+Check Sheet "thirty_two_bit_adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "thirty_two_bit_adder/schematic/sheet1" passed check :  0 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "thirty_two_bit_adder" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "thirty_two_bit_adder/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "sipo/schematic/sheet1"
+Check Sheet "sipo/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "VDD" connects the following nets:
+             N$32        N$38
+  Warning:  Net name "GND" connects the following nets:
+             N$33        N$39
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "sipo/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Schematic is not registered with an interface
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "sipo/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+
+Check Symbol "sipo/sipo"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   7 warnings
+  Warning:  The following pins on the symbol are not on the interface: IN
+  Warning:  The following pins on the symbol are not on the interface: OUT
+  Warning:  The following pins on the symbol are not on the interface: CLK
+  Warning:  The following pins on the symbol are not on the interface: VAL
+  Warning:  The following pins on the symbol are not on the interface: VALN
+  Warning:  The following pins on the symbol are not on the interface: VDD
+  Warning:  The following pins on the symbol are not on the interface: GND
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "sipo/sipo" passed check :  0 Errors, 7 Warnings
+
+
+Check Schematic  "sipo_32/schematic/sheet1"
+Check Sheet "sipo_32/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$128       P$3290
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "sipo_32/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "sipo_32" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "sipo_32/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "sipo/schematic/sheet1"
+Check Sheet "sipo/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "VDD" connects the following nets:
+             N$32        N$38
+  Warning:  Net name "GND" connects the following nets:
+             N$33        N$39
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "sipo/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "sipo/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "sipo/schematic/sheet1"
+Check Sheet "sipo/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "VDD" connects the following nets:
+             N$38        N$59
+  Warning:  Net name "GND" connects the following nets:
+             N$39        N$73
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "sipo/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "sipo/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "sipo_32/schematic/sheet1"
+Check Sheet "sipo_32/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$128       P$3290
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "sipo_32/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "sipo_32" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "sipo_32/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "sipo_32/schematic/sheet1"
+Check Sheet "sipo_32/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$128       P$3290
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "sipo_32/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "sipo_32" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "sipo_32/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Symbol "sipo_32/sipo_32"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors  69 warnings
+  Warning:  The following pins on the symbol are not on the interface: A26
+  Warning:  The following pins on the symbol are not on the interface: A25N
+  Warning:  The following pins on the symbol are not on the interface: A25
+  Warning:  The following pins on the symbol are not on the interface: A24N
+  Warning:  The following pins on the symbol are not on the interface: A23N
+  Warning:  The following pins on the symbol are not on the interface: VDD
+  Warning:  The following pins on the symbol are not on the interface: GND
+  Warning:  The following pins on the symbol are not on the interface: CLK
+  Warning:  The following pins on the symbol are not on the interface: A23
+  Warning:  The following pins on the symbol are not on the interface: A22N
+  Warning:  The following pins on the symbol are not on the interface: A22
+  Warning:  The following pins on the symbol are not on the interface: A21N
+  Warning:  The following pins on the symbol are not on the interface: A21
+  Warning:  The following pins on the symbol are not on the interface: A20N
+  Warning:  The following pins on the symbol are not on the interface: A20
+  Warning:  The following pins on the symbol are not on the interface: A19N
+  Warning:  The following pins on the symbol are not on the interface: A19
+  Warning:  The following pins on the symbol are not on the interface: A18N
+  Warning:  The following pins on the symbol are not on the interface: A18
+  Warning:  The following pins on the symbol are not on the interface: A17N
+  Warning:  The following pins on the symbol are not on the interface: A17
+  Warning:  The following pins on the symbol are not on the interface: A16N
+  Warning:  The following pins on the symbol are not on the interface: A16
+  Warning:  The following pins on the symbol are not on the interface: A15N
+  Warning:  The following pins on the symbol are not on the interface: A15
+  Warning:  The following pins on the symbol are not on the interface: A14N
+  Warning:  The following pins on the symbol are not on the interface: A14
+  Warning:  The following pins on the symbol are not on the interface: A13N
+  Warning:  The following pins on the symbol are not on the interface: A13
+  Warning:  The following pins on the symbol are not on the interface: A12N
+  Warning:  The following pins on the symbol are not on the interface: A12
+  Warning:  The following pins on the symbol are not on the interface: CLKN
+  Warning:  The following pins on the symbol are not on the interface: A9
+  Warning:  The following pins on the symbol are not on the interface: A8N
+  Warning:  The following pins on the symbol are not on the interface: A1N
+  Warning:  The following pins on the symbol are not on the interface: A7N
+  Warning:  The following pins on the symbol are not on the interface: A7
+  Warning:  The following pins on the symbol are not on the interface: A6N
+  Warning:  The following pins on the symbol are not on the interface: A6
+  Warning:  The following pins on the symbol are not on the interface: A5N
+  Warning:  The following pins on the symbol are not on the interface: A5
+  Warning:  The following pins on the symbol are not on the interface: A4N
+  Warning:  The following pins on the symbol are not on the interface: A4
+  Warning:  The following pins on the symbol are not on the interface: A3N
+  Warning:  The following pins on the symbol are not on the interface: A3
+  Warning:  The following pins on the symbol are not on the interface: A2N
+  Warning:  The following pins on the symbol are not on the interface: A2
+  Warning:  The following pins on the symbol are not on the interface: A8
+  Warning:  The following pins on the symbol are not on the interface: A1
+  Warning:  The following pins on the symbol are not on the interface: A0N
+  Warning:  The following pins on the symbol are not on the interface: A0
+  Warning:  The following pins on the symbol are not on the interface: DIN
+  Warning:  The following pins on the symbol are not on the interface: A31N
+  Warning:  The following pins on the symbol are not on the interface: A31
+  Warning:  The following pins on the symbol are not on the interface: A30N
+  Warning:  The following pins on the symbol are not on the interface: A30
+  Warning:  The following pins on the symbol are not on the interface: A29N
+  Warning:  The following pins on the symbol are not on the interface: A29
+  Warning:  The following pins on the symbol are not on the interface: A28N
+  Warning:  The following pins on the symbol are not on the interface: A28
+  Warning:  The following pins on the symbol are not on the interface: A24
+  Warning:  The following pins on the symbol are not on the interface: A27N
+  Warning:  The following pins on the symbol are not on the interface: A27
+  Warning:  The following pins on the symbol are not on the interface: A26N
+  Warning:  The following pins on the symbol are not on the interface: A11N
+  Warning:  The following pins on the symbol are not on the interface: A11
+  Warning:  The following pins on the symbol are not on the interface: A10N
+  Warning:  The following pins on the symbol are not on the interface: A10
+  Warning:  The following pins on the symbol are not on the interface: A9N
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "sipo_32/sipo_32" passed check :  0 Errors, 69 Warnings

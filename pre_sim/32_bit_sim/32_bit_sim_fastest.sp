@@ -1,21 +1,21 @@
 * 32 bit sim
 * Dec 2022
 
-.include /afs/cad/u/p/d/pd433/github/SkippingCarry/pre_sim/subckts/4_bit_subckt_config_2.sp
-.include /afs/cad/u/p/d/pd433/github/SkippingCarry/pre_sim/subckts/4_bit_subckt_config_2_first.sp
+.include /afs/cad/u/j/k/jk526/github/SkippingCarry/pre_sim/subckts/4_bit_subckt_config_2.sp
+.include /afs/cad/u/j/k/jk526/github/SkippingCarry/pre_sim/subckts/4_bit_subckt_config_2_first.sp
 * name of subckt is four_add and four_add_first
 * nodes of subckt are INA0 INA1 INA2 INA3 INB0 INB1 INB2 INB3 OUT0 OUT1 OUT2 OUT3 CIN CIN_N COUT_N COUT vdd gnd
 * nodes of subckt are INA0 INA1 INA2 INA3 INB0 INB1 INB2 INB3 OUT0 OUT1 OUT2 OUT3 CIN COUT_N COUT vdd gnd
 .option post
 .temp 65
 
-vdd vdd gnd 1.2 
+vdd vdd gnd 1.8 
 
 * pulse corresponds to 900MHz with built in 55ps rise time and 55ps fall time
 * vin CIN0 gnd pulse 0 1.2 500p 55p 55p 500p 1.11n
 
 * 850MHz with 55ps rise and fall
-vin CIN0 gnd pulse 0 1.2 533p 55p 55p 533p 1.176n
+vin CIN0 gnd pulse 0 1.8 1.11n 1p 1p 1.11n 2.222n
 
 * 850 MHz perfect
 * vin CIN0 gnd pulse 0 1.2 588p 1p 1p 588p 1.76n

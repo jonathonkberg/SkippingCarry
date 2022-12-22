@@ -11,29 +11,10 @@
 
 REPORT FILE NAME:         full_adder.lvs.report.ext
 LAYOUT NAME:              full_adder.calibre.db ('full_adder')
-CREATION TIME:            Sun Dec 18 00:11:24 2022
+CREATION TIME:            Sun Dec 18 22:29:05 2022
 CURRENT DIRECTORY:        /afs/cad.njit.edu/u/j/k/jk526/github/SkippingCarry/working_directory/pex
 USER NAME:                jk526
 CALIBRE VERSION:          v2012.2_36.25    Mon Jul 2 12:15:31 PDT 2012
 
 
-
-Extraction Errors and Warnings for cell "full_adder"
-----------------------------------------------------
-
-WARNING:  Short circuit - Different names on one net:
-          Net Id:  1
-          (1)  name  "COUTN"  at location  (718.086,191.561)  on layer  2 "METAL1.PORT"
-          (2)  name  "GND"  at location  (715.667,191.032)  on layer  2 "METAL1.PORT"
-          The name "GND" was assigned to the net.
-
-WARNING:  Unattached label:
-          Name  "COUTN"  at location  (533.349,216.244)  on layer  2 "METAL1.PORT"
-
-WARNING:  Unattached label:
-          Name  "SUM"  at location  (-176.951,131.998)  on layer  2 "METAL1.PORT"
-
-
-WARNING: Unattached port "SUM" at location (-176.951,131.998) in cell "full_adder"
-WARNING: Unattached port "COUTN" at location (533.349,216.244) in cell "full_adder"
 

@@ -1,0 +1,800 @@
+### Custom WaveView ADV log file, revision L-2016.06-SP1 (build Aug 22, ) ###
+### created at 19:26:09 on Wed Dec 21 2022 (Linux AMD64) ###
+### Host Name: osl15.njit.edu   User ID: jk526   PID: 30397   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window CustomWaveView 0 0
+wv_resize_window CustomWaveView 800 400
+wv_move_window CustomWaveView 86 109
+wv_move_window CustomWaveView 0 30
+wv_resize_window CustomWaveView 1540 845
+wv_select_menu_item {File} {Import Waveform File ...}
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {}
+# selected FileDialog.FileFilter Waveform Files:*
+wv_select_combox_item FileDialog.FileFilter {Waveform Files:*}
+wv_select_list_item FileDialog.FileList sipo_32.tr0
+wv_press_button FileDialog.Ok
+wv_expand_tree_item MainWindow.hierview {D0:sipo_32.tr0}
+wv_select_tree_item MainWindow.hierview {D0:sipo_32.tr0}
+wv_select_tree_item MainWindow.hierview {D0:sipo_32.tr0/toplevel}
+wv_horz_scroll MainWindow.sigview 61
+wv_horz_scroll MainWindow.sigview 122
+wv_horz_scroll MainWindow.sigview 183
+wv_horz_scroll MainWindow.sigview 217
+wv_horz_scroll MainWindow.sigview 156
+wv_horz_scroll MainWindow.sigview 95
+wv_horz_scroll MainWindow.sigview 34
+wv_horz_scroll MainWindow.sigview 0
+wv_select_list_item MainWindow.sigview v(clk)
+wv_dclick_list_item MainWindow.sigview v(clk)
+wv_select_list_item MainWindow.sigview v(in)
+wv_dclick_list_item MainWindow.sigview v(in)
+wv_horz_scroll MainWindow.sigview 61
+wv_horz_scroll MainWindow.sigview 122
+wv_horz_scroll MainWindow.sigview 183
+wv_horz_scroll MainWindow.sigview 217
+wv_select_list_item MainWindow.sigview v(val31)
+wv_dclick_list_item MainWindow.sigview v(val31)
+wv_select_toolbar_item {Update Waveforms}
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_horz_scroll MainWindow.sigview 202
+wv_horz_scroll MainWindow.sigview 217
+wv_horz_scroll MainWindow.sigview 156
+wv_horz_scroll MainWindow.sigview 95
+wv_horz_scroll MainWindow.sigview 34
+wv_select_list_item MainWindow.sigview v(s30)
+wv_dclick_list_item MainWindow.sigview v(s30)
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 0 30
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_release_wv_item WV1 12 636
+wv_select_wv_item WV1.PANEL4:1.LEGEND
+wv_select_panel WV1.PANEL4:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_horz_scroll MainWindow.sigview 61
+wv_horz_scroll MainWindow.sigview 122
+wv_horz_scroll MainWindow.sigview 183
+wv_horz_scroll MainWindow.sigview 217
+wv_select_list_item MainWindow.sigview v(val30)
+wv_dclick_list_item MainWindow.sigview v(val30)
+wv_select_list_item MainWindow.sigview v(val29)
+wv_dclick_list_item MainWindow.sigview v(val29)
+wv_select_list_item MainWindow.sigview v(val28)
+wv_dclick_list_item MainWindow.sigview v(val28)
+wv_select_list_item MainWindow.sigview v(val27)
+wv_dclick_list_item MainWindow.sigview v(val27)
+wv_select_list_item MainWindow.sigview v(val26)
+wv_dclick_list_item MainWindow.sigview v(val26)
+wv_select_list_item MainWindow.sigview v(val25)
+wv_dclick_list_item MainWindow.sigview v(val25)
+wv_select_list_item MainWindow.sigview v(val24)
+wv_dclick_list_item MainWindow.sigview v(val24)
+wv_select_list_item MainWindow.sigview v(val23)
+wv_dclick_list_item MainWindow.sigview v(val23)
+wv_select_list_item MainWindow.sigview v(val22)
+wv_dclick_list_item MainWindow.sigview v(val22)
+wv_select_list_item MainWindow.sigview v(val21)
+wv_dclick_list_item MainWindow.sigview v(val21)
+wv_select_list_item MainWindow.sigview v(val20)
+wv_dclick_list_item MainWindow.sigview v(val20)
+wv_horz_scroll MainWindow.sigview 156
+wv_horz_scroll MainWindow.sigview 95
+wv_select_list_item MainWindow.sigview v(val19)
+wv_dclick_list_item MainWindow.sigview v(val19)
+wv_select_list_item MainWindow.sigview v(val18)
+wv_dclick_list_item MainWindow.sigview v(val18)
+wv_select_list_item MainWindow.sigview v(val17)
+wv_dclick_list_item MainWindow.sigview v(val17)
+wv_select_list_item MainWindow.sigview v(val16)
+wv_dclick_list_item MainWindow.sigview v(val16)
+wv_select_list_item MainWindow.sigview v(val15)
+wv_dclick_list_item MainWindow.sigview v(val15)
+wv_select_list_item MainWindow.sigview v(val14)
+wv_dclick_list_item MainWindow.sigview v(val14)
+wv_select_list_item MainWindow.sigview v(val13)
+wv_dclick_list_item MainWindow.sigview v(val13)
+wv_select_list_item MainWindow.sigview v(val12)
+wv_dclick_list_item MainWindow.sigview v(val12)
+wv_select_list_item MainWindow.sigview v(val11)
+wv_dclick_list_item MainWindow.sigview v(val11)
+wv_select_list_item MainWindow.sigview v(val10)
+wv_dclick_list_item MainWindow.sigview v(val10)
+wv_horz_scroll MainWindow.sigview 217
+wv_select_list_item MainWindow.sigview v(val9)
+wv_dclick_list_item MainWindow.sigview v(val9)
+wv_select_list_item MainWindow.sigview v(val8)
+wv_dclick_list_item MainWindow.sigview v(val8)
+wv_select_list_item MainWindow.sigview v(val7)
+wv_dclick_list_item MainWindow.sigview v(val7)
+wv_select_list_item MainWindow.sigview v(val6)
+wv_dclick_list_item MainWindow.sigview v(val6)
+wv_select_list_item MainWindow.sigview v(val5)
+wv_dclick_list_item MainWindow.sigview v(val5)
+wv_select_list_item MainWindow.sigview v(val4)
+wv_dclick_list_item MainWindow.sigview v(val4)
+wv_select_list_item MainWindow.sigview v(val3)
+wv_dclick_list_item MainWindow.sigview v(val3)
+wv_horz_scroll MainWindow.sigview 156
+wv_select_list_item MainWindow.sigview v(val2)
+wv_dclick_list_item MainWindow.sigview v(val2)
+wv_horz_scroll MainWindow.sigview 95
+wv_select_list_item MainWindow.sigview v(val1)
+wv_dclick_list_item MainWindow.sigview v(val1)
+wv_select_wv_item {WV1.ICON.measurement tool}
+wv_release_wv_item WV1 143 19
+wv_select_dialog MeasurementTool
+# selected MeasurementTool.Signal v(val1) sipo_32.tr0
+wv_select_combox_item MeasurementTool.Signal {v(val1) sipo_32.tr0}
+wv_vert_scroll MeasurementTool.TypeList 3
+wv_vert_scroll MeasurementTool.TypeList 9
+wv_vert_scroll MeasurementTool.TypeList 12
+wv_vert_scroll MeasurementTool.TypeList 9
+wv_vert_scroll MeasurementTool.TypeList 6
+wv_vert_scroll MeasurementTool.TypeList 3
+wv_vert_scroll MeasurementTool.TypeList 0
+wv_vert_scroll MeasurementTool.TypeList 0
+# selected MeasurementTool.RefSignal v(clk) sipo_32.tr0
+wv_select_combox_item MeasurementTool.RefSignal {v(clk) sipo_32.tr0}
+wv_press_button MeasurementTool.Ok
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 540 700
+wv_move_wv_item WV1.MEAS1 955 477
+wv_select_wv_item WV1.PANEL33:1.LEGEND
+wv_select_panel WV1.PANEL33:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL33:1.LEGEND
+wv_release_wv_item WV1 41 214
+wv_select_wv_item WV1.PANEL33:1.LEGEND
+wv_drag_item_to WV1 45 698
+wv_drag_enter WV1
+wv_drag_to WV1 46 322
+wv_drag_to WV1 53 280
+wv_drag_to WV1 67 220
+wv_drag_to WV1 52 114
+wv_drag_to WV1 61 537
+wv_drag_to WV1 33 715
+wv_drag_to WV1 34 697
+wv_drop_on WV1
+wv_drag_item_to WV1 30 519
+wv_select_wv_item WV1.PANEL33:1.LEGEND
+wv_select_panel WV1.PANEL33:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL31:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL32:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL30:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL29:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL28:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL27:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL26:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL25:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL24:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL23:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL22:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL21:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL20:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL19:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL18:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL17:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL16:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL15:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_panel WV1.PANEL3:1 2.91996e-09 0.774231
+wv_drag_item_to WV1 293 159
+wv_select_panel WV1.PANEL5:1 1.88215e-09 1.26879
+wv_drag_item_to WV1 233 239
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_horz_scroll MainWindow.sigview 61
+wv_horz_scroll MainWindow.sigview 122
+wv_horz_scroll MainWindow.sigview 183
+wv_horz_scroll MainWindow.sigview 211
+wv_horz_scroll MainWindow.sigview 150
+wv_horz_scroll MainWindow.sigview 89
+wv_horz_scroll MainWindow.sigview 28
+wv_horz_scroll MainWindow.sigview 0
+wv_select_list_item MainWindow.sigview v(clkn)
+wv_dclick_list_item MainWindow.sigview v(clkn)
+wv_select_wv_item WV1.PANEL15:1.LEGEND
+wv_drag_item_to WV1 29 680
+wv_drag_enter WV1
+wv_drag_to WV1 22 104
+wv_drag_to WV1 34 76
+wv_drag_to WV1 37 89
+wv_drop_on WV1
+wv_drag_item_to WV1 31 656
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_toolbar_item {Update Waveforms}
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_waveview_context_menu WV1.MEAS1
+wv_select_context_menu_item {Delete Meter}
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_horz_scroll MainWindow.sigview 61
+wv_horz_scroll MainWindow.sigview 122
+wv_horz_scroll MainWindow.sigview 183
+wv_horz_scroll MainWindow.sigview 122
+wv_select_list_item MainWindow.sigview v(val21)
+wv_dclick_list_item MainWindow.sigview v(val21)
+wv_select_list_item MainWindow.sigview v(val22)
+wv_dclick_list_item MainWindow.sigview v(val22)
+wv_select_list_item MainWindow.sigview v(val23)
+wv_dclick_list_item MainWindow.sigview v(val23)
+wv_select_list_item MainWindow.sigview v(val24)
+wv_dclick_list_item MainWindow.sigview v(val24)
+wv_select_list_item MainWindow.sigview v(val25)
+wv_dclick_list_item MainWindow.sigview v(val25)
+wv_select_list_item MainWindow.sigview v(val26)
+wv_dclick_list_item MainWindow.sigview v(val26)
+wv_select_list_item MainWindow.sigview v(val27)
+wv_dclick_list_item MainWindow.sigview v(val27)
+wv_select_wv_item WV1.PANEL22:1.LEGEND
+wv_select_panel WV1.PANEL22:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_wv_item WV1.PANEL21:1.LEGEND
+wv_select_panel WV1.PANEL21:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL20:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL19:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL18:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL17:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL16:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL15:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL14:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_list_item MainWindow.sigview v(val21)
+wv_dclick_list_item MainWindow.sigview v(val21)
+wv_select_list_item MainWindow.sigview v(val20)
+wv_dclick_list_item MainWindow.sigview v(val20)
+wv_select_list_item MainWindow.sigview v(val19)
+wv_dclick_list_item MainWindow.sigview v(val19)
+wv_select_list_item MainWindow.sigview v(val18)
+wv_dclick_list_item MainWindow.sigview v(val18)
+wv_select_list_item MainWindow.sigview v(val17)
+wv_dclick_list_item MainWindow.sigview v(val17)
+wv_select_list_item MainWindow.sigview v(val16)
+wv_dclick_list_item MainWindow.sigview v(val16)
+wv_select_list_item MainWindow.sigview v(val15)
+wv_dclick_list_item MainWindow.sigview v(val15)
+wv_select_list_item MainWindow.sigview v(val14)
+wv_dclick_list_item MainWindow.sigview v(val14)
+wv_select_list_item MainWindow.sigview v(val13)
+wv_dclick_list_item MainWindow.sigview v(val13)
+wv_select_list_item MainWindow.sigview v(val12)
+wv_dclick_list_item MainWindow.sigview v(val12)
+wv_select_list_item MainWindow.sigview v(val11)
+wv_dclick_list_item MainWindow.sigview v(val11)
+wv_select_list_item MainWindow.sigview v(val10)
+wv_dclick_list_item MainWindow.sigview v(val10)
+wv_horz_scroll MainWindow.sigview 183
+wv_horz_scroll MainWindow.sigview 209
+wv_horz_scroll MainWindow.sigview 148
+wv_horz_scroll MainWindow.sigview 87
+wv_horz_scroll MainWindow.sigview 148
+wv_horz_scroll MainWindow.sigview 209
+wv_horz_scroll MainWindow.sigview 148
+wv_horz_scroll MainWindow.sigview 87
+wv_horz_scroll MainWindow.sigview 26
+wv_horz_scroll MainWindow.sigview 0
+wv_horz_scroll MainWindow.sigview 61
+wv_horz_scroll MainWindow.sigview 122
+wv_horz_scroll MainWindow.sigview 183
+wv_horz_scroll MainWindow.sigview 209
+wv_select_list_item MainWindow.sigview v(val9)
+wv_dclick_list_item MainWindow.sigview v(val9)
+wv_select_list_item MainWindow.sigview v(val8)
+wv_dclick_list_item MainWindow.sigview v(val8)
+wv_select_list_item MainWindow.sigview v(val7)
+wv_dclick_list_item MainWindow.sigview v(val7)
+wv_select_list_item MainWindow.sigview v(val6)
+wv_dclick_list_item MainWindow.sigview v(val6)
+wv_select_list_item MainWindow.sigview v(val5)
+wv_dclick_list_item MainWindow.sigview v(val5)
+wv_select_list_item MainWindow.sigview v(val4)
+wv_dclick_list_item MainWindow.sigview v(val4)
+wv_horz_scroll MainWindow.sigview 148
+wv_horz_scroll MainWindow.sigview 87
+wv_horz_scroll MainWindow.sigview 26
+wv_horz_scroll MainWindow.sigview 0
+wv_horz_scroll MainWindow.sigview 61
+wv_horz_scroll MainWindow.sigview 122
+wv_horz_scroll MainWindow.sigview 183
+wv_horz_scroll MainWindow.sigview 209
+wv_horz_scroll MainWindow.sigview 148
+wv_horz_scroll MainWindow.sigview 87
+wv_horz_scroll MainWindow.sigview 26
+wv_horz_scroll MainWindow.sigview 0
+wv_horz_scroll MainWindow.sigview 61
+wv_horz_scroll MainWindow.sigview 122
+wv_horz_scroll MainWindow.sigview 183
+wv_select_list_item MainWindow.sigview v(val3)
+wv_dclick_list_item MainWindow.sigview v(val3)
+wv_horz_scroll MainWindow.sigview 209
+wv_horz_scroll MainWindow.sigview 148
+wv_select_list_item MainWindow.sigview v(val2)
+wv_dclick_list_item MainWindow.sigview v(val2)
+wv_horz_scroll MainWindow.sigview 87
+wv_select_list_item MainWindow.sigview v(val1)
+wv_dclick_list_item MainWindow.sigview v(val1)
+wv_select_wv_item WV1.PANEL34:1.LEGEND
+wv_select_panel WV1.PANEL34:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL33:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL32:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL31:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL30:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL29:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL28:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL27:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL26:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL25:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL24:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL23:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL22:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL21:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL20:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL19:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL18:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL17:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL16:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL15:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL14:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL13:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL12:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL11:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL10:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL9:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL8:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL7:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_horz_scroll MainWindow.sigview 148
+wv_select_list_item MainWindow.sigview v(val28)
+wv_dclick_list_item MainWindow.sigview v(val28)
+wv_select_list_item MainWindow.sigview v(val27)
+wv_dclick_list_item MainWindow.sigview v(val27)
+wv_select_list_item MainWindow.sigview v(val26)
+wv_dclick_list_item MainWindow.sigview v(val26)
+wv_select_list_item MainWindow.sigview v(val25)
+wv_dclick_list_item MainWindow.sigview v(val25)
+wv_select_wv_item WV1.PANEL10:1.LEGEND
+wv_select_panel WV1.PANEL10:1.LEGEND
+wv_select_wv_item WV1.PANEL9:1.LEGEND
+wv_select_panel WV1.PANEL9:1.LEGEND
+wv_select_wv_item WV1.PANEL10:1.LEGEND
+wv_select_panel WV1.PANEL10:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL9:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL8:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_wv_item WV1.PANEL7:1.LEGEND
+wv_select_panel WV1.PANEL7:1.LEGEND
+wv_release_wv_item WV1 7 569
+wv_select_wv_item WV1.PANEL7:1.LEGEND
+wv_select_panel WV1.PANEL7:1.LEGEND
+wv_select_wv_item WV1.PANEL7:1.LEGEND
+wv_select_panel WV1.PANEL7:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL6:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_wv_item WV1.PANEL5:1.LEGEND
+wv_select_panel WV1.PANEL5:1.LEGEND
+wv_select_wv_item WV1.PANEL4:1.LEGEND
+wv_select_panel WV1.PANEL4:1.LEGEND
+wv_select_wv_item WV1.PANEL5:1.LEGEND
+wv_select_panel WV1.PANEL5:1.LEGEND
+wv_horz_scroll MainWindow.sigview 87
+wv_horz_scroll MainWindow.sigview 26
+wv_horz_scroll MainWindow.sigview 0
+wv_horz_scroll MainWindow.sigview 61
+wv_horz_scroll MainWindow.sigview 122
+wv_horz_scroll MainWindow.sigview 183
+wv_horz_scroll MainWindow.sigview 209
+wv_horz_scroll MainWindow.sigview 148
+wv_horz_scroll MainWindow.sigview 87
+wv_horz_scroll MainWindow.sigview 26
+wv_select_list_item MainWindow.sigview v(s30)
+wv_dclick_list_item MainWindow.sigview v(s30)
+wv_select_list_item MainWindow.sigview v(s30)
+wv_dclick_list_item MainWindow.sigview v(s30)
+wv_select_wv_item WV1.PANEL7:1.LEGEND
+wv_select_panel WV1.PANEL7:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_wv_item WV1.PANEL6:1.LEGEND
+wv_drag_item_to WV1 44 658
+wv_drag_enter WV1
+wv_drag_to WV1 37 493
+wv_drop_on WV1
+wv_drag_item_to WV1 45 637
+wv_horz_scroll MainWindow.sigview 87
+wv_horz_scroll MainWindow.sigview 148
+wv_select_list_item MainWindow.sigview v(val31n)
+wv_drag_list_item MainWindow.sigview v(val31n)
+wv_drag_enter WV1
+wv_drag_to WV1 36 514
+wv_drag_to WV1 39 502
+wv_drop_on WV1
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_drag_item_to WV1 45 72
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL2:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL3:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL4:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL5:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL6:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL7:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_menu_item {File} {Import Waveform File ...}
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {sipo_32.tr0}
+wv_press_button FileDialog.Up
+wv_press_button FileDialog.Up
+wv_select_list_item FileDialog.FileList wd
+wv_select_list_item FileDialog.FileList working_directory
+wv_dclick_list_item FileDialog.FileList working_directory
+wv_select_list_item FileDialog.FileList schematics
+wv_select_list_item FileDialog.FileList pex
+wv_dclick_list_item FileDialog.FileList pex
+wv_select_list_item FileDialog.FileList sipo32.ic0
+wv_ctrl_select_list_item FileDialog.FileList sipo32.tr0
+wv_press_button FileDialog.Ok
+wv_expand_tree_item MainWindow.hierview {D1:sipo32.tr0}
+wv_select_tree_item MainWindow.hierview {D1:sipo32.tr0}
+wv_horz_scroll MainWindow.sigview 0
+wv_select_tree_item MainWindow.hierview {D1:sipo32.tr0/toplevel}
+wv_horz_scroll MainWindow.sigview 42
+wv_select_list_item MainWindow.sigview v(clk)
+wv_dclick_list_item MainWindow.sigview v(clk)
+wv_select_list_item MainWindow.sigview v(clkn)
+wv_dclick_list_item MainWindow.sigview v(clkn)
+wv_horz_scroll MainWindow.sigview 0
+wv_select_list_item MainWindow.sigview v(a31)
+wv_dclick_list_item MainWindow.sigview v(a31)
+wv_select_list_item MainWindow.sigview v(a30)
+wv_dclick_list_item MainWindow.sigview v(a30)
+wv_select_list_item MainWindow.sigview v(a29)
+wv_dclick_list_item MainWindow.sigview v(a29)
+wv_select_list_item MainWindow.sigview v(a28)
+wv_dclick_list_item MainWindow.sigview v(a28)
+wv_select_list_item MainWindow.sigview v(a27)
+wv_dclick_list_item MainWindow.sigview v(a27)
+wv_select_list_item MainWindow.sigview v(a26)
+wv_dclick_list_item MainWindow.sigview v(a26)
+wv_select_list_item MainWindow.sigview v(a25)
+wv_dclick_list_item MainWindow.sigview v(a25)
+wv_select_list_item MainWindow.sigview v(a24)
+wv_dclick_list_item MainWindow.sigview v(a24)
+wv_select_list_item MainWindow.sigview v(a23)
+wv_dclick_list_item MainWindow.sigview v(a23)
+wv_select_list_item MainWindow.sigview v(a22)
+wv_dclick_list_item MainWindow.sigview v(a22)
+wv_select_list_item MainWindow.sigview v(a21)
+wv_dclick_list_item MainWindow.sigview v(a21)
+wv_select_list_item MainWindow.sigview v(a20)
+wv_dclick_list_item MainWindow.sigview v(a20)
+wv_select_list_item MainWindow.sigview v(a19n)
+wv_dclick_list_item MainWindow.sigview v(a19n)
+wv_select_wv_item WV1.PANEL15:1.LEGEND
+wv_select_panel WV1.PANEL15:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_list_item MainWindow.sigview v(a19)
+wv_dclick_list_item MainWindow.sigview v(a19)
+wv_select_list_item MainWindow.sigview v(a18)
+wv_dclick_list_item MainWindow.sigview v(a18)
+wv_select_list_item MainWindow.sigview v(a17)
+wv_dclick_list_item MainWindow.sigview v(a17)
+wv_select_list_item MainWindow.sigview v(a16)
+wv_dclick_list_item MainWindow.sigview v(a16)
+wv_select_list_item MainWindow.sigview v(a15)
+wv_dclick_list_item MainWindow.sigview v(a15)
+wv_select_list_item MainWindow.sigview v(a14)
+wv_dclick_list_item MainWindow.sigview v(a14)
+wv_select_list_item MainWindow.sigview v(a13)
+wv_dclick_list_item MainWindow.sigview v(a13)
+wv_select_list_item MainWindow.sigview v(a12)
+wv_dclick_list_item MainWindow.sigview v(a12)
+wv_select_list_item MainWindow.sigview v(a11)
+wv_dclick_list_item MainWindow.sigview v(a11)
+wv_select_list_item MainWindow.sigview v(a10)
+wv_dclick_list_item MainWindow.sigview v(a10)
+wv_horz_scroll MainWindow.sigview 42
+wv_select_list_item MainWindow.sigview v(a9)
+wv_dclick_list_item MainWindow.sigview v(a9)
+wv_select_list_item MainWindow.sigview v(a8)
+wv_dclick_list_item MainWindow.sigview v(a8)
+wv_select_list_item MainWindow.sigview v(a7)
+wv_dclick_list_item MainWindow.sigview v(a7)
+wv_select_list_item MainWindow.sigview v(a6)
+wv_dclick_list_item MainWindow.sigview v(a6)
+wv_select_list_item MainWindow.sigview v(a5)
+wv_dclick_list_item MainWindow.sigview v(a5)
+wv_select_list_item MainWindow.sigview v(a4)
+wv_dclick_list_item MainWindow.sigview v(a4)
+wv_horz_scroll MainWindow.sigview 0
+wv_select_list_item MainWindow.sigview v(a3)
+wv_dclick_list_item MainWindow.sigview v(a3)
+wv_select_list_item MainWindow.sigview v(a2)
+wv_dclick_list_item MainWindow.sigview v(a2)
+wv_select_list_item MainWindow.sigview v(a1)
+wv_dclick_list_item MainWindow.sigview v(a1)
+wv_select_wv_item WV1.PANEL33:1.LEGEND
+wv_select_panel WV1.PANEL33:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL32:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL31:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL30:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL29:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL28:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL27:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL26:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL25:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL24:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL23:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL22:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL21:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL20:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL19:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL18:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL17:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL16:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL15:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL14:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL13:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL12:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL11:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL10:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL9:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL8:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL7:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL6:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_wv_item {WV1.ICON.measurement tool}
+wv_release_wv_item WV1 147 19
+wv_select_dialog MeasurementTool
+# selected MeasurementTool.Signal v(a31) sipo32.tr0
+wv_select_combox_item MeasurementTool.Signal {v(a31) sipo32.tr0}
+# selected MeasurementTool.RefSignal v(clk) sipo32.tr0
+wv_select_combox_item MeasurementTool.RefSignal {v(clk) sipo32.tr0}
+wv_press_button MeasurementTool.Ok
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 509 358
+wv_move_wv_item WV1.MEAS1 234 230
+wv_waveview_context_menu WV1.MEAS1
+wv_select_context_menu_item {Delete Meter}
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_wv_item WV1.PANEL5:1.LEGEND
+wv_select_panel WV1.PANEL5:1.LEGEND
+wv_release_wv_item WV1 14 480
+wv_select_wv_item WV1.PANEL4:1.LEGEND
+wv_select_panel WV1.PANEL4:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL5:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL3:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL2:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL1:1.LEGEND
+wv_waveview_context_menu WV1.PANEL1:1.LEGEND
+wv_select_context_menu_item {Cut}
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_menu_item {File} {Import Waveform File ...}
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {sipo32.ic0;sipo32.tr0}
+wv_select_list_item FileDialog.FileList thirty_two_bit_adder.ic0
+wv_ctrl_select_list_item FileDialog.FileList thirty_two_bit_adder.tr0
+wv_press_button FileDialog.Ok
+wv_select_tree_item MainWindow.hierview {D1:thirty_two_bit_adder.ic0/toplevel}
+wv_expand_tree_item MainWindow.hierview {D1:thirty_two_bit_adder.tr0}
+wv_select_tree_item MainWindow.hierview {D1:thirty_two_bit_adder.tr0}
+wv_select_tree_item MainWindow.hierview {D1:thirty_two_bit_adder.tr0/toplevel}
+wv_select_list_item MainWindow.sigview v(sum0)
+wv_dclick_list_item MainWindow.sigview v(sum0)
+wv_select_list_item MainWindow.sigview v(sum1)
+wv_dclick_list_item MainWindow.sigview v(sum1)
+wv_select_list_item MainWindow.sigview v(sum10)
+wv_dclick_list_item MainWindow.sigview v(sum10)
+wv_select_list_item MainWindow.sigview v(sum11)
+wv_dclick_list_item MainWindow.sigview v(sum11)
+wv_select_list_item MainWindow.sigview v(sum14)
+wv_dclick_list_item MainWindow.sigview v(sum14)
+wv_select_list_item MainWindow.sigview v(cin)
+wv_dclick_list_item MainWindow.sigview v(cin)
+wv_select_list_item MainWindow.sigview v(cinn)
+wv_dclick_list_item MainWindow.sigview v(cinn)
+wv_select_list_item MainWindow.sigview v(cout31)
+wv_dclick_list_item MainWindow.sigview v(cout31)
+wv_select_list_item MainWindow.sigview v(cout31n)
+wv_dclick_list_item MainWindow.sigview v(cout31n)
+wv_select_list_item MainWindow.sigview v(sum2)
+wv_dclick_list_item MainWindow.sigview v(sum2)
+wv_select_list_item MainWindow.sigview v(sum20)
+wv_dclick_list_item MainWindow.sigview v(sum20)
+wv_select_list_item MainWindow.sigview v(sum21)
+wv_dclick_list_item MainWindow.sigview v(sum21)
+wv_select_list_item MainWindow.sigview v(sum22)
+wv_dclick_list_item MainWindow.sigview v(sum22)
+wv_move_window CustomWaveView 0 0
+wv_move_window CustomWaveView 8 31
+wv_select_wv_item WV1.PANEL13:1.LEGEND
+wv_select_panel WV1.PANEL13:1.LEGEND
+wv_select_wv_item WV1.PANEL12:1.LEGEND
+wv_select_panel WV1.PANEL12:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL13:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL11:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL10:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL9:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL8:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL7:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL6:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL5:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL4:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL3:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL2:1.LEGEND
+wv_ctrl_select_panel WV1.PANEL1:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_menu_item {WaveView} {New}
+wv_select_menu_item {File} {Import Waveform File ...}
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {thirty_two_bit_adder.ic0;thirty_two_bit_adder.tr0}
+wv_press_button FileDialog.Up
+wv_press_button FileDialog.Up
+wv_select_list_item FileDialog.FileList pre_sim
+wv_dclick_list_item FileDialog.FileList pre_sim
+wv_select_list_item FileDialog.FileList subckt_sims
+wv_dclick_list_item FileDialog.FileList subckt_sims
+wv_select_list_item FileDialog.FileList inverter_sim.tr0
+wv_dclick_list_item FileDialog.FileList inverter_sim.tr0
+wv_select_tree_item MainWindow.hierview {D2:inverter_sim.tr0}
+wv_expand_tree_item MainWindow.hierview {D2:inverter_sim.tr0}
+wv_select_tree_item MainWindow.hierview {D2:inverter_sim.tr0}
+wv_select_tree_item MainWindow.hierview {D2:inverter_sim.tr0/toplevel}
+wv_select_list_item MainWindow.sigview v(cin)
+wv_dclick_list_item MainWindow.sigview v(cin)
+wv_select_list_item MainWindow.sigview v(cin_n)
+wv_dclick_list_item MainWindow.sigview v(cin_n)
+wv_select_wv_item WV2.PANEL2:1.LEGEND
+wv_select_panel WV2.PANEL2:1.LEGEND
+wv_press_key Delete
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_list_item MainWindow.sigview v(cin_n)
+wv_drag_list_item MainWindow.sigview v(cin_n)
+wv_drag_enter WV2
+wv_drag_to WV2 261 288
+wv_drop_on WV2
+wv_select_panel WV2.PANEL1:1 4.06332e-10 0.832317
+wv_select_wv_item {WV2.ICON.measurement tool}
+wv_release_wv_item WV2 146 12
+wv_select_dialog MeasurementTool
+wv_move_dialog MeasurementTool 242 224
+# selected MeasurementTool.Signal v(cin_n) inverter_sim.tr0
+wv_select_combox_item MeasurementTool.Signal {v(cin_n) inverter_sim.tr0}
+# selected MeasurementTool.RefSignal v(cin_n) inverter_sim.tr0
+wv_select_combox_item MeasurementTool.RefSignal {v(cin_n) inverter_sim.tr0}
+# selected MeasurementTool.RefSignal v(cin) inverter_sim.tr0
+wv_select_combox_item MeasurementTool.RefSignal {v(cin) inverter_sim.tr0}
+wv_press_button MeasurementTool.Ok
+wv_select_wv_item WV2.MEAS1
+wv_drag_item_to WV2 424 274
+wv_move_wv_item WV2.MEAS1 349 329
+wv_waveview_context_menu WV2.MEAS1
+wv_select_context_menu_item {Copy Meter}
+wv_select_wv_item WV2.MEAS2
+wv_drag_item_to WV2 440 363
+wv_move_wv_item WV2.MEAS2 609 338
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_toolbar_item {Update Waveforms}
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_toolbar_item {Update Waveforms}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_move_window CustomWaveView 0 0

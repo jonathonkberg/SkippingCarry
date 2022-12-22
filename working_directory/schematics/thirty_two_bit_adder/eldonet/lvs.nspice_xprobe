@@ -1,0 +1,602 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Cell nmos4
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell pmos4
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell i
+   Pin IN1 IN1
+   Pin IN2 IN2
+   Pin IN3 IN3
+   Pin VDD VDD
+   Pin OUTN OUTN
+   Pin GND GND
+   Pin IN4 IN4
+   Pin OUT OUT
+   Net N$2 N$2
+   Net N$17 N$17
+   Net N$8 N$8
+   Net OUT OUT
+   Net IN4 IN4
+   Net GND GND
+   Net OUTN OUTN
+   Net VDD VDD
+   Net IN3 IN3
+   Net IN2 IN2
+   Net IN1 IN1
+   Inst MN4 MN4 nmos4
+   Inst MP4 MP4 pmos4
+   Inst MN1 MN1 nmos4
+   Inst MP2 MP2 pmos4
+   Inst MP1 MP1 pmos4
+   Inst MN3 MN3 nmos4
+   Inst MP5 MP5 pmos4
+   Inst MN5 MN5 nmos4
+   Inst MP3 MP3 pmos4
+   Inst MN2 MN2 nmos4
+End Cell
+
+Cell iv
+   Pin VDD VDD
+   Pin OUTN OUTN
+   Pin OUT OUT
+   Pin GND GND
+   Pin IN2 IN2
+   Pin IN1 IN1
+   Net N$2 N$2
+   Net IN1 IN1
+   Net IN2 IN2
+   Net GND GND
+   Net OUT OUT
+   Net OUTN OUTN
+   Net VDD VDD
+   Inst MN2 MN2 nmos4
+   Inst MP4 MP4 pmos4
+   Inst MP2 MP2 pmos4
+   Inst MN3 MN3 nmos4
+   Inst MP3 MP3 pmos4
+   Inst MN1 MN1 nmos4
+End Cell
+
+Cell vi
+   Pin IN2 IN2
+   Pin IN3 IN3
+   Pin IN1 IN1
+   Pin VDD VDD
+   Pin GND GND
+   Pin OUT OUT
+   Pin OUTN OUTN
+   Net N$8 N$8
+   Net N$2 N$2
+   Net OUTN OUTN
+   Net OUT OUT
+   Net GND GND
+   Net VDD VDD
+   Net IN1 IN1
+   Net IN3 IN3
+   Net IN2 IN2
+   Inst MN5 MN5 nmos4
+   Inst MP1 MP1 pmos4
+   Inst MN3 MN3 nmos4
+   Inst MN2 MN2 nmos4
+   Inst MN1 MN1 nmos4
+   Inst MP4 MP4 pmos4
+   Inst MP3 MP3 pmos4
+   Inst MP2 MP2 pmos4
+End Cell
+
+Cell full_adder
+   Pin A A
+   Pin B B
+   Pin AN AN
+   Pin BN BN
+   Pin CN CN
+   Pin C C
+   Pin VDD VDD
+   Pin GND GND
+   Pin SUM SUM
+   Pin COUT COUT
+   Pin COUTN COUTN
+   Pin P P
+   Net N$60 N$60
+   Net N$36 N$36
+   Net N$194 N$194
+   Net N$269 N$269
+   Net N$59 N$59
+   Net N$58 N$58
+   Net P P
+   Net COUTN COUTN
+   Net COUT COUT
+   Net SUM SUM
+   Net GND GND
+   Net VDD VDD
+   Net C C
+   Net CN CN
+   Net BN BN
+   Net AN AN
+   Net B B
+   Net A A
+   Inst I$5 X_I$5 i
+   Inst I$1 X_I$1 iv
+   Inst I$4 X_I$4 i
+   Inst I$3 X_I$3 vi
+   Inst I$17 X_I$17 i
+End Cell
+
+Cell iii
+   Pin OUTN OUTN
+   Pin OUT OUT
+   Pin GND GND
+   Pin VDD VDD
+   Pin IN1 IN1
+   Pin IN2 IN2
+   Pin IN3 IN3
+   Pin IN4 IN4
+   Net N$20 N$20
+   Net N$18 N$18
+   Net N$15 N$15
+   Net IN4 IN4
+   Net IN3 IN3
+   Net IN2 IN2
+   Net IN1 IN1
+   Net VDD VDD
+   Net GND GND
+   Net OUT OUT
+   Net OUTN OUTN
+   Inst MN5 MN5 nmos4
+   Inst MN4 MN4 nmos4
+   Inst MN3 MN3 nmos4
+   Inst MN2 MN2 nmos4
+   Inst MN1 MN1 nmos4
+   Inst MP6 MP6 pmos4
+   Inst MP5 MP5 pmos4
+   Inst MP4 MP4 pmos4
+   Inst MP3 MP3 pmos4
+   Inst MP2 MP2 pmos4
+End Cell
+
+Cell four_bit_adder
+   Pin A0 A0
+   Pin B0 B0
+   Pin A0N A0N
+   Pin B0N B0N
+   Pin C0N C0N
+   Pin C0 C0
+   Pin A1 A1
+   Pin B1 B1
+   Pin A1N A1N
+   Pin B1N B1N
+   Pin A2 A2
+   Pin B2 B2
+   Pin A2N A2N
+   Pin B2N B2N
+   Pin A3 A3
+   Pin B3 B3
+   Pin A3N A3N
+   Pin B3N B3N
+   Pin SUM0 SUM0
+   Pin SUM1 SUM1
+   Pin SUM2 SUM2
+   Pin SUM3 SUM3
+   Pin GND GND
+   Pin VDD VDD
+   Pin COUTN COUTN
+   Pin COUT COUT
+   Net N$109 N$109
+   Net N$46 N$46
+   Net N$56 N$56
+   Net N$68 N$68
+   Net N$47 N$47
+   Net N$57 N$57
+   Net N$69 N$69
+   Net N$83 N$83
+   Net N$81 N$81
+   Net N$80 N$80
+   Net N$71 N$71
+   Net N$59 N$59
+   Net N$108 N$108
+   Net N$48 N$48
+   Net COUT COUT
+   Net COUTN COUTN
+   Net VDD VDD
+   Net GND GND
+   Net SUM3 SUM3
+   Net SUM2 SUM2
+   Net SUM1 SUM1
+   Net SUM0 SUM0
+   Net B3N B3N
+   Net A3N A3N
+   Net B3 B3
+   Net A3 A3
+   Net B2N B2N
+   Net A2N A2N
+   Net B2 B2
+   Net A2 A2
+   Net B1N B1N
+   Net A1N A1N
+   Net B1 B1
+   Net A1 A1
+   Net C0 C0
+   Net C0N C0N
+   Net B0N B0N
+   Net A0N A0N
+   Net B0 B0
+   Net A0 A0
+   Inst FULL_ADDER4 X_FULL_ADDER4 full_adder
+   Inst FULL_ADDER3 X_FULL_ADDER3 full_adder
+   Inst FULL_ADDER2 X_FULL_ADDER2 full_adder
+   Inst I1 X_I1 i
+   Inst III1 X_III1 iii
+   Inst FULL_ADDER1 X_FULL_ADDER1 full_adder
+End Cell
+
+Cell #top#
+   Pin SUM15 SUM15
+   Pin SUM14 SUM14
+   Pin SUM12 SUM12
+   Pin B15N B15N
+   Pin A15N A15N
+   Pin B15 B15
+   Pin A15 A15
+   Pin B14N B14N
+   Pin A14N A14N
+   Pin B14 B14
+   Pin A14 A14
+   Pin B13N B13N
+   Pin A13N A13N
+   Pin B13 B13
+   Pin A13 A13
+   Pin B12N B12N
+   Pin A12N A12N
+   Pin B12 B12
+   Pin A12 A12
+   Pin SUM31 SUM31
+   Pin SUM30 SUM30
+   Pin SUM29 SUM29
+   Pin SUM28 SUM28
+   Pin B31N B31N
+   Pin A31N A31N
+   Pin B31 B31
+   Pin A31 A31
+   Pin B30N B30N
+   Pin A30N A30N
+   Pin B30 B30
+   Pin A30 A30
+   Pin B29N B29N
+   Pin A29N A29N
+   Pin B29 B29
+   Pin A29 A29
+   Pin B28N B28N
+   Pin A28N A28N
+   Pin B28 B28
+   Pin A28 A28
+   Pin SUM27 SUM27
+   Pin SUM26 SUM26
+   Pin SUM25 SUM25
+   Pin SUM24 SUM24
+   Pin B27N B27N
+   Pin A27N A27N
+   Pin B27 B27
+   Pin A27 A27
+   Pin B26N B26N
+   Pin A26N A26N
+   Pin B26 B26
+   Pin A26 A26
+   Pin B25N B25N
+   Pin A25N A25N
+   Pin B25 B25
+   Pin A25 A25
+   Pin B24N B24N
+   Pin A24N A24N
+   Pin B24 B24
+   Pin A24 A24
+   Pin SUM23 SUM23
+   Pin SUM22 SUM22
+   Pin SUM21 SUM21
+   Pin SUM20 SUM20
+   Pin B23N B23N
+   Pin A23N A23N
+   Pin B23 B23
+   Pin A23 A23
+   Pin B22N B22N
+   Pin A22N A22N
+   Pin B22 B22
+   Pin A22 A22
+   Pin B21N B21N
+   Pin A21N A21N
+   Pin B21 B21
+   Pin A21 A21
+   Pin B20N B20N
+   Pin A20N A20N
+   Pin B20 B20
+   Pin A20 A20
+   Pin SUM19 SUM19
+   Pin SUM18 SUM18
+   Pin SUM17 SUM17
+   Pin SUM16 SUM16
+   Pin B19N B19N
+   Pin A19N A19N
+   Pin B19 B19
+   Pin A19 A19
+   Pin B18N B18N
+   Pin A18N A18N
+   Pin B18 B18
+   Pin A18 A18
+   Pin B17N B17N
+   Pin A17N A17N
+   Pin B17 B17
+   Pin A17 A17
+   Pin B16N B16N
+   Pin A16N A16N
+   Pin B16 B16
+   Pin A16 A16
+   Pin SUM11 SUM11
+   Pin SUM10 SUM10
+   Pin SUM9 SUM9
+   Pin SUM8 SUM8
+   Pin B11N B11N
+   Pin A11N A11N
+   Pin B11 B11
+   Pin A11 A11
+   Pin B10N B10N
+   Pin A10N A10N
+   Pin B10 B10
+   Pin A10 A10
+   Pin B9N B9N
+   Pin A9N A9N
+   Pin B9 B9
+   Pin A9 A9
+   Pin B8N B8N
+   Pin A8N A8N
+   Pin B8 B8
+   Pin A8 A8
+   Pin SUM7 SUM7
+   Pin SUM6 SUM6
+   Pin SUM5 SUM5
+   Pin SUM4 SUM4
+   Pin B7N B7N
+   Pin A7N A7N
+   Pin B7 B7
+   Pin A7 A7
+   Pin B6N B6N
+   Pin A6N A6N
+   Pin B6 B6
+   Pin A6 A6
+   Pin B5N B5N
+   Pin A5N A5N
+   Pin B5 B5
+   Pin A5 A5
+   Pin B4N B4N
+   Pin A4N A4N
+   Pin B4 B4
+   Pin A4 A4
+   Pin VDD VDD
+   Pin GND GND
+   Pin COUT31N COUT31N
+   Pin COUT31 COUT31
+   Pin SUM13 SUM13
+   Pin SUM3 SUM3
+   Pin SUM2 SUM2
+   Pin SUM1 SUM1
+   Pin SUM0 SUM0
+   Pin C0N C0N
+   Pin C0 C0
+   Pin B3N B3N
+   Pin B3 B3
+   Pin B2N B2N
+   Pin B2 B2
+   Pin B1N B1N
+   Pin B1 B1
+   Pin B0N B0N
+   Pin B0 B0
+   Pin A3N A3N
+   Pin A3 A3
+   Pin A2N A2N
+   Pin A2 A2
+   Pin A1N A1N
+   Pin A1 A1
+   Pin A0N A0N
+   Pin A0 A0
+   Net N$43 N$43
+   Net N$20 N$20
+   Net N$200 N$200
+   Net N$175 N$175
+   Net N$174 N$174
+   Net N$149 N$149
+   Net N$148 N$148
+   Net N$123 N$123
+   Net N$122 N$122
+   Net N$97 N$97
+   Net N$96 N$96
+   Net N$71 N$71
+   Net N$70 N$70
+   Net N$45 N$45
+   Net A0 A0
+   Net A0N A0N
+   Net A1 A1
+   Net A1N A1N
+   Net A2 A2
+   Net A2N A2N
+   Net A3 A3
+   Net A3N A3N
+   Net B0 B0
+   Net B0N B0N
+   Net B1 B1
+   Net B1N B1N
+   Net B2 B2
+   Net B2N B2N
+   Net B3 B3
+   Net B3N B3N
+   Net C0 C0
+   Net C0N C0N
+   Net SUM0 SUM0
+   Net SUM1 SUM1
+   Net SUM2 SUM2
+   Net SUM3 SUM3
+   Net SUM13 SUM13
+   Net COUT31 COUT31
+   Net COUT31N COUT31N
+   Net GND GND
+   Net VDD VDD
+   Net A4 A4
+   Net B4 B4
+   Net A4N A4N
+   Net B4N B4N
+   Net A5 A5
+   Net B5 B5
+   Net A5N A5N
+   Net B5N B5N
+   Net A6 A6
+   Net B6 B6
+   Net A6N A6N
+   Net B6N B6N
+   Net A7 A7
+   Net B7 B7
+   Net A7N A7N
+   Net B7N B7N
+   Net SUM4 SUM4
+   Net SUM5 SUM5
+   Net SUM6 SUM6
+   Net SUM7 SUM7
+   Net A8 A8
+   Net B8 B8
+   Net A8N A8N
+   Net B8N B8N
+   Net A9 A9
+   Net B9 B9
+   Net A9N A9N
+   Net B9N B9N
+   Net A10 A10
+   Net B10 B10
+   Net A10N A10N
+   Net B10N B10N
+   Net A11 A11
+   Net B11 B11
+   Net A11N A11N
+   Net B11N B11N
+   Net SUM8 SUM8
+   Net SUM9 SUM9
+   Net SUM10 SUM10
+   Net SUM11 SUM11
+   Net A16 A16
+   Net B16 B16
+   Net A16N A16N
+   Net B16N B16N
+   Net A17 A17
+   Net B17 B17
+   Net A17N A17N
+   Net B17N B17N
+   Net A18 A18
+   Net B18 B18
+   Net A18N A18N
+   Net B18N B18N
+   Net A19 A19
+   Net B19 B19
+   Net A19N A19N
+   Net B19N B19N
+   Net SUM16 SUM16
+   Net SUM17 SUM17
+   Net SUM18 SUM18
+   Net SUM19 SUM19
+   Net A20 A20
+   Net B20 B20
+   Net A20N A20N
+   Net B20N B20N
+   Net A21 A21
+   Net B21 B21
+   Net A21N A21N
+   Net B21N B21N
+   Net A22 A22
+   Net B22 B22
+   Net A22N A22N
+   Net B22N B22N
+   Net A23 A23
+   Net B23 B23
+   Net A23N A23N
+   Net B23N B23N
+   Net SUM20 SUM20
+   Net SUM21 SUM21
+   Net SUM22 SUM22
+   Net SUM23 SUM23
+   Net A24 A24
+   Net B24 B24
+   Net A24N A24N
+   Net B24N B24N
+   Net A25 A25
+   Net B25 B25
+   Net A25N A25N
+   Net B25N B25N
+   Net A26 A26
+   Net B26 B26
+   Net A26N A26N
+   Net B26N B26N
+   Net A27 A27
+   Net B27 B27
+   Net A27N A27N
+   Net B27N B27N
+   Net SUM24 SUM24
+   Net SUM25 SUM25
+   Net SUM26 SUM26
+   Net SUM27 SUM27
+   Net A28 A28
+   Net B28 B28
+   Net A28N A28N
+   Net B28N B28N
+   Net A29 A29
+   Net B29 B29
+   Net A29N A29N
+   Net B29N B29N
+   Net A30 A30
+   Net B30 B30
+   Net A30N A30N
+   Net B30N B30N
+   Net A31 A31
+   Net B31 B31
+   Net A31N A31N
+   Net B31N B31N
+   Net SUM28 SUM28
+   Net SUM29 SUM29
+   Net SUM30 SUM30
+   Net SUM31 SUM31
+   Net A12 A12
+   Net B12 B12
+   Net A12N A12N
+   Net B12N B12N
+   Net A13 A13
+   Net B13 B13
+   Net A13N A13N
+   Net B13N B13N
+   Net A14 A14
+   Net B14 B14
+   Net A14N A14N
+   Net B14N B14N
+   Net A15 A15
+   Net B15 B15
+   Net A15N A15N
+   Net B15N B15N
+   Net SUM12 SUM12
+   Net SUM14 SUM14
+   Net SUM15 SUM15
+   Inst FOUR_BIT_ADDER4 X_FOUR_BIT_ADDER4 four_bit_adder
+   Inst FOUR_BIT_ADDER3 X_FOUR_BIT_ADDER3 four_bit_adder
+   Inst FOUR_BIT_ADDER2 X_FOUR_BIT_ADDER2 four_bit_adder
+   Inst FOUR_BIT_ADDER1 X_FOUR_BIT_ADDER1 four_bit_adder
+   Inst FOUR_BIT_ADDER8 X_FOUR_BIT_ADDER8 four_bit_adder
+   Inst FOUR_BIT_ADDER7 X_FOUR_BIT_ADDER7 four_bit_adder
+   Inst FOUR_BIT_ADDER6 X_FOUR_BIT_ADDER6 four_bit_adder
+   Inst FOUR_BIT_ADDER5 X_FOUR_BIT_ADDER5 four_bit_adder
+End Cell
+

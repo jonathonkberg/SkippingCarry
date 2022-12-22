@@ -1,0 +1,14 @@
+A 5 u Eddm_design_viewpoint 63a0b89b94ff.03.80.eb.2c.41.00.50.ef 1 2 5 0
+V v 1 4 63a0b89b94ff.03.80.eb.2c.41.01.50.ef
+F f 1 "thirty_two_bit_adder_IC_Station_SDL_Flat.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/schematics/thirty_two_bit_adder/part" 7 Eddm_part 63a0b839ee8c.03.80.eb.2c.41.00.50.e4 63a026224964.03.80.eb.2c.41.00.50.0c
+R cspuv 1 "$HOME/github/SkippingCarry/working_directory/schematics/thirty_two_bit_adder/schematic" 9 mgc_schematic 63a0b839f23a.03.80.eb.2c.41.00.50.e4 63a02214a84a.03.80.eb.2c.41.00.50.0c
+R cspuv 2 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/part" 2 Eddm_part 63a022b2ab83.03.80.eb.2c.41.00.50.0c 639ff95fae26.03.80.eb.2c.41.00.50.0c
+R cspuv 3 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/schematic" 1 mgc_schematic 639ff4fe26c1.03.80.eb.2c.41.01.50.0c 639ff4fe26c1.03.80.eb.2c.41.00.50.0c
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 4 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/four_bit_adder" 1 mgc_symbol 63a022543e17.03.80.eb.2c.41.01.50.0c 63a022543e17.03.80.eb.2c.41.00.50.0c

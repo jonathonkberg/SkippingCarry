@@ -1,0 +1,128 @@
+* LVS netlist generated with ICnet by 'jk526' on Mon Dec 19 2022 at 17:28:17
+
+*
+* Component pathname : $HOME/github/SkippingCarry/working_directory/schematics/i
+*
+.subckt i  IN1 IN2 IN3 VDD OUTN GND IN4 OUT
+
+        MN4 GND IN3 N$17 GND n L=2u W=12u
+        MP4 VDD IN2 N$2 VDD p L=2u W=32u
+        MN1 OUTN IN1 N$8 GND n L=2u W=12u
+        MP2 N$2 IN4 OUTN VDD p L=2u W=32u
+        MP1 N$2 IN1 VDD VDD p L=2u W=32u
+        MN3 N$17 IN4 OUTN GND n L=2u W=12u
+        MP5 VDD OUTN OUT VDD p L=2u W=16u
+        MN5 GND OUTN OUT GND n L=2u W=6u
+        MP3 OUTN IN3 N$2 VDD p L=2u W=32u
+        MN2 N$8 IN2 GND GND n L=2u W=12u
+.ends i
+
+*
+* Component pathname : $HOME/github/SkippingCarry/working_directory/schematics/iv
+*
+.subckt iv  VDD OUTN OUT GND IN2 IN1
+
+        MN2 OUTN IN1 GND GND n L=2u W=6u
+        MP4 OUT OUTN VDD VDD p L=2u W=16u
+        MP2 N$2 IN1 VDD VDD p L=2u W=32u
+        MN3 OUT OUTN GND GND n L=2u W=6u
+        MP3 OUTN IN2 N$2 VDD p L=2u W=32u
+        MN1 OUTN IN2 GND GND n L=2u W=6u
+.ends iv
+
+*
+* Component pathname : $HOME/github/SkippingCarry/working_directory/schematics/vi
+*
+.subckt vi  IN2 IN3 IN1 VDD GND OUT OUTN
+
+        MN5 GND OUTN OUT GND n L=2u W=6u
+        MP1 VDD OUTN OUT VDD p L=2u W=16u
+        MN3 GND IN1 OUTN GND n L=2u W=12u
+        MN2 N$8 IN3 GND GND n L=2u W=12u
+        MN1 OUTN IN2 N$8 GND n L=2u W=12u
+        MP4 VDD IN3 N$2 VDD p L=2u W=32u
+        MP3 OUTN IN1 N$2 VDD p L=2u W=32u
+        MP2 N$2 IN2 VDD VDD p L=2u W=32u
+.ends vi
+
+*
+* Component pathname : $HOME/github/SkippingCarry/working_directory/schematics/full_adder
+*
+.subckt full_adder  A B AN BN CN C VDD GND SUM COUT COUTN P
+
+        X_I$5 A B C VDD COUTN GND N$269 COUT i
+        X_I$1 VDD N$194 N$269 GND A B iv
+        X_I$4 A BN B VDD N$59 GND AN P i
+        X_I$3 B A N$194 VDD GND N$36 N$58 vi
+        X_I$17 C N$36 CN VDD N$60 GND P SUM i
+.ends full_adder
+
+*
+* Component pathname : $HOME/github/SkippingCarry/working_directory/schematics/iii
+*
+.subckt iii  OUTN OUT GND VDD IN1 IN2 IN3 IN4
+
+        MN5 OUT OUTN GND GND n L=2u W=6u
+        MN4 OUTN IN4 N$20 GND n L=2u W=24u
+        MN3 N$20 IN3 N$18 GND n L=2u W=24u
+        MN2 N$18 IN2 N$15 GND n L=2u W=24u
+        MN1 N$15 IN1 GND GND n L=2u W=24u
+        MP6 OUT OUTN VDD VDD p L=2u W=16u
+        MP5 OUTN IN4 VDD VDD p L=2u W=16u
+        MP4 OUTN IN3 VDD VDD p L=2u W=16u
+        MP3 OUTN IN2 VDD VDD p L=2u W=16u
+        MP2 OUTN IN1 VDD VDD p L=2u W=16u
+.ends iii
+
+*
+* Component pathname : $HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder
+*
+.subckt four_bit_adder  A0 B0 A0N B0N C0N C0 A1 B1 A1N B1N A2 B2 A2N B2N
++ A3 B3 A3N B3N SUM0 SUM1 SUM2 SUM3 GND VDD COUTN COUT
+
+        X_FULL_ADDER4 A3 B3 A3N B3N N$69 N$68 VDD GND SUM3 N$80 N$81 N$83 full_adder
+        X_FULL_ADDER3 A2 B2 A2N B2N N$57 N$56 VDD GND SUM2 N$68 N$69 N$71 full_adder
+        X_FULL_ADDER2 A1 B1 A1N B1N N$47 N$46 VDD GND SUM1 N$56 N$57 N$59 full_adder
+        X_I1 N$80 N$108 N$109 VDD COUTN GND C0 COUT i
+        X_III1 N$108 N$109 GND VDD N$48 N$59 N$71 N$83 iii
+        X_FULL_ADDER1 A0 B0 A0N B0N C0N C0 VDD GND SUM0 N$46 N$47 N$48 full_adder
+.ends four_bit_adder
+
+*
+* Component pathname : $HOME/github/SkippingCarry/working_directory/schematics/thirty_two_bit_adder
+*
+.subckt thirty_two_bit_adder  SUM15 SUM14 SUM12 B15N A15N B15 A15 B14N A14N
++ B14 A14 B13N A13N B13 A13 B12N A12N B12 A12 SUM31 SUM30 SUM29 SUM28 B31N
++ A31N B31 A31 B30N A30N B30 A30 B29N A29N B29 A29 B28N A28N B28 A28 SUM27
++ SUM26 SUM25 SUM24 B27N A27N B27 A27 B26N A26N B26 A26 B25N A25N B25 A25
++ B24N A24N B24 A24 SUM23 SUM22 SUM21 SUM20 B23N A23N B23 A23 B22N A22N
++ B22 A22 B21N A21N B21 A21 B20N A20N B20 A20 SUM19 SUM18 SUM17 SUM16 B19N
++ A19N B19 A19 B18N A18N B18 A18 B17N A17N B17 A17 B16N A16N B16 A16 SUM11
++ SUM10 SUM9 SUM8 B11N A11N B11 A11 B10N A10N B10 A10 B9N A9N B9 A9 B8N
++ A8N B8 A8 SUM7 SUM6 SUM5 SUM4 B7N A7N B7 A7 B6N A6N B6 A6 B5N A5N B5 A5
++ B4N A4N B4 A4 VDD GND COUT31N COUT31 SUM13 SUM3 SUM2 SUM1 SUM0 C0N C0
++ B3N B3 B2N B2 B1N B1 B0N B0 A3N A3 A2N A2 A1N A1 A0N A0
+
+        X_FOUR_BIT_ADDER4 A12 B12 A12N B12N N$96 N$71 A13 B13 A13N B13N
++ A14 B14 A14N B14N A15 B15 A15N B15N SUM12 SUM13 SUM14 SUM15 GND VDD N$122
++ N$97 four_bit_adder
+        X_FOUR_BIT_ADDER3 A8 B8 A8N B8N N$70 N$45 A9 B9 A9N B9N A10 B10
++ A10N B10N A11 B11 A11N B11N SUM8 SUM9 SUM10 SUM11 GND VDD N$96 N$71 four_bit_adder
+        X_FOUR_BIT_ADDER2 A4 B4 A4N B4N N$20 N$43 A5 B5 A5N B5N A6 B6 A6N
++ B6N A7 B7 A7N B7N SUM4 SUM5 SUM6 SUM7 GND VDD N$70 N$45 four_bit_adder
+        X_FOUR_BIT_ADDER1 A0 B0 A0N B0N C0N C0 A1 B1 A1N B1N A2 B2 A2N B2N
++ A3 B3 A3N B3N SUM0 SUM1 SUM2 SUM3 GND VDD N$20 N$43 four_bit_adder
+        X_FOUR_BIT_ADDER8 A28 B28 A28N B28N N$200 N$175 A29 B29 A29N B29N
++ A30 B30 A30N B30N A31 B31 A31N B31N SUM28 SUM29 SUM30 SUM31 GND VDD COUT31N
++ COUT31 four_bit_adder
+        X_FOUR_BIT_ADDER7 A24 B24 A24N B24N N$174 N$149 A25 B25 A25N B25N
++ A26 B26 A26N B26N A27 B27 A27N B27N SUM24 SUM25 SUM26 SUM27 GND VDD N$200
++ N$175 four_bit_adder
+        X_FOUR_BIT_ADDER6 A20 B20 A20N B20N N$148 N$123 A21 B21 A21N B21N
++ A22 B22 A22N B22N A23 B23 A23N B23N SUM20 SUM21 SUM22 SUM23 GND VDD N$174
++ N$149 four_bit_adder
+        X_FOUR_BIT_ADDER5 A16 B16 A16N B16N N$122 N$97 A17 B17 A17N B17N
++ A18 B18 A18N B18N A19 B19 A19N B19N SUM16 SUM17 SUM18 SUM19 GND VDD N$148
++ N$123 four_bit_adder
+.ends thirty_two_bit_adder
+

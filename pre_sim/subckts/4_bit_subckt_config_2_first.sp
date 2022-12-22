@@ -1,11 +1,11 @@
 * Four bit subckt
 * Dec 2022
 
-.include /afs/cad/u/p/d/pd433/github/SkippingCarry/pre_sim/inverter_sims/inverter_subckt.sp
-.include /afs/cad/u/p/d/pd433/github/SkippingCarry/pre_sim/subckts/subckt_i.sp
-.include /afs/cad/u/p/d/pd433/github/SkippingCarry/pre_sim/and_gate_sims/subckts/4n.sp
-.include /afs/cad/u/p/d/pd433/github/SkippingCarry/pre_sim/or_gate_sims/2in/2or.sp
-.include /afs/cad/u/p/d/pd433/github/SkippingCarry/pre_sim/subckts/subckt_vi.sp
+.include /afs/cad/u/j/k/jk526/github/SkippingCarry/pre_sim/inverter_sims/inverter_subckt.sp
+.include /afs/cad/u/j/k/jk526/github/SkippingCarry/pre_sim/subckts/subckt_i.sp
+.include /afs/cad/u/j/k/jk526/github/SkippingCarry/pre_sim/and_gate_sims/subckts/4n.sp
+.include /afs/cad/u/j/k/jk526/github/SkippingCarry/pre_sim/or_gate_sims/2in/2or.sp
+.include /afs/cad/u/j/k/jk526/github/SkippingCarry/pre_sim/subckts/subckt_vi.sp
 
 .subckt four_add_first INA0 INA1 INA2 INA3 INB0 INB1 INB2 INB3 OUT0 OUT1 OUT2 OUT3 CIN COUT_N COUT vdd gnd
 

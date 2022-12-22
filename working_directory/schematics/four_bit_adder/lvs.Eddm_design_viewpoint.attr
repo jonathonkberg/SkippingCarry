@@ -1,0 +1,23 @@
+A 5 u Eddm_design_viewpoint 63a01052754c.03.80.eb.2c.41.00.50.0c 2 2 3 0
+V v 1 4 63a01052754d.03.80.eb.2c.41.00.50.0c
+F f 1 "lvs.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+V v 2 4 63a010529ef8.03.80.eb.2c.41.00.50.0c
+F f 2 "lvs.dvpt_2"
+F o 0 
+F o 0 
+F o 0 
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/part" 1 Eddm_part 639ff95fae26.03.80.eb.2c.41.01.50.0c 639ff95fae26.03.80.eb.2c.41.00.50.0c
+R cspuv 1 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/schematic" 1 mgc_schematic 639ff4fe26c1.03.80.eb.2c.41.01.50.0c 639ff4fe26c1.03.80.eb.2c.41.00.50.0c
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/lvs" 1 Eddm_ba_mgr 63a010529267.03.80.eb.2c.41.00.50.0c 63a010529266.03.80.eb.2c.41.00.50.0c
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/part" 1 Eddm_part 639ff95fae26.03.80.eb.2c.41.01.50.0c 639ff95fae26.03.80.eb.2c.41.00.50.0c
+R cspuv 1 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/schematic" 1 mgc_schematic 639ff4fe26c1.03.80.eb.2c.41.01.50.0c 639ff4fe26c1.03.80.eb.2c.41.00.50.0c
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/lvs" 1 Eddm_ba_mgr 63a010529267.03.80.eb.2c.41.00.50.0c 63a010529266.03.80.eb.2c.41.00.50.0c

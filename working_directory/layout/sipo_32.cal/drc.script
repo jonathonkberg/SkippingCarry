@@ -1,0 +1,10 @@
+#!/bin/sh
+MGC_HOME=/afs/cad/sw.common/mentor.2012/calibre_2012.2_36/ixl_cal_2012.2_36.25 ; export MGC_HOME
+$MGC_HOME/bin/calibre -gui -drc -drcLayoutPaths /afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/sipo_32.cal/.sipo_32.bin -drcResultsFile /afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/sipo_32.cal/sipo_32.drc.results -drcLayoutPrimary sipo_32 -runset runset not found -cmnRunHier 0 -batch  > /afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/sipo_32.cal/drc.log
+rm /afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/sipo_32.cal/.sipo_32.bin
+result_count=`grep "TOTAL RESULTS" /afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/sipo_32.cal/drc.log | awk '{ print $6 }'`
+if [ "$result_count" = "" ]; then
+result_count=-1
+fi
+MGC_HOME=/afs/cad/sw.common/mentor.2012/icstation_9.0h/v9.0h_linux_x86_64/icstation_home ; export MGC_HOME
+$MGC_HOME/bin/send2ic 9189 calibre_drc_done_rve /afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/sipo_32 /afs/cad/u/j/k/jk526/github/SkippingCarry/working_directory/layout/sipo_32.cal $result_count

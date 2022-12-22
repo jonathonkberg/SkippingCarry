@@ -1,0 +1,16 @@
+A 5 u Eddm_part 63a026224964.03.80.eb.2c.41.00.50.0c 9 2 1 0
+V v 7 1 63a0b839ee8c.03.80.eb.2c.41.00.50.e4
+F f 7 "part.part_7"
+V v 8 1 63a0d149d5aa.03.80.eb.2c.41.00.50.e4
+F f 8 "part.part_8"
+V v 9 1 63a0d93e5c9f.03.80.eb.2c.41.00.50.e4
+F f 9 "part.part_9"
+O 9
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/thirty_two_bit_adder/schematic" 1 mgc_schematic 63a02214a84a.03.80.eb.2c.41.01.50.0c 63a02214a84a.03.80.eb.2c.41.00.50.0c
+O 8
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/thirty_two_bit_adder/schematic" 1 mgc_schematic 63a02214a84a.03.80.eb.2c.41.01.50.0c 63a02214a84a.03.80.eb.2c.41.00.50.0c
+O 7
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/thirty_two_bit_adder/schematic" 1 mgc_schematic 63a02214a84a.03.80.eb.2c.41.01.50.0c 63a02214a84a.03.80.eb.2c.41.00.50.0c

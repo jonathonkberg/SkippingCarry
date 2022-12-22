@@ -1,0 +1,40 @@
+A 5 u mgc_sheet 63a02214abee.03.80.eb.2c.41.00.50.0c 13 2 7 0
+V v 11 3 63a0d8f11c9b.03.80.eb.2c.41.00.50.e4
+F f 11 "sheet1.ssht_11"
+F f 11 "sheet1.sgfx_11"
+F o 0 ""
+V v 12 3 63a0d931c742.03.80.eb.2c.41.00.50.e4
+F f 12 "sheet1.ssht_12"
+F f 12 "sheet1.sgfx_12"
+F o 0 ""
+V v 13 3 63a0d93e5fdf.03.80.eb.2c.41.00.50.e4
+F f 13 "sheet1.ssht_13"
+F f 13 "sheet1.sgfx_13"
+F o 0 ""
+O 13
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/thirty_two_bit_adder/schematic" 1 mgc_schematic 63a02214a84a.03.80.eb.2c.41.01.50.0c 63a02214a84a.03.80.eb.2c.41.00.50.0c
+R csduv 1 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/part" 2 Eddm_part 63a022b2ab83.03.80.eb.2c.41.00.50.0c 639ff95fae26.03.80.eb.2c.41.00.50.0c
+R csduv 2 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/four_bit_adder" 2 mgc_symbol 63a022c03032.03.80.eb.2c.41.00.50.0c 63a022543e17.03.80.eb.2c.41.00.50.0c
+R csduv 3 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 4 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R csduv 5 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 6 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+O 12
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/thirty_two_bit_adder/schematic" 1 mgc_schematic 63a02214a84a.03.80.eb.2c.41.01.50.0c 63a02214a84a.03.80.eb.2c.41.00.50.0c
+R csduv 1 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/part" 2 Eddm_part 63a022b2ab83.03.80.eb.2c.41.00.50.0c 639ff95fae26.03.80.eb.2c.41.00.50.0c
+R csduv 2 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/four_bit_adder" 2 mgc_symbol 63a022c03032.03.80.eb.2c.41.00.50.0c 63a022543e17.03.80.eb.2c.41.00.50.0c
+R csduv 3 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 4 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R csduv 5 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 6 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+O 11
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$HOME/github/SkippingCarry/working_directory/schematics/thirty_two_bit_adder/schematic" 1 mgc_schematic 63a02214a84a.03.80.eb.2c.41.01.50.0c 63a02214a84a.03.80.eb.2c.41.00.50.0c
+R csduv 1 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/part" 2 Eddm_part 63a022b2ab83.03.80.eb.2c.41.00.50.0c 639ff95fae26.03.80.eb.2c.41.00.50.0c
+R csduv 2 "$HOME/github/SkippingCarry/working_directory/schematics/four_bit_adder/four_bit_adder" 2 mgc_symbol 63a022c03032.03.80.eb.2c.41.00.50.0c 63a022543e17.03.80.eb.2c.41.00.50.0c
+R csduv 3 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 4 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R csduv 5 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 6 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb

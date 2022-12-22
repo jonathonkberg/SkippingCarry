@@ -1,9 +1,9 @@
 # Automagically generated file: Please do not edit!
 lvs_ExtfVersion 3
-lvs_ExtRunTimes 1671340284 1671340284
+lvs_ExtRunTimes 1671420544 1671420545
 lvs_ExtOutFile RUNDIR /afs/cad.njit.edu/u/j/k/jk526/github/SkippingCarry/working_directory/pex
 lvs_ExtOutFile RULES_FILE /afs/cad.njit.edu/u/j/k/jk526/github/SkippingCarry/working_directory/pex/_tsmc018.calibre.rules_
-lvs_ExtInfoExtSummary {1 0 0 2 0 0 0 2 0 0 0}
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
 lvs_ExtInfoDfmSummary {0}
 lvs_ExtOutFile LAYOUT_NETLIST svdb/full_adder.sp
 lvs_ExtOutFile EXTRACTION_REPORT full_adder.lvs.report.ext

@@ -18,11 +18,11 @@
 
 // Checking 4 sheet(s) for out of date references to symbols and interfaces...
 // Done.
-// Parsing file '/afs/cad/sw.common/mentor.2012/adk3_1/technology/ic/symbols/pmos4/@ncf.dir/pmos4.ncf' succeeded.
 // Parsing file '/afs/cad/sw.common/mentor.2012/adk3_1/technology/ic/symbols/nmos4/@ncf.dir/nmos4.ncf' succeeded.
+// Parsing file '/afs/cad/sw.common/mentor.2012/adk3_1/technology/ic/symbols/pmos4/@ncf.dir/pmos4.ncf' succeeded.
 Processing [$HOME/github/SkippingCarry/working_directory/schematics/full_adder] [full_adder/full_adder] [schematic]
-Processing [$HOME/github/SkippingCarry/working_directory/schematics/vi] [vi/vi] [schematic]
 Processing [$HOME/github/SkippingCarry/working_directory/schematics/i] [i/i] [schematic]
+Processing [$HOME/github/SkippingCarry/working_directory/schematics/vi] [vi/vi] [schematic]
 Processing [$HOME/github/SkippingCarry/working_directory/schematics/iv] [iv/iv] [schematic]
 Primitive [$ADK/technology/ic/symbols/nmos4] [MG_STD/nmos3] [SPICE=PRIM] (NCF entry line: 8 file: $ADK/technology/ic/symbols/nmos4/@ncf.dir/nmos4.ncf)
 Primitive [$ADK/technology/ic/symbols/pmos4] [MG_STD/pmos3] [SPICE=PRIM] (NCF entry line: 8 file: $ADK/technology/ic/symbols/pmos4/@ncf.dir/pmos4.ncf)
@@ -33,5 +33,5 @@ Number of cells: 6
 Number of primitive instances: 44
 
 Done...
-// Registration file '/afs/cad/sw.common/mentor.2012/adk3_1/technology/ic/symbols/pmos4/@ncf.dir/pmos4.ncf' closed.
 // Registration file '/afs/cad/sw.common/mentor.2012/adk3_1/technology/ic/symbols/nmos4/@ncf.dir/nmos4.ncf' closed.
+// Registration file '/afs/cad/sw.common/mentor.2012/adk3_1/technology/ic/symbols/pmos4/@ncf.dir/pmos4.ncf' closed.

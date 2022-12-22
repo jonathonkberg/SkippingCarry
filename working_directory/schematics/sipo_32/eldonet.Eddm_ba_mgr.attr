@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 63a114c15d9e.03.80.eb.2c.41.00.02.88 1 2 1 0
+V v 1 1 63a114c15d9e.03.80.eb.2c.41.01.02.88
+F f 1 "eldonet.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$HOME/github/SkippingCarry/working_directory/schematics/sipo_32/eldonet" 1 Eddm_design_viewpoint 63a114c15bef.03.80.eb.2c.41.01.02.88 63a114c15bef.03.80.eb.2c.41.00.02.88
